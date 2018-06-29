@@ -1,0 +1,9 @@
+bin
+obj
+Source/Minerals/bin
+Source/Minerals/obj
+**/*~
+*.Rproj
+.Rproj.user
+*.html
+.Rhistory
