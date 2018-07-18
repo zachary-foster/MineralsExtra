@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CitrineCrystal.label>Цитриновый кристалл</CitrineCrystal.label>
+  <CitrineCrystal.description>Кристалл диоксида кремения. Примеси железа делают цвет этих кристаллов желтыми. Редко встречается. Позволяет получать стекольную шихту при его добыче. Часто при добыче можно получить самоцветы.</CitrineCrystal.description>
+
+  <PrasioliteCrystal.label>Празиолитовый кристалл</PrasioliteCrystal.label>
+  <PrasioliteCrystal.description>Очень редкая, зеленая разновидность кварца, диоксида кремния. Позволяет получать стекольную шихту при его добыче. Часто при добыче можно получить самоцветы.</PrasioliteCrystal.description>
+
+</LanguageData>

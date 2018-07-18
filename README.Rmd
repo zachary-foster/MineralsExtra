@@ -1,0 +1,103 @@
+---
+output: md_document
+---
+
+```{r setup, include=FALSE}
+library(mineralsReadmePrinter)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Minerals: A rimworld mod for the [Hardcore SK project](https://github.com/skyarkhangel/Hardcore-SK)
+
+![](About/Preview.jpg)
+
+
+**This mod is an expansion of the "Minerals" Mod and the "Minerals" mod be enabled and must come before in the loading order.**
+
+## Static minerals
+
+These are randomly spawned when a map is created and are never respawned in a given map.
+
+```{r}
+print_minerals("Defs/ThingsDefs_Minerals/StaticMinerals.xml",
+               parent_xml_paths = "../Minerals/Defs/ThingsDefs_Minerals/StaticMinerals.xml")
+```
+
+
+## Installation
+
+You can download the current development version by clicking the green "clone or download" button near the top of this page. You can also download specific "stable" releases [here](https://github.com/zachary-foster/MineralsExtra/releases), although they will probably not be updated too often. Once you have downloaded the mod, uncompress the file and up the folder in the `Mods` folder of you rimworld installation.
+
+## To xml modders and potential contributers:
+
+This mod is set up so that new minerals, both static and dynamic, can be added and configured using only XML changes.
+Adding:
+
+```
+<ThingDef ParentName="StaticMineralBase">
+		<defName>MyNewMineral</defName>
+    ...
+</ThingDef>
+```
+
+or
+
+```
+<ThingDef ParentName="DynamicMineralBase">
+		<defName>MyNewMineral</defName>
+    ...
+</ThingDef>
+```
+
+to an XML file in `Defs/ThingDefs_Minerals` will cause a new mineral to be added to the game.
+
+To add a mineral: 
+
+* Copy the `ThingDef` for an existing mineral that is most similar to the one you want to make. Modify the XML how you want and add it to an XML file in `Defs/ThingDefs_Minerals`. Make sure to change the `defName`.
+* Create textures for the new mineral and add to them to `Textures/Things/Mineral` in the same format as the others there.
+* If you want to have you changes added to this mod for others to use, consider [forking](https://help.github.com/articles/fork-a-repo/) this repository and submitting a [pull request](https://help.github.com/articles/about-pull-requests/). I welcome contributions!
+
+
+## Ideas for future work
+
+
+### Mineral types
+
+#### Sand dunes
+
+Appear near sand and grow when windy, shrink otherwise.
+
+#### Ash drifts
+
+Appear near burnt things and grow when windy, shrink otherwise.
+
+#### Fossils
+
+Appear in sedimentary rocks.
+Can be used as gemstones.
+
+
+### Events
+
+#### Volcanic ash fall
+
+"A nearby volcano has erupted and is raining down hot ash over this region. Watch out for fires."
+
+For 2-5 days, light drops to 60% and drifts of ash slowly accumulate, slowing travel.
+There is a grey filter effect.
+Fires randomly start.
+Only occurs when within 3 map tiles from a volcanic area (optional?).
+Lasts 2-5 days. 
+
+#### Haboob
+
+"A giant dust cloud is heading this way! Best take cover."
+
+Only occurs in dry biomes (chance based on precip of map tile).
+Starts at one edge of the map and moves a little faster than most pawns can.
+Movement is slow and almost no visability.
+Drifts of sand slowy accumulate.
+Pawns not under roofs have a chance to develop asthma. 
+Lasts 0.5 to 1 days. 
+
