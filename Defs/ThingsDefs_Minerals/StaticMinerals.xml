@@ -43,9 +43,12 @@
 		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
 		<spawnRadius>1</spawnRadius>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.3</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.01</minClusterProbability>
-		<maxClusterProbability>0.005</maxClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
 
 		<!-- How  many squares each cluster will be -->
 		<minClusterSize>1</minClusterSize>
@@ -151,9 +154,12 @@
 			<Beauty>15</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.2</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.03</minClusterProbability>
-		<maxClusterProbability>0.003</maxClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
 
 		<!-- Roof requirements -->
 		<mustBeUnderRoof>true</mustBeUnderRoof>
@@ -181,8 +187,11 @@
 			<Beauty>20</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.05</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
 
 		<!-- Roof requirements -->
@@ -211,8 +220,11 @@
 			<Beauty>25</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.02</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
 
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
@@ -269,8 +281,11 @@
 			<Beauty>25</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.02</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
 
 		<!-- How  many squares each cluster will be -->
@@ -330,8 +345,11 @@
 			<Beauty>30</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.03</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
@@ -411,8 +429,11 @@
 		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
 		<spawnRadius>1</spawnRadius>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.2</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.005</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.003</maxClusterProbability>
 
 		<!-- How  many squares each cluster will be -->
@@ -504,8 +525,11 @@
 			<color>(220,220,220)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.005</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Other resources it might drop -->
@@ -525,8 +549,11 @@
 			<color>(220,130,123)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.01</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
@@ -563,8 +590,11 @@
 			<color>(168,215,223)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.005</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Controls how extra clusters are added near assocaited ore-->
@@ -591,8 +621,11 @@
 			<color>(227,210,120)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.01</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Controls how extra clusters are added near assocaited ore-->
@@ -636,8 +669,11 @@
 			<color>(207,153,124)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.01</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Controls how extra clusters are added near assocaited ore-->
@@ -681,8 +717,11 @@
 			<color>(202,75,99)</color>
 		</graphicData>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.1</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.02</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Controls how extra clusters are added near assocaited ore-->
@@ -753,8 +792,11 @@
 			<Beauty>20</Beauty>
 		</statBases>
 
+		<!-- The probability that this mineral type will be spawned at all on a given map -->
+		<perMapProbability>0.2</perMapProbability>
+		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>-0.002</minClusterProbability>
+		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- The amount of resource returned if the mineral is its maximum size -->
