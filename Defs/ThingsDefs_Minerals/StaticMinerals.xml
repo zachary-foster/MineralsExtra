@@ -122,7 +122,7 @@
 		<maxMinedYeild>10</maxMinedYeild>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>0.0</roughGemDropChance>
+		<roughGemDropChance>0.2</roughGemDropChance>
 	</ThingDef>
 
 
@@ -200,7 +200,7 @@
 		<mustBeUnroofed>false</mustBeUnroofed>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>1.0</roughGemDropChance>
+		<roughGemDropChance>2.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -261,7 +261,7 @@
 		<spawnRadius>3</spawnRadius>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>2.0</roughGemDropChance>
+		<roughGemDropChance>3.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -533,7 +533,7 @@
 		<maxClusterProbability>0.001</maxClusterProbability>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>2.0</roughGemDropChance>
+		<roughGemDropChance>3.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -605,7 +605,7 @@
 		</associatedOres>
 	
  		<!-- Other resources it might drop -->
-		<roughGemDropChance>2.0</roughGemDropChance>
+		<roughGemDropChance>3.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -653,7 +653,7 @@
 		</allowedBiomes>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+		<roughGemDropChance>4.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -701,7 +701,7 @@
 		</allowedBiomes>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+		<roughGemDropChance>4.0</roughGemDropChance>
 	</ThingDef>
 
 
@@ -803,7 +803,7 @@
 		<maxMinedYeild>10</maxMinedYeild>
 
 		<!-- Other resources it might drop -->
-		<roughGemDropChance>0.3</roughGemDropChance>
+		<roughGemDropChance>1.0</roughGemDropChance>
 	</ThingDef>
 
 
