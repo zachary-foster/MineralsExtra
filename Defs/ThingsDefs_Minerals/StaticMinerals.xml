@@ -3,71 +3,32 @@
 
 <Defs>
 
-	<ThingDef Name="GoldPyriteCrystal" ParentName="StaticMineralBase">
-		<defName>GoldPyriteCrystal</defName>
+	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
+		<defName>PyriteCrystal</defName>
 		<label>Pyrite Crystal</label>
-		<description>Crystals of iron(II) disulfide. A common mineral found underground and often mistaken for gold or silver by the foolish. Interesting, but not otherwise very useful. Yeilds rubble if mined.</description>
+		<description>Crystals of iron(II) disulfide. A common mineral found underground and often mistaken for gold or silver by the foolish. Yeilds rubble if mined.</description>
 		<graphicData>
 			<texPath>Things/Mineral/PyriteCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(255,227,187)</color>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<altitudeLayer>FloorEmplacement</altitudeLayer>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<coversFloor>false</coversFloor>
+    <!-- If defined, randomly pick colors from this set -->
+    <randomColorsOne>
+      <li>(255,227,187)</li>
+      <li>(244,237,228)</li>
+    </randomColorsOne>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>8</Beauty>
 		</statBases>
-		<selectable>true</selectable>
-		<neverMultiSelect>true</neverMultiSelect>
-		<pathCost>10</pathCost>
-		<building>
-            <isInert>true</isInert>
-            <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-		    <isNaturalRock>true</isNaturalRock>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CrushedStone</mineableThing>
-			<mineableYield>10</mineableYield>
-			<mineableNonMinedEfficiency>0.8</mineableNonMinedEfficiency>
-			<claimable>false</claimable>
-			<deconstructible>false</deconstructible>
-		</building>
-		<filthLeaving>RockRubble</filthLeaving>
-		<mineable>true</mineable>
-
-		<!--How far away it can spawn from an existing location-->
-		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
-		<spawnRadius>1</spawnRadius>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.3</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-
-		<!-- How  many squares each cluster will be -->
-		<minClusterSize>1</minClusterSize>
-		<maxClusterSize>15</maxClusterSize>
-
-		<!-- The range of starting sizes of individuals in clusters -->
-		<initialSizeMin>.3</initialSizeMin>
-		<initialSizeMax>.95</initialSizeMax>
-
-		<!-- How much initial sizes of individuals randomly vary -->
-		<initialSizeVariation>.2</initialSizeVariation>
-
-		<!-- The biomes this can appear in. The default is all ones known to mod-->
-		<!--
-		<allowedBiomes>
-			<li>add_biomes_here</li>
-		</allowedBiomes>
-		-->
-
 		<!-- The terrains this can appear on. The default is rocky terrains-->
 		<allowedTerrains>
 			<li>Granite_Rough</li>
@@ -76,7 +37,6 @@
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
 		</allowedTerrains>
-
 		<!-- The terrains this must be near to, but not necessarily on -->
 		<neededNearbyTerrains>
 			<li>Granite_Rough</li>
@@ -85,7 +45,6 @@
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
 		</neededNearbyTerrains>
-
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>QuartzCrystal</li>
@@ -94,51 +53,21 @@
 			<li>PrasioliteCrystal</li>
 		</associatedOres>
 		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
-
 		<!-- how far away it can be from needed nearby terrains-->
 		<neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
-
 		<!-- If true, growth rate and initial size depends on distance from needed terrains -->
 		<neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
-
-		<!-- Roof requirements -->
-		<mustBeUnderRoof>true</mustBeUnderRoof>
-		<mustBeUnderThickRoof>false</mustBeUnderThickRoof>
-		<mustBeUnroofed>false</mustBeUnroofed>
-
-		<!-- The maximum number of images that will be printed per square -->
-    	<maxMeshCount>30</maxMeshCount>
-
-		<!-- The size range -->
-        <visualSizeRange>
-        	<min>0.1</min>
-        	<max>0.5</max>
-      	</visualSizeRange>
-      	<visualClustering>0.8</visualClustering> <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      	<visualSpread>1.8</visualSpread> <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-		<visualSizeVariation>0.35</visualSizeVariation>
-
-		<!-- The amount of resource returned if the mineral is its maximum size -->
-		<maxMinedYeild>10</maxMinedYeild>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>0.2</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>1.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-
-	<ThingDef ParentName="GoldPyriteCrystal">
-		<defName>SilverPyriteCrystal</defName>
-		<graphicData>
-			<texPath>Things/Mineral/PyriteCrystal</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<color>(244,237,228)</color>
-		</graphicData>
-	</ThingDef>
-
-
-	<ThingDef ParentName="QuartzCrystal">
+	<ThingDef ParentName="QuartzBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>CitrineCrystal</defName>
 		<label>Citrine Crystal</label>
 		<description>Crystals of silicon dioxide. Impurities of iron make these crystals a beautiful yellow. Rarely found. Yeilds glass batch when mined. Often yeilds gem-quality peices due to its interesting color.</description>
@@ -146,32 +75,31 @@
 			<texPath>Things/Mineral/QuartzCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
-			<color>(221, 190, 124)</color>
+      <color>(220,220,220)</color>
+      <colorTwo>(180, 140, 70)</colorTwo>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>15</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.2</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-
-		<!-- Roof requirements -->
-		<mustBeUnderRoof>true</mustBeUnderRoof>
-		<mustBeUnderThickRoof>false</mustBeUnderThickRoof>
-		<mustBeUnroofed>false</mustBeUnroofed>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>0.5</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>3.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="QuartzCrystal">
+	<ThingDef ParentName="QuartzBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>PrasioliteCrystal</defName>
 		<label>Prasiolite Crystal</label>
 		<description>A very rare and beautiful green variety of quartz, silicon dioxide. Yeilds glass batch when mined. Often yeilds gem-quality peices due to its interesting color.</description>
@@ -179,32 +107,87 @@
 			<texPath>Things/Mineral/QuartzCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
-			<color>(109, 163, 127)</color>
+      <color>(220,220,220)</color>
+      <colorTwo>(70, 150, 90)</colorTwo>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>20</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-
-		<!-- Roof requirements -->
-		<mustBeUnderRoof>true</mustBeUnderRoof>
-		<mustBeUnderThickRoof>false</mustBeUnderThickRoof>
-		<mustBeUnroofed>false</mustBeUnroofed>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>2.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>5.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="SchorlCrystal">
+  <ThingDef ParentName="TourmalineBase" Class="Minerals.ThingDef_StaticMineral">
+    <defName>DraviteCrystal</defName>
+    <label>Dravite Crystal</label>
+    <description>A type of tourmaline, a boron silicate mineral with many chemical variations. This tan variety sometimes yeilds gem-quality stones.</description>
+    <graphicData>
+      <texPath>Things/Mineral/TourmalineCrystal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(87,39,29)</color>
+      <colorTwo>(251,229,172)</colorTwo>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <!-- If defined, randomly pick colors from this set -->
+    <randomColorsOne>
+      <li>(87,39,29)</li>
+      <li>(62,22,10)</li>
+      <li>(35,35,27)</li>
+      <li>(137,23,6)</li>
+      <li>(93,26,7)</li>
+      <li>(136,57,24)</li>
+      <li>(119,34,27)</li>
+      <li>(73,45,34)</li>
+      <li>(79,42,30)</li>
+    </randomColorsOne>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <!-- The probability that this mineral type will be spawned at all on a given map -->
+    <perMapProbability>0.2</perMapProbability>
+    <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
+    <minClusterProbability>0</minClusterProbability>
+    <maxClusterProbability>0.003</maxClusterProbability>
+    <!-- The maximum number of images that will be printed per square -->
+    <maxMeshCount>25</maxMeshCount>
+    <!-- The size range -->
+    <visualSizeRange>
+      <min>0.2</min>
+      <max>0.4</max>
+    </visualSizeRange>
+    <visualClustering>0.3</visualClustering>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>2.0</DropProbability>
+      </li>
+      <li>
+        <ResourceDefName>CrushedStone</ResourceDefName>
+        <DropProbability>5.0</DropProbability>
+      </li>
+    </randomlyDropResources>
+  </ThingDef>
+
+
+	<ThingDef ParentName="TourmalineBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>GreenTourmalineCrystal</defName>
 		<label>Green Tourmaline Crystal</label>
 		<description>A rare type of tourmaline, a boron silicate mineral with many chemical variations. This green variety often yeilds high quality gemstones.</description>
@@ -213,59 +196,33 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(135,124,79)</color>
+			<colorTwo>(155,144,99)</colorTwo>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>25</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-
-		<!-- The biomes this can appear in. The default is all ones known to mod-->
-		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
-		</allowedBiomes>
-
-		<!-- The maximum number of images that will be printed per square -->
-    	<maxMeshCount>15</maxMeshCount>
-
-		<!-- The size range -->
-        <visualSizeRange>
-        	<min>0.1</min>
-        	<max>0.4</max>
-      	</visualSizeRange>
-      	<visualClustering>0.5</visualClustering> <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      	<visualSpread>2.0</visualSpread> <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-      	<visualSizeVariation>0.3</visualSizeVariation>
-
 		<!--How far away it can spawn from an existing location-->
 		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
 		<spawnRadius>3</spawnRadius>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>8.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="SchorlCrystal">
+	<ThingDef ParentName="TourmalineBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>SiberiteCrystal</defName>
 		<label>Siberite Crystal</label>
 		<description>A rare type of tourmaline, a boron silicate mineral with many chemical variations. This purple variety often yeilds high quality gemstones.</description>
@@ -274,63 +231,36 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(170,146,222)</color>
+			<colorTwo>(190,166,242)</colorTwo>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>25</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-
 		<!-- How  many squares each cluster will be -->
 		<minClusterSize>1</minClusterSize>
 		<maxClusterSize>2</maxClusterSize>
-		
-		<!-- The biomes this can appear in. The default is all ones known to mod-->
-		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
-		</allowedBiomes>
-			
-		<!-- The maximum number of images that will be printed per square -->
-    	<maxMeshCount>15</maxMeshCount>
-
-		<!-- The size range -->
-        <visualSizeRange>
-        	<min>0.05</min>
-        	<max>0.5</max>
-      	</visualSizeRange>
-      	<visualClustering>1.0</visualClustering> <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      	<visualSpread>1.0</visualSpread> <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-      	<visualSizeVariation>0.5</visualSizeVariation>
-
 		<!--How far away it can spawn from an existing location-->
 		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
 		<spawnRadius>3</spawnRadius>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>2.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>8.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="SchorlCrystal">
+	<ThingDef ParentName="TourmalineBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>WatermelonTourmalineCrystal</defName>
 		<label>Watermelon Tourmaline Crystal</label>
 		<description>A very rare type of tourmaline, a boron silicate mineral with many chemical variations. This green and pink variety is prized for high quality gemstones.</description>
@@ -344,14 +274,11 @@
 			<Flammability>0</Flammability>
 			<Beauty>30</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
 			<li>IceSheet</li>
@@ -368,29 +295,17 @@
 			<li>TKKN_Desert</li>
 			<li>TKKN_RedwoodForest</li>
 		</allowedBiomes>
-			
-		<!-- The maximum number of images that will be printed per square -->
-    <maxMeshCount>15</maxMeshCount>
-
-		<!-- The size range -->
-        <visualSizeRange>
-        	<min>0.05</min>
-        	<max>0.6</max>
-      	</visualSizeRange>
-      	<visualClustering>0.5</visualClustering> <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      	<visualSpread>2.0</visualSpread> <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-      	<visualSizeVariation>0.2</visualSizeVariation>
-
-		<!--How far away it can spawn from an existing location-->
-		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
-		<spawnRadius>1</spawnRadius>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>10.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef Name="BigSulfurCrystal" ParentName="StaticMineralBase">
+	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>BigSulfurCrystal</defName>
 		<label>Large Sulfur Crystals</label>
 		<description>Elemental sulfur crystals formed by volcanic gasses. These ones are quite large and the geologic conditions that created them have ceased long ago.</description>
@@ -399,61 +314,19 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		<altitudeLayer>FloorEmplacement</altitudeLayer>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<coversFloor>false</coversFloor>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<Flammability>0.5</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
-		<selectable>true</selectable>
-		<neverMultiSelect>true</neverMultiSelect>
-		<pathCost>20</pathCost>
-		<building>
-            <isInert>true</isInert>
-            <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-		    <isNaturalRock>true</isNaturalRock>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>Sulfur</mineableThing>
-			<mineableYield>30</mineableYield>
-			<mineableNonMinedEfficiency>0.8</mineableNonMinedEfficiency>
-			<claimable>false</claimable>
-			<deconstructible>false</deconstructible>
-		</building>
-		<filthLeaving>RockRubble</filthLeaving>
-		<mineable>true</mineable>
-
-		<!--How far away it can spawn from an existing location-->
-		<!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
-		<spawnRadius>1</spawnRadius>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.2</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.003</maxClusterProbability>
-
 		<!-- How  many squares each cluster will be -->
 		<minClusterSize>1</minClusterSize>
 		<maxClusterSize>6</maxClusterSize>
-
-		<!-- The range of starting sizes of individuals in clusters -->
-		<initialSizeMin>.5</initialSizeMin>
-		<initialSizeMax>.9</initialSizeMax>
-
-		<!-- How much initial sizes of individuals randomly vary -->
-		<initialSizeVariation>.3</initialSizeVariation>
-
-		<!-- The biomes this can appear in. The default is all ones known to mod-->
-		<!--
-		<allowedBiomes>
-			<li>add_biomes_here</li>
-		</allowedBiomes>
-		-->
-
 		<!-- The terrains this can appear on. The default is rocky terrains-->
 		<allowedTerrains>
 			<li>Granite_Rough</li>
@@ -461,10 +334,9 @@
 			<li>Limestone_Rough</li>
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
-			<li>TKKN_LavaRock_Rough</li>
-			<li>TKKN_LavaRock_RoughHewn</li>
+			<li>LavaRock_Rough</li>
+			<li>LavaRock_RoughHewn</li>
 		</allowedTerrains>
-
 		<!-- The terrains this must be near to, but not necessarily on -->
 		<neededNearbyTerrains>
 			<li>Granite_Rough</li>
@@ -472,49 +344,30 @@
 			<li>Limestone_Rough</li>
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
-			<li>TKKN_LavaRock_Rough</li>
-			<li>TKKN_LavaRock_RoughHewn</li>
+			<li>LavaRock_Rough</li>
+			<li>LavaRock_RoughHewn</li>
 		</neededNearbyTerrains>
-
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>Obsidian</li>
 		</associatedOres>
 		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
-
 		<!-- how far away it can be from needed nearby terrains-->
 		<neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
-
 		<!-- If true, growth rate and initial size depends on distance from needed terrains -->
 		<neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
-
-		<!-- Roof requirements -->
-		<mustBeUnderRoof>true</mustBeUnderRoof>
-		<mustBeUnderThickRoof>false</mustBeUnderThickRoof>
-		<mustBeUnroofed>false</mustBeUnroofed>
-
-		<!-- The maximum number of images that will be printed per square -->
-    	<maxMeshCount>80</maxMeshCount>
-
-		<!-- The size range -->
-        <visualSizeRange>
-        	<min>0.05</min>
-        	<max>0.35</max>
-      	</visualSizeRange>
-      	<visualClustering>0.5</visualClustering> <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      	<visualSpread>2.0</visualSpread> <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-      	<visualSizeVariation>0.4</visualSizeVariation>
-
-		<!-- The amount of resource returned if the mineral is its maximum size -->
-		<maxMinedYeild>30</maxMinedYeild>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
 
-	<ThingDef ParentName="RubyCrystal">
+	<ThingDef ParentName="CorundumBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>CorundumCrystal</defName>
 		<label>Corundum embedded in rock</label>
 		<description>Crystals of aluminium oxide embedded in rock. One of the hardest minerals and often cut into gems. Impurities often color corundum, but this patch is clear.</description>
@@ -524,38 +377,36 @@
 			<drawSize>(1,1)</drawSize>
 			<color>(220,220,220)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>7.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="RubyCrystal">
+	<ThingDef ParentName="CorundumBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>PadparadschaCrystal</defName>
 		<label>Padparadschas embedded in rock</label>
 		<description>Crystals of aluminium oxide embedded in rock. One of the hardest minerals and often cut into gems. This is a very rare and valuable pink-orange variety.</description>
-
 		<graphicData>
 			<texPath>Things/Mineral/CorundumCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(220,130,123)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
 			<li>IceSheet</li>
@@ -568,73 +419,84 @@
 			<li>TundraArchipelago</li>
 			<li>ColdBogArchipelago</li>
 			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
+			<li>VolcanicFlow</li>
+			<li>RedwoodForest</li>
 		</allowedBiomes>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>4.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>8.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="EmeraldCrystal">
+  <ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
+    <defName>GosheniteCrystal</defName>
+    <label>Goshenite embedded in rock</label>
+    <description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This variety is clear.</description>
+    <graphicData>
+      <texPath>Things/Mineral/BerylCrystal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(255, 255, 255)</color>
+    </graphicData>
+    <!-- The probability that this mineral type will be spawned at all on a given map -->
+    <perMapProbability>0.2</perMapProbability>
+    <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
+    <minClusterProbability>0</minClusterProbability>
+    <maxClusterProbability>0.001</maxClusterProbability>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>5.0</DropProbability>
+      </li>
+    </randomlyDropResources>
+  </ThingDef>
+
+
+	<ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>AquamarineCrystal</defName>
 		<label>Aquamarine embedded in rock</label>
 		<description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This variety is light blue due to trace impurities of iron.</description>
-
 		<graphicData>
 			<texPath>Things/Mineral/BerylCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(168,215,223)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- Controls how extra clusters are added near assocaited ore-->
-		<associatedOres>
-			<li>MineableTin</li>
-			<li>MineableTungsten</li>
-			<li>BerylCrystal</li>
-		</associatedOres>
-	
- 		<!-- Other resources it might drop -->
-		<roughGemDropChance>3.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>7.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="EmeraldCrystal">
+	<ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>HeliodorCrystal</defName>
 		<label>Heliodor embedded in rock</label>
 		<description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This rare variety is yellow due to trace impurities of iron.</description>
-
 		<graphicData>
 			<texPath>Things/Mineral/BerylCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(227,210,120)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- Controls how extra clusters are added near assocaited ore-->
-		<associatedOres>
-			<li>MineableTin</li>
-			<li>MineableTungsten</li>
-			<li>BerylCrystal</li>
-		</associatedOres>
-
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
 			<li>IceSheet</li>
@@ -647,42 +509,34 @@
 			<li>TundraArchipelago</li>
 			<li>ColdBogArchipelago</li>
 			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
+			<li>VolcanicFlow</li>
+			<li>RedwoodForest</li>
 		</allowedBiomes>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>4.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>8.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="EmeraldCrystal">
+	<ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>MorganiteCrystal</defName>
 		<label>Morganite embedded in rock</label>
 		<description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This rare variety is pink due to trace impurities of manganese.</description>
-
 		<graphicData>
 			<texPath>Things/Mineral/BerylCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(207,153,124)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- Controls how extra clusters are added near assocaited ore-->
-		<associatedOres>
-			<li>MineableTin</li>
-			<li>MineableTungsten</li>
-			<li>BerylCrystal</li>
-		</associatedOres>
-
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
 			<li>IceSheet</li>
@@ -695,41 +549,35 @@
 			<li>TundraArchipelago</li>
 			<li>ColdBogArchipelago</li>
 			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
+			<li>VolcanicFlow</li>
+			<li>Desert</li>
+			<li>RedwoodForest</li>
 		</allowedBiomes>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>4.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>7.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="EmeraldCrystal">
+	<ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>BixbiteCrystal</defName>
 		<label>Bixbite embedded in rock</label>
 		<description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This very rare variety is a deep red due to impurities of manganese. Unlike most types of beryl, this can be found in igneous rocks.</description>
-
 		<graphicData>
 			<texPath>Things/Mineral/BerylCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(202,75,99)</color>
 		</graphicData>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- Controls how extra clusters are added near assocaited ore-->
-		<associatedOres>
-			<li>MineableTin</li>
-			<li>MineableTungsten</li>
-		</associatedOres>
-
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
 			<li>IceSheet</li>
@@ -742,29 +590,25 @@
 			<li>TundraArchipelago</li>
 			<li>ColdBogArchipelago</li>
 			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
+			<li>VolcanicFlow</li>
+			<li>RedwoodForest</li>
 		</allowedBiomes>
-
 		<!-- The terrains this can appear on. The default is rocky terrains-->
 		<allowedTerrains>
 			<li>Granite_Rough</li>
-			<li>TKKN_LavaRock_Rough</li>
+			<li>LavaRock_Rough</li>
 		</allowedTerrains>
-
-		<!-- The terrains this must be near to, but not necessarily on -->
-		<neededNearbyTerrains>
-			<li>Granite_Rough</li>
-			<li>TKKN_LavaRock_Rough</li>
-		</neededNearbyTerrains>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>5.0</roughGemDropChance>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>8.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
-	<ThingDef ParentName="MalachiteDeposit">
+	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>AzuriteDeposit</defName>
 		<label>Azurite Deposit</label>
 		<description>Beautiful blue deposits of copper carbonate hydroxide, occasionally used for gemstones. Often found near copper ore, azurite, calcite, and limestone rock.</description>
@@ -773,37 +617,42 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(100,118,177)</color>
+      <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-    	<comps></comps>
-		<building>
-            <isInert>true</isInert>
-            <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-		    <isNaturalRock>true</isNaturalRock>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CrushedStone</mineableThing>
-			<mineableYield>10</mineableYield>
-			<mineableNonMinedEfficiency>0.8</mineableNonMinedEfficiency>
-			<claimable>false</claimable>
-			<deconstructible>false</deconstructible>
-		</building>
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Beauty>20</Beauty>
 		</statBases>
-
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.2</perMapProbability>
-		
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.001</maxClusterProbability>
-
-		<!-- The amount of resource returned if the mineral is its maximum size -->
-		<maxMinedYeild>10</maxMinedYeild>
-
-		<!-- Other resources it might drop -->
-		<roughGemDropChance>1.0</roughGemDropChance>
+    <!-- How  many squares each cluster will be -->
+    <minClusterSize>1</minClusterSize>
+    <maxClusterSize>3</maxClusterSize>
+    <!-- Controls how extra clusters are added near assocaited ore-->
+    <associatedOres>
+      <li>MineableSilver</li>
+      <li>Limestone</li>
+      <li>MineableCopper</li>
+      <li>AzuriteDeposit</li>
+      <li>MalachiteDeposit</li>
+      <li>CalciteCrystal</li>
+    </associatedOres>
+    <nearAssociatedOreBonus>50</nearAssociatedOreBonus>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>2.0</DropProbability>
+      </li>
+      <li>
+        <ResourceDefName>Copper</ResourceDefName>
+        <DropProbability>5.0</DropProbability>
+      </li>
+    </randomlyDropResources>
 	</ThingDef>
 
 
