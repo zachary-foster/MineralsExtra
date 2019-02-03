@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThingDef ParentName="BigQuartzBase" Class="Minerals.ThingDef_BigMineral">
+    <defName>BigCitrineCrystal</defName>
+    <label>Giant Citrine Crystal</label>
+    <description>An huge deposit of Citrine.</description>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>150</Beauty>
+    </statBases>
+    <randomColorsOne>
+      <li>(230,230,230)</li>
+      <li>(235,235,235)</li>
+      <li>(240,240,240)</li>
+      <li>(245,245,245)</li>
+      <li>(250,250,250)</li>
+    </randomColorsOne>
+    <randomColorsTwo>
+      <li>(250, 190, 30)</li>
+      <li>(255, 200, 30)</li>
+      <li>(250, 190, 10)</li>
+      <li>(255, 200, 60)</li>
+      <li>(230, 160, 20)</li>
+    </randomColorsTwo>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>15</DropProbability>
+      </li>
+    </randomlyDropResources>
+    <!-- Things this mineral replaces when a map is initialized -->
+    <ThingsToReplace>
+      <li>CitrineCrystal</li>
+    </ThingsToReplace>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BigMineralTrophyBase" Class="Minerals.ThingDef_BigMineralTrophy">
+    <defName>BigCitrineCrystalTrophy</defName>
+    <label>Giant Citrine Crystal</label>
+    <description>An huge crystal of Citrine that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader. </description>
+    <graphicData>
+      <texPath>Things/Mineral/BigQuartzCrystal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <drawSize>(1.2,1.2)</drawSize>
+      <color>(240,240,240)</color>
+      <colorTwo>(250, 190, 30)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>100</Beauty>
+      <MarketValue>4000</MarketValue>
+    </statBases>
+    <costList>
+      <GlassBatch>100</GlassBatch>
+    </costList>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BigQuartzBase" Class="Minerals.ThingDef_BigMineral">
+    <defName>BigPrasioliteCrystal</defName>
+    <label>Giant Prasiolite Crystal</label>
+    <description>An huge deposit of Prasiolite.</description>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>200</Beauty>
+    </statBases>
+    <randomColorsOne>
+      <li>(230,230,230)</li>
+      <li>(235,235,235)</li>
+      <li>(240,240,240)</li>
+      <li>(245,245,245)</li>
+      <li>(250,250,250)</li>
+    </randomColorsOne>
+    <randomColorsTwo>
+      <li>(40, 200, 30)</li>
+      <li>(30, 200, 40)</li>
+      <li>(30, 180, 30)</li>
+      <li>(40, 220, 30)</li>
+      <li>(30, 220, 40)</li>
+      <li>(30, 200, 30)</li>
+    </randomColorsTwo>
+    <!-- Other resources it might drop -->
+    <randomlyDropResources>
+      <li>
+        <ResourceDefName>RoughGem</ResourceDefName>
+        <DropProbability>20</DropProbability>
+      </li>
+    </randomlyDropResources>
+    <!-- Things this mineral replaces when a map is initialized -->
+    <ThingsToReplace>
+      <li>PrasioliteCrystal</li>
+    </ThingsToReplace>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BigMineralTrophyBase" Class="Minerals.ThingDef_BigMineralTrophy">
+    <defName>BigPrasioliteCrystalTrophy</defName>
+    <label>Giant Prasiolite Crystal</label>
+    <description>An huge crystal of Prasiolite that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader. </description>
+    <graphicData>
+      <texPath>Things/Mineral/BigQuartzCrystal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+      <drawSize>(1.2,1.2)</drawSize>
+      <color>(240,240,240)</color>
+      <colorTwo>(40, 200, 30)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>150</Beauty>
+      <MarketValue>5000</MarketValue>
+    </statBases>
+    <costList>
+      <GlassBatch>100</GlassBatch>
+    </costList>
+  </ThingDef>
+
+</Defs>

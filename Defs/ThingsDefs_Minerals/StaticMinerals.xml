@@ -6,7 +6,7 @@
 	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>PyriteCrystal</defName>
 		<label>Pyrite Crystal</label>
-		<description>Crystals of iron(II) disulfide. A common mineral found underground and often mistaken for gold or silver by the foolish. Yeilds rubble if mined.</description>
+		<description>Crystals of iron(II) disulfide. A common mineral found underground and often mistaken for gold or silver by the foolish.</description>
 		<graphicData>
 			<texPath>Things/Mineral/PyriteCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -14,9 +14,18 @@
 			<color>(255,227,187)</color>
       <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+    <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
     <!-- If defined, randomly pick colors from this set -->
     <randomColorsOne>
       <li>(255,227,187)</li>
+      <li>(254,228,192)</li>
+      <li>(253,229,196)</li>
+      <li>(251,230,201)</li>
+      <li>(250,231,205)</li>
+      <li>(249,233,210)</li>
+      <li>(248,234,214)</li>
+      <li>(246,235,219)</li>
+      <li>(245,236,223)</li>
       <li>(244,237,228)</li>
     </randomColorsOne>
 		<statBases>
@@ -36,15 +45,9 @@
 			<li>Limestone_Rough</li>
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
+      <li>LavaRock_Rough</li>
+      <li>Claystone_Rough</li>
 		</allowedTerrains>
-		<!-- The terrains this must be near to, but not necessarily on -->
-		<neededNearbyTerrains>
-			<li>Granite_Rough</li>
-			<li>Marble_Rough</li>
-			<li>Limestone_Rough</li>
-			<li>Sandstone_Rough</li>
-			<li>Slate_Rough</li>
-		</neededNearbyTerrains>
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>QuartzCrystal</li>
@@ -53,10 +56,6 @@
 			<li>PrasioliteCrystal</li>
 		</associatedOres>
 		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
-		<!-- how far away it can be from needed nearby terrains-->
-		<neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
-		<!-- If true, growth rate and initial size depends on distance from needed terrains -->
-		<neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
@@ -75,10 +74,23 @@
 			<texPath>Things/Mineral/QuartzCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
-      <color>(220,220,220)</color>
-      <colorTwo>(180, 140, 70)</colorTwo>
+      <color>(240,240,240)</color>
       <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+    <randomColorsOne>
+      <li>(230,230,230)</li>
+      <li>(235,235,235)</li>
+      <li>(240,240,240)</li>
+      <li>(245,245,245)</li>
+      <li>(250,250,250)</li>
+    </randomColorsOne>
+    <randomColorsTwo>
+      <li>(250, 190, 30)</li>
+      <li>(255, 200, 30)</li>
+      <li>(250, 190, 10)</li>
+      <li>(255, 200, 60)</li>
+      <li>(230, 160, 20)</li>
+    </randomColorsTwo>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -95,6 +107,11 @@
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>3.0</DropProbability>
       </li>
+      <li>
+        <ResourceDefName>GlassBatch</ResourceDefName>
+        <DropProbability>4</DropProbability>
+        <CountPerDrop>5</CountPerDrop>
+      </li>
     </randomlyDropResources>
 	</ThingDef>
 
@@ -107,10 +124,24 @@
 			<texPath>Things/Mineral/QuartzCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
-      <color>(220,220,220)</color>
-      <colorTwo>(70, 150, 90)</colorTwo>
+      <color>(240,240,240)</color>
       <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+    <randomColorsOne>
+      <li>(230,230,230)</li>
+      <li>(235,235,235)</li>
+      <li>(240,240,240)</li>
+      <li>(245,245,245)</li>
+      <li>(250,250,250)</li>
+    </randomColorsOne>
+    <randomColorsTwo>
+      <li>(40, 200, 30)</li>
+      <li>(30, 200, 40)</li>
+      <li>(30, 180, 30)</li>
+      <li>(40, 220, 30)</li>
+      <li>(30, 220, 40)</li>
+      <li>(30, 200, 30)</li>
+    </randomColorsTwo>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -126,6 +157,11 @@
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>5.0</DropProbability>
+      </li>
+      <li>
+        <ResourceDefName>GlassBatch</ResourceDefName>
+        <DropProbability>4</DropProbability>
+        <CountPerDrop>5</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
@@ -177,11 +213,7 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>2.0</DropProbability>
-      </li>
-      <li>
-        <ResourceDefName>CrushedStone</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
+        <DropProbability>3.0</DropProbability>
       </li>
     </randomlyDropResources>
   </ThingDef>
@@ -309,11 +341,14 @@
 		<defName>BigSulfurCrystal</defName>
 		<label>Large Sulfur Crystals</label>
 		<description>Elemental sulfur crystals formed by volcanic gasses. These ones are quite large and the geologic conditions that created them have ceased long ago.</description>
-		<graphicData>
-			<texPath>Things/Mineral/SulfurCrystal</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
+    <graphicData>
+      <texPath>Things/Mineral/PyriteCrystal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(250,250,150)</color>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<Flammability>0.5</Flammability>
@@ -334,37 +369,24 @@
 			<li>Limestone_Rough</li>
 			<li>Sandstone_Rough</li>
 			<li>Slate_Rough</li>
-			<li>LavaRock_Rough</li>
+      <li>LavaRock_Rough</li>
+      <li>Claystone_Rough</li>
 			<li>LavaRock_RoughHewn</li>
 		</allowedTerrains>
-		<!-- The terrains this must be near to, but not necessarily on -->
-		<neededNearbyTerrains>
-			<li>Granite_Rough</li>
-			<li>Marble_Rough</li>
-			<li>Limestone_Rough</li>
-			<li>Sandstone_Rough</li>
-			<li>Slate_Rough</li>
-			<li>LavaRock_Rough</li>
-			<li>LavaRock_RoughHewn</li>
-		</neededNearbyTerrains>
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>Obsidian</li>
 		</associatedOres>
 		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
-		<!-- how far away it can be from needed nearby terrains-->
-		<neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
-		<!-- If true, growth rate and initial size depends on distance from needed terrains -->
-		<neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>0</DropProbability>
+        <ResourceDefName>Sulfur</ResourceDefName>
+        <DropProbability>4</DropProbability>
+        <CountPerDrop>5</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
-
 
 
 	<ThingDef ParentName="CorundumBase" Class="Minerals.ThingDef_StaticMineral">
@@ -426,7 +448,7 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>8.0</DropProbability>
+        <DropProbability>10.0</DropProbability>
       </li>
     </randomlyDropResources>
 	</ThingDef>
@@ -563,51 +585,6 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BerylBase" Class="Minerals.ThingDef_StaticMineral">
-		<defName>BixbiteCrystal</defName>
-		<label>Bixbite embedded in rock</label>
-		<description>Crystals of beryl, a type of beryllium aluminium silicate, a rare mineral often used for gemstones. This very rare variety is a deep red due to impurities of manganese. Unlike most types of beryl, this can be found in igneous rocks.</description>
-		<graphicData>
-			<texPath>Things/Mineral/BerylCrystal</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<color>(202,75,99)</color>
-		</graphicData>
-		<!-- The probability that this mineral type will be spawned at all on a given map -->
-		<perMapProbability>0.1</perMapProbability>
-		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
-		<!-- The biomes this can appear in. The default is all ones known to mod-->
-		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>VolcanicFlow</li>
-			<li>RedwoodForest</li>
-		</allowedBiomes>
-		<!-- The terrains this can appear on. The default is rocky terrains-->
-		<allowedTerrains>
-			<li>Granite_Rough</li>
-			<li>LavaRock_Rough</li>
-		</allowedTerrains>
-    <!-- Other resources it might drop -->
-    <randomlyDropResources>
-      <li>
-        <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>8.0</DropProbability>
-      </li>
-    </randomlyDropResources>
-	</ThingDef>
-
-
 	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
 		<defName>AzuriteDeposit</defName>
 		<label>Azurite Deposit</label>
@@ -619,6 +596,7 @@
 			<color>(100,118,177)</color>
       <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+    <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -650,7 +628,8 @@
       </li>
       <li>
         <ResourceDefName>Copper</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
+        <DropProbability>0.5</DropProbability>
+        <CountPerDrop>10</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>

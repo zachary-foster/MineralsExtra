@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <ModMetaData>
-	<name>MineralsExtra</name>
-	<author>zachary-foster</author>
-	<targetVersion>0.18.0</targetVersion>
+	<name>MineralsExtra_SK</name>
+	<author>Zachary Foster</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
   <description>
 
-for RimWorld B18 Hardcore SK
-mod version 0.5.0
+For RimWorld Hardcore SK v1
+
+mod version 1.0.0-beta
 
 &lt;size=24&gt;Description&lt;/size&gt;
 
-This mod is an expansion of the "Minerals" Mod and the "Minerals" mod be enabled and must come before in the loading order.
-It adds more mineral diversity, including many gemstones.
+Must come after Minerals_SK in the loading order.
 
-See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
+This mod is an expansion of the "Minerals_SK" Mod that adds more mineral diversity.
+
+See: https://github.com/zachary-foster/MineralsExtra_SK for detailed documentation.
 
   </description>
 </ModMetaData>
