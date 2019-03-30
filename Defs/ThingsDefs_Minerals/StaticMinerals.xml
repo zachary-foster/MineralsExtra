@@ -323,9 +323,12 @@
 			<li>TundraArchipelago</li>
 			<li>ColdBogArchipelago</li>
 			<li>DesertArchipelago</li>
-			<li>TKKN_VolcanicFlow</li>
-			<li>TKKN_Desert</li>
-			<li>TKKN_RedwoodForest</li>
+			<li>VolcanicFlow</li>
+			<li>RedwoodForest</li>
+			<li>DesertSaltFields</li>
+			<li>Steppes</li>
+			<li>Permafrost</li>
+			<li>Wasteland</li>
 		</allowedBiomes>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
@@ -410,6 +413,10 @@
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>7.0</DropProbability>
       </li>
+      <li>
+        <ResourceDefName>RoughUltrahardGem</ResourceDefName>
+        <DropProbability>2.0</DropProbability>
+      </li>
     </randomlyDropResources>
 	</ThingDef>
 
@@ -449,6 +456,10 @@
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>10.0</DropProbability>
+      </li>
+      <li>
+        <ResourceDefName>RoughUltrahardGem</ResourceDefName>
+        <DropProbability>2.0</DropProbability>
       </li>
     </randomlyDropResources>
 	</ThingDef>

@@ -41,7 +41,7 @@
   <ThingDef ParentName="BigMineralTrophyBase" Class="Minerals.ThingDef_BigMineralTrophy">
     <defName>BigCitrineCrystalTrophy</defName>
     <label>Giant Citrine Crystal</label>
-    <description>An huge crystal of Citrine that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader. </description>
+    <description>An huge crystal of Citrine that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader.</description>
     <graphicData>
       <texPath>Things/Mineral/BigQuartzCrystal</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -63,6 +63,17 @@
     <costList>
       <GlassBatch>100</GlassBatch>
     </costList>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>3</maxSimultaneous>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
   
   
@@ -107,7 +118,7 @@
   <ThingDef ParentName="BigMineralTrophyBase" Class="Minerals.ThingDef_BigMineralTrophy">
     <defName>BigPrasioliteCrystalTrophy</defName>
     <label>Giant Prasiolite Crystal</label>
-    <description>An huge crystal of Prasiolite that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader. </description>
+    <description>An huge crystal of Prasiolite that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader.</description>
     <graphicData>
       <texPath>Things/Mineral/BigQuartzCrystal</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -129,6 +140,17 @@
     <costList>
       <GlassBatch>100</GlassBatch>
     </costList>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>3</maxSimultaneous>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
 
 </Defs>

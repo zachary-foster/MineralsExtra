@@ -1,3 +1,8 @@
+## v1.1.0
+
+* Added giant versions of citrin and prasiolite that can aid in research.
+* Minor bug fixes
+
 ## v1.0.0-beta
 
 * Updated for Rimworld 1.0.
