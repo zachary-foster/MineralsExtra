@@ -3,7 +3,10 @@
 <ModMetaData>
 	<name>MineralsExtra_SK</name>
 	<author>Zachary Foster</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Zachary.MineralsExtra</packageId>
   <description>
 
 For RimWorld Hardcore SK v1
@@ -19,4 +22,10 @@ This mod is an expansion of the "Minerals_SK" Mod that adds more mineral diversi
 See: https://github.com/zachary-foster/MineralsExtra_SK for detailed documentation.
 
   </description>
+  
+  	<loadAfter>
+		<li>skyarkhangel.HSK</li>
+		<li>skyarkhangel.NPS</li>
+		<li>ZacharyFoster.Minerals</li>
+	</loadAfter>
 </ModMetaData>
