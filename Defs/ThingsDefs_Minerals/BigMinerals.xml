@@ -55,13 +55,13 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>600</WorkToBuild>
       <Mass>30</Mass>
       <Beauty>100</Beauty>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>3000</MarketValue>
     </statBases>
     <costList>
-      <GlassBatch>100</GlassBatch>
+      <RoughGem>15</RoughGem>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">
@@ -132,13 +132,13 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>600</WorkToBuild>
       <Mass>30</Mass>
       <Beauty>150</Beauty>
       <MarketValue>5000</MarketValue>
     </statBases>
     <costList>
-      <GlassBatch>100</GlassBatch>
+      <RoughGem>30</RoughGem>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">

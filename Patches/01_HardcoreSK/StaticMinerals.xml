@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        
+      	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
+      		<defName>BigSulfurCrystal</defName>
+      		<label>Large Sulfur Crystals</label>
+      		<description>Elemental sulfur crystals formed by volcanic gasses. These ones are quite large and the geologic conditions that created them have ceased long ago.</description>
+          <graphicData>
+            <texPath>Things/Mineral/PyriteCrystal</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <color>(250,250,150)</color>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+          <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
+      		<statBases>
+      			<MaxHitPoints>400</MaxHitPoints>
+      			<Flammability>0.5</Flammability>
+      			<Beauty>10</Beauty>
+      		</statBases>
+      		<!-- The probability that this mineral type will be spawned at all on a given map -->
+      		<perMapProbability>0.2</perMapProbability>
+      		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
+      		<minClusterProbability>0</minClusterProbability>
+      		<maxClusterProbability>0.003</maxClusterProbability>
+      		<!-- How  many squares each cluster will be -->
+      		<minClusterSize>1</minClusterSize>
+      		<maxClusterSize>6</maxClusterSize>
+      		<!-- The terrains this can appear on. The default is rocky terrains-->
+      		<allowedTerrains>
+      			<li>Granite_Rough</li>
+      			<li>Marble_Rough</li>
+      			<li>Limestone_Rough</li>
+      			<li>Sandstone_Rough</li>
+      			<li>Slate_Rough</li>
+            <li>Claystone_Rough</li>
+            <li>ZF_BasaltBase_Rough</li>
+      		</allowedTerrains>
+      		<!-- Controls how extra clusters are added near assocaited ore-->
+      		<associatedOres>
+      			<li>Obsidian</li>
+      		</associatedOres>
+      		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
+          <!-- Other resources it might drop -->
+          <randomlyDropResources>
+            <li>
+              <ResourceDefName>Sulfur</ResourceDefName>
+              <DropProbability>4</DropProbability>
+              <CountPerDrop>5</CountPerDrop>
+            </li>
+          </randomlyDropResources>
+      	</ThingDef>
+      
+      	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
+      		<defName>AzuriteDeposit</defName>
+      		<label>Azurite Deposit</label>
+      		<description>Beautiful blue deposits of copper carbonate hydroxide, occasionally used for gemstones. Often found near copper ore, azurite, calcite, and limestone rock.</description>
+      		<graphicData>
+      			<texPath>Things/Mineral/UraniniteDeposit</texPath>
+      			<graphicClass>Graphic_Random</graphicClass>
+      			<drawSize>(1,1)</drawSize>
+      			<color>(100,118,177)</color>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+      		</graphicData>
+          <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
+      		<statBases>
+      			<MaxHitPoints>1000</MaxHitPoints>
+      			<Flammability>0</Flammability>
+      			<Beauty>20</Beauty>
+      		</statBases>
+      		<!-- The probability that this mineral type will be spawned at all on a given map -->
+      		<perMapProbability>0.2</perMapProbability>
+      		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
+      		<minClusterProbability>0</minClusterProbability>
+      		<maxClusterProbability>0.001</maxClusterProbability>
+          <!-- How  many squares each cluster will be -->
+          <minClusterSize>1</minClusterSize>
+          <maxClusterSize>3</maxClusterSize>
+          <!-- Controls how extra clusters are added near assocaited ore-->
+          <associatedOres>
+            <li>MineableSilver</li>
+            <li>Limestone</li>
+            <li>MineableCopper</li>
+            <li>AzuriteDeposit</li>
+            <li>MalachiteDeposit</li>
+            <li>CalciteCrystal</li>
+          </associatedOres>
+          <nearAssociatedOreBonus>50</nearAssociatedOreBonus>
+          <!-- Other resources it might drop -->
+          <randomlyDropResources>
+            <li>
+              <ResourceDefName>RoughGem</ResourceDefName>
+              <DropProbability>2.0</DropProbability>
+            </li>
+            <li>
+              <ResourceDefName>Copper</ResourceDefName>
+              <DropProbability>0.5</DropProbability>
+              <CountPerDrop>10</CountPerDrop>
+            </li>
+          </randomlyDropResources>
+      	</ThingDef>
+
+      </value>
+    </match>
+  </Operation>
+
+
+</Patch>

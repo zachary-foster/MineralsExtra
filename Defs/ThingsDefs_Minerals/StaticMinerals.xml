@@ -13,6 +13,9 @@
 			<drawSize>(1,1)</drawSize>
 			<color>(255,227,187)</color>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
     <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
     <!-- If defined, randomly pick colors from this set -->
@@ -38,16 +41,6 @@
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.002</maxClusterProbability>
-		<!-- The terrains this can appear on. The default is rocky terrains-->
-		<allowedTerrains>
-			<li>Granite_Rough</li>
-			<li>Marble_Rough</li>
-			<li>Limestone_Rough</li>
-			<li>Sandstone_Rough</li>
-			<li>Slate_Rough</li>
-      <li>LavaRock_Rough</li>
-      <li>Claystone_Rough</li>
-		</allowedTerrains>
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>QuartzCrystal</li>
@@ -76,6 +69,9 @@
 			<drawSize>(1,1)</drawSize>
       <color>(240,240,240)</color>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
     <randomColorsOne>
       <li>(230,230,230)</li>
@@ -94,7 +90,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
-			<Beauty>15</Beauty>
+			<Beauty>20</Beauty>
 		</statBases>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.2</perMapProbability>
@@ -106,11 +102,6 @@
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>3.0</DropProbability>
-      </li>
-      <li>
-        <ResourceDefName>GlassBatch</ResourceDefName>
-        <DropProbability>4</DropProbability>
-        <CountPerDrop>5</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
@@ -126,6 +117,9 @@
 			<drawSize>(1,1)</drawSize>
       <color>(240,240,240)</color>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
     <randomColorsOne>
       <li>(230,230,230)</li>
@@ -145,7 +139,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
-			<Beauty>20</Beauty>
+			<Beauty>25</Beauty>
 		</statBases>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -157,11 +151,6 @@
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>5.0</DropProbability>
-      </li>
-      <li>
-        <ResourceDefName>GlassBatch</ResourceDefName>
-        <DropProbability>4</DropProbability>
-        <CountPerDrop>5</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
@@ -178,6 +167,9 @@
       <color>(87,39,29)</color>
       <colorTwo>(251,229,172)</colorTwo>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
     </graphicData>
     <!-- If defined, randomly pick colors from this set -->
     <randomColorsOne>
@@ -230,6 +222,9 @@
 			<color>(135,124,79)</color>
 			<colorTwo>(155,144,99)</colorTwo>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -265,6 +260,9 @@
 			<color>(170,146,222)</color>
 			<colorTwo>(190,166,242)</colorTwo>
       <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -300,6 +298,9 @@
 			<texPath>Things/Mineral/WatermelonTourmalineCrystal</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -313,21 +314,22 @@
 		<maxClusterProbability>0.001</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>VolcanicFlow</li>
-			<li>RedwoodForest</li>
-			<li>DesertSaltFields</li>
-			<li>Steppes</li>
-			<li>Permafrost</li>
+      <li>IceSheet</li>
+      <li>Tundra</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+      <li>BorealForest</li>
+      <li>TropicalSwampArchipelago</li>
+      <li>BorealArchipelago</li>
+      <li>TundraArchipelago</li>
+      <li>ColdBogArchipelago</li>
+      <li>DesertArchipelago</li>
+      <li>VolcanicFlow</li>
+      <li>DesertSaltFields</li>
+      <li>RedwoodForest</li>
+      <li>TemperateDesert</li>
+      <li>Permafrost</li>
+      <li>Steppes</li>
 			<li>Wasteland</li>
 		</allowedBiomes>
     <!-- Other resources it might drop -->
@@ -335,58 +337,6 @@
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>10.0</DropProbability>
-      </li>
-    </randomlyDropResources>
-	</ThingDef>
-
-
-	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
-		<defName>BigSulfurCrystal</defName>
-		<label>Large Sulfur Crystals</label>
-		<description>Elemental sulfur crystals formed by volcanic gasses. These ones are quite large and the geologic conditions that created them have ceased long ago.</description>
-    <graphicData>
-      <texPath>Things/Mineral/PyriteCrystal</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>(1,1)</drawSize>
-      <color>(250,250,150)</color>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
-		<statBases>
-			<MaxHitPoints>400</MaxHitPoints>
-			<Flammability>0.5</Flammability>
-			<Beauty>10</Beauty>
-		</statBases>
-		<!-- The probability that this mineral type will be spawned at all on a given map -->
-		<perMapProbability>0.2</perMapProbability>
-		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.003</maxClusterProbability>
-		<!-- How  many squares each cluster will be -->
-		<minClusterSize>1</minClusterSize>
-		<maxClusterSize>6</maxClusterSize>
-		<!-- The terrains this can appear on. The default is rocky terrains-->
-		<allowedTerrains>
-			<li>Granite_Rough</li>
-			<li>Marble_Rough</li>
-			<li>Limestone_Rough</li>
-			<li>Sandstone_Rough</li>
-			<li>Slate_Rough</li>
-      <li>LavaRock_Rough</li>
-      <li>Claystone_Rough</li>
-			<li>LavaRock_RoughHewn</li>
-		</allowedTerrains>
-		<!-- Controls how extra clusters are added near assocaited ore-->
-		<associatedOres>
-			<li>Obsidian</li>
-		</associatedOres>
-		<nearAssociatedOreBonus>10</nearAssociatedOreBonus>
-    <!-- Other resources it might drop -->
-    <randomlyDropResources>
-      <li>
-        <ResourceDefName>Sulfur</ResourceDefName>
-        <DropProbability>4</DropProbability>
-        <CountPerDrop>5</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
@@ -401,6 +351,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(220,220,220)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -430,6 +383,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(220,130,123)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -438,18 +394,23 @@
 		<maxClusterProbability>0.001</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>VolcanicFlow</li>
-			<li>RedwoodForest</li>
+      <li>IceSheet</li>
+      <li>Tundra</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+      <li>BorealForest</li>
+      <li>TropicalSwampArchipelago</li>
+      <li>BorealArchipelago</li>
+      <li>TundraArchipelago</li>
+      <li>ColdBogArchipelago</li>
+      <li>DesertArchipelago</li>
+      <li>VolcanicFlow</li>
+      <li>DesertSaltFields</li>
+      <li>RedwoodForest</li>
+      <li>TemperateDesert</li>
+      <li>Permafrost</li>
+      <li>Steppes</li>
+			<li>Wasteland</li>
 		</allowedBiomes>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
@@ -474,6 +435,9 @@
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>(1,1)</drawSize>
       <color>(255, 255, 255)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
     </graphicData>
     <!-- The probability that this mineral type will be spawned at all on a given map -->
     <perMapProbability>0.2</perMapProbability>
@@ -499,6 +463,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(168,215,223)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -524,6 +491,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(227,210,120)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -532,18 +502,23 @@
 		<maxClusterProbability>0.001</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>VolcanicFlow</li>
-			<li>RedwoodForest</li>
+      <li>IceSheet</li>
+      <li>Tundra</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+      <li>BorealForest</li>
+      <li>TropicalSwampArchipelago</li>
+      <li>BorealArchipelago</li>
+      <li>TundraArchipelago</li>
+      <li>ColdBogArchipelago</li>
+      <li>DesertArchipelago</li>
+      <li>VolcanicFlow</li>
+      <li>DesertSaltFields</li>
+      <li>RedwoodForest</li>
+      <li>TemperateDesert</li>
+      <li>Permafrost</li>
+      <li>Steppes</li>
+			<li>Wasteland</li>
 		</allowedBiomes>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
@@ -564,6 +539,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(207,153,124)</color>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
 		</graphicData>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
 		<perMapProbability>0.1</perMapProbability>
@@ -572,75 +550,29 @@
 		<maxClusterProbability>0.001</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-			<li>Desert</li>
-			<li>ExtremeDesert</li>
-			<li>BorealForest</li>
-			<li>TropicalSwampArchipelago</li>
-			<li>BorealArchipelago</li>
-			<li>TundraArchipelago</li>
-			<li>ColdBogArchipelago</li>
-			<li>DesertArchipelago</li>
-			<li>VolcanicFlow</li>
-			<li>Desert</li>
-			<li>RedwoodForest</li>
+      <li>IceSheet</li>
+      <li>Tundra</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+      <li>BorealForest</li>
+      <li>TropicalSwampArchipelago</li>
+      <li>BorealArchipelago</li>
+      <li>TundraArchipelago</li>
+      <li>ColdBogArchipelago</li>
+      <li>DesertArchipelago</li>
+      <li>VolcanicFlow</li>
+      <li>DesertSaltFields</li>
+      <li>RedwoodForest</li>
+      <li>TemperateDesert</li>
+      <li>Permafrost</li>
+      <li>Steppes</li>
+			<li>Wasteland</li>
 		</allowedBiomes>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
         <DropProbability>7.0</DropProbability>
-      </li>
-    </randomlyDropResources>
-	</ThingDef>
-
-
-	<ThingDef ParentName="MetalOxideBase" Class="Minerals.ThingDef_StaticMineral">
-		<defName>AzuriteDeposit</defName>
-		<label>Azurite Deposit</label>
-		<description>Beautiful blue deposits of copper carbonate hydroxide, occasionally used for gemstones. Often found near copper ore, azurite, calcite, and limestone rock.</description>
-		<graphicData>
-			<texPath>Things/Mineral/UraniniteDeposit</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<color>(100,118,177)</color>
-      <shaderType>CutoutComplex</shaderType>
-		</graphicData>
-    <uiIconPath>Things/Mineral/PyriteCrystal/PyriteCrystalA</uiIconPath>
-		<statBases>
-			<MaxHitPoints>1000</MaxHitPoints>
-			<Flammability>0</Flammability>
-			<Beauty>20</Beauty>
-		</statBases>
-		<!-- The probability that this mineral type will be spawned at all on a given map -->
-		<perMapProbability>0.2</perMapProbability>
-		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
-    <!-- How  many squares each cluster will be -->
-    <minClusterSize>1</minClusterSize>
-    <maxClusterSize>3</maxClusterSize>
-    <!-- Controls how extra clusters are added near assocaited ore-->
-    <associatedOres>
-      <li>MineableSilver</li>
-      <li>Limestone</li>
-      <li>MineableCopper</li>
-      <li>AzuriteDeposit</li>
-      <li>MalachiteDeposit</li>
-      <li>CalciteCrystal</li>
-    </associatedOres>
-    <nearAssociatedOreBonus>50</nearAssociatedOreBonus>
-    <!-- Other resources it might drop -->
-    <randomlyDropResources>
-      <li>
-        <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>2.0</DropProbability>
-      </li>
-      <li>
-        <ResourceDefName>Copper</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <CountPerDrop>10</CountPerDrop>
       </li>
     </randomlyDropResources>
 	</ThingDef>
