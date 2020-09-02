@@ -40,7 +40,7 @@
 		<perMapProbability>0.3</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.002</maxClusterProbability>
+		<maxClusterProbability>0.004</maxClusterProbability>
 		<!-- Controls how extra clusters are added near assocaited ore-->
 		<associatedOres>
 			<li>QuartzCrystal</li>
@@ -56,6 +56,8 @@
         <DropProbability>1.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>4</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -96,14 +98,16 @@
 		<perMapProbability>0.2</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.002</maxClusterProbability>
+		<maxClusterProbability>0.003</maxClusterProbability>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>3.0</DropProbability>
+        <DropProbability>5.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>8</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -150,9 +154,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
+        <DropProbability>8.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>12</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -205,9 +211,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>3.0</DropProbability>
+        <DropProbability>4.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>5</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -243,9 +251,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>8.0</DropProbability>
+        <DropProbability>9.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>10</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -284,9 +294,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>8.0</DropProbability>
+        <DropProbability>10.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>12</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -336,9 +348,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>10.0</DropProbability>
+        <DropProbability>12.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>15</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -359,18 +373,20 @@
 		<perMapProbability>0.1</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>7.0</DropProbability>
+        <DropProbability>8.0</DropProbability>
       </li>
       <li>
         <ResourceDefName>RoughUltrahardGem</ResourceDefName>
         <DropProbability>2.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>10</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -416,13 +432,15 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>10.0</DropProbability>
+        <DropProbability>12.0</DropProbability>
       </li>
       <li>
         <ResourceDefName>RoughUltrahardGem</ResourceDefName>
         <DropProbability>2.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>12</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -443,14 +461,16 @@
     <perMapProbability>0.2</perMapProbability>
     <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
     <minClusterProbability>0</minClusterProbability>
-    <maxClusterProbability>0.001</maxClusterProbability>
+    <maxClusterProbability>0.002</maxClusterProbability>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
+        <DropProbability>7.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>7</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -471,14 +491,16 @@
 		<perMapProbability>0.1</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>7.0</DropProbability>
+        <DropProbability>9.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>8</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -499,7 +521,7 @@
 		<perMapProbability>0.1</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
       <li>IceSheet</li>
@@ -524,9 +546,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>8.0</DropProbability>
+        <DropProbability>10.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>9</otherSettlementMiningRadius>
 	</ThingDef>
 
 
@@ -547,7 +571,7 @@
 		<perMapProbability>0.1</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
-		<maxClusterProbability>0.001</maxClusterProbability>
+		<maxClusterProbability>0.002</maxClusterProbability>
 		<!-- The biomes this can appear in. The default is all ones known to mod-->
 		<allowedBiomes>
       <li>IceSheet</li>
@@ -572,9 +596,11 @@
     <randomlyDropResources>
       <li>
         <ResourceDefName>RoughGem</ResourceDefName>
-        <DropProbability>7.0</DropProbability>
+        <DropProbability>9.0</DropProbability>
       </li>
     </randomlyDropResources>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>8</otherSettlementMiningRadius>
 	</ThingDef>
 
 

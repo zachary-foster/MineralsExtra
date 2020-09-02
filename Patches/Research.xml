@@ -2,15 +2,6 @@
 <Patch>
   
 	<Operation Class="PatchOperationAdd">
-	  <xpath>Defs/ThingDef[defName = "PrimitiveResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
-	  <value>
-      <li>BigCitrineCrystalTrophy</li>
-      <li>BigPrasioliteCrystalTrophy</li>
-	  </value>
-	</Operation>
-	
-	
-	<Operation Class="PatchOperationAdd">
 	  <xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 	  <value>
       <li>BigCitrineCrystalTrophy</li>

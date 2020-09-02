@@ -35,6 +35,8 @@
     <ThingsToReplace>
       <li>CitrineCrystal</li>
     </ThingsToReplace>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>20</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -112,6 +114,8 @@
     <ThingsToReplace>
       <li>PrasioliteCrystal</li>
     </ThingsToReplace>
+    <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
+    <otherSettlementMiningRadius>20</otherSettlementMiningRadius>
   </ThingDef>
 
 
