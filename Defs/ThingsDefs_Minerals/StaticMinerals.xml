@@ -37,7 +37,7 @@
 			<Beauty>8</Beauty>
 		</statBases>
 		<!-- The probability that this mineral type will be spawned at all on a given map -->
-		<perMapProbability>0.3</perMapProbability>
+		<perMapProbability>0.2</perMapProbability>
 		<!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
 		<minClusterProbability>0</minClusterProbability>
 		<maxClusterProbability>0.004</maxClusterProbability>
