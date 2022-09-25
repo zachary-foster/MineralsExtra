@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksAnorthosite</defName>
+    <label>Anorthosite blocks</label>
+    <description>Blocks of Anorthosite</description>
+    <graphicData>
+      <color>(158,139,132)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(158,139,132)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>anorthosite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksChalk</defName>
+    <label>Chalk blocks</label>
+    <description>Blocks of Chalk</description>
+    <graphicData>
+      <color>(230,230,230)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(230,230,230)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>chalk</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksCharnockite</defName>
+    <label>Charnockite blocks</label>
+    <description>Blocks of Charnockite</description>
+    <graphicData>
+      <color>(141,120,79)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(141,120,79)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>charnockite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksCreoleMarble</defName>
+    <label>Creole Marble blocks</label>
+    <description>Blocks of Creole Marble</description>
+    <graphicData>
+      <color>(141,120,79)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(141,120,79)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>creole marble</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksDacite</defName>
+    <label>Dacite blocks</label>
+    <description>Blocks of Dacite</description>
+    <graphicData>
+      <color>(177,178,172)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(177,178,172)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>dacite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksAndesite</defName>
+    <label>Andesite blocks</label>
+    <description>Blocks of Andesite</description>
+    <graphicData>
+      <color>(177,178,172)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(177,178,172)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>andesite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksDunite</defName>
+    <label>Dunite blocks</label>
+    <description>Blocks of Dunite</description>
+    <graphicData>
+      <color>(153,176,110)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(153,176,110)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>dunite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksBrownMarble</defName>
+    <label>Brown Marble blocks</label>
+    <description>Blocks of Brown Marble</description>
+    <graphicData>
+      <color>(72,46,38)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(72,46,38)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>brown marble</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksEtowahMarble</defName>
+    <label>Etowah Marble blocks</label>
+    <description>Blocks of Etowah Marble</description>
+    <graphicData>
+      <color>(246,200,184)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(246,200,184)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>etowah marble</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksGabbro</defName>
+    <label>Gabbro blocks</label>
+    <description>Blocks of Gabbro</description>
+    <graphicData>
+      <color>(82,85,66)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(82,85,66)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>gabbro</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksSchist</defName>
+    <label>Schist blocks</label>
+    <description>Blocks of Schist</description>
+    <graphicData>
+      <color>(82,98,71)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(82,98,71)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>schist</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksJaspillite</defName>
+    <label>Jaspillite blocks</label>
+    <description>Blocks of Jaspillite</description>
+    <graphicData>
+      <color>(208,103,84)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(208,103,84)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>jaspillite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksLherzolite</defName>
+    <label>Lherzolite blocks</label>
+    <description>Blocks of Lherzolite</description>
+    <graphicData>
+      <color>(150,176,81)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(150,176,81)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>lherzolite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksLignite</defName>
+    <label>Lignite blocks</label>
+    <description>Blocks of Lignite</description>
+    <graphicData>
+      <color>(82,72,70)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(82,72,70)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>lignite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksMigmatite</defName>
+    <label>Migmatite blocks</label>
+    <description>Blocks of Migmatite</description>
+    <graphicData>
+      <color>(136,146,155)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(136,146,155)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>migmatite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksMonzonite</defName>
+    <label>Monzonite blocks</label>
+    <description>Blocks of Monzonite</description>
+    <graphicData>
+      <color>(193,184,186)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(193,184,186)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>monzonite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksRhyolite</defName>
+    <label>Rhyolite blocks</label>
+    <description>Blocks of Rhyolite</description>
+    <graphicData>
+      <color>(201,159,134)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(201,159,134)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>rhyolite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksScoria</defName>
+    <label>Scoria blocks</label>
+    <description>Blocks of Scoria</description>
+    <graphicData>
+      <color>(87,80,73)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(87,80,73)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>scoria</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksSerpentinite</defName>
+    <label>Serpentinite blocks</label>
+    <description>Blocks of Serpentinite</description>
+    <graphicData>
+      <color>(60,96,58)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(60,96,58)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>serpentinite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksSiltstone</defName>
+    <label>Siltstone blocks</label>
+    <description>Blocks of Siltstone</description>
+    <graphicData>
+      <color>(167,146,117)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(167,146,117)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>siltstone</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZF_StoneBlocksBase">
+    <defName>ZF_BlocksSovite</defName>
+    <label>Sovite blocks</label>
+    <description>Blocks of Sovite</description>
+    <graphicData>
+      <color>(187,181,135)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(187,181,135)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>sovite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>4.5</WorkToMake>
+        <Mass>1.25</Mass>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+
+
+
+
+</Defs>
