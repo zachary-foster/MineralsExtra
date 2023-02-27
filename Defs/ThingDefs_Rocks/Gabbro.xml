@@ -5,7 +5,7 @@
     <ThingDef Name="ZF_GabbroBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_GabbroBase</defName>
       <label>Gabbro Deposit</label>
-      <description>Gabbro is a very hard igneous rock.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
         <color>(82,85,66)</color>
       </graphicData>
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredGabbro" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredGabbro</defName>
       <label>Weathered Gabbro</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
         <color>(82,85,66)</color>
@@ -112,7 +112,7 @@
     <ThingDef Name="ZF_SolidGabbro" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidGabbro</defName>
       <label>Solid Gabbro</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
         <color>(82,85,66)</color>
@@ -204,7 +204,7 @@
     <ThingDef Name="ZF_HewnGabbro" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnGabbro</defName>
       <label>Hewn Gabbro</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
         <color>(82,85,66)</color>
@@ -305,7 +305,7 @@
     <ThingDef Name="ZF_SmoothedHewnGabbro" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnGabbro</defName>
       <label>Smoothed Gabbro</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(82,85,66)</color>
@@ -362,7 +362,7 @@
     <ThingDef Name="ZF_BoulderGabbro" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderGabbro</defName>
       <label>Gabbro Boulder</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
         <color>(82,85,66)</color>
@@ -508,7 +508,7 @@
     <ThingDef Name="ZF_PassableGabbro" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableGabbro</defName>
       <label>Gabbro Rocks</label>
-      <description>A coarse-grained igneous rock with a composition similar to basalt.</description>
+      <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
         <color>(82,85,66)</color>

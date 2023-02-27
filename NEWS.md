@@ -1,3 +1,7 @@
+## Current
+
+* Added many new rock types
+
 ## v1.1.0
 
 * Added giant versions of citrin and prasiolite that can aid in research.

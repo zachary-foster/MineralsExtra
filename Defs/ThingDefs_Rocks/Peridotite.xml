@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-
-    <ThingDef Name="ZF_DuniteBase" ParentName="ZF_UglyRockBase">
-      <defName>ZF_DuniteBase</defName>
-      <label>Dunite Deposit</label>
-      <description>Dunite is a very hard igneous rock.</description>
+    <ThingDef Name="ZF_PeridotiteBase" ParentName="ZF_UglyRockBase">
+      <defName>ZF_PeridotiteBase</defName>
+      <label>Peridotite Deposit</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
-        <color>(153,176,110)</color>
+        <color>(150,176,81)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.4</mineableDropChance>
       </building>
     </ThingDef>
 
-    <ThingDef Name="ZF_WeatheredDunite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_WeatheredDunite</defName>
-      <label>Weathered Dunite</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+
+    <ThingDef Name="ZF_WeatheredPeridotite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_WeatheredPeridotite</defName>
+      <label>Weathered Peridotite</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
-        <color>(153,176,110)</color>
+        <texPath>Things/Rock/SolidGranite</texPath>
+        <color>(150,176,81)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>4</Beauty>
+        <Beauty>2</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -63,7 +63,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_DuniteBase_Rough</li>
+        <li>ZF_PeridotiteBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
@@ -73,18 +73,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.06</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.05</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_PeridotiteBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -97,28 +103,28 @@
     </ThingDef>
     
     
-    <ThingDef Name="ZF_SolidDunite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
-      <defName>ZF_SolidDunite</defName>
-      <label>Solid Dunite</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+    <ThingDef Name="ZF_SolidPeridotite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
+      <defName>ZF_SolidPeridotite</defName>
+      <label>Solid Peridotite</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
-        <color>(153,176,110)</color>
+        <color>(150,176,81)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>4</Beauty>
+        <Beauty>2</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -142,7 +148,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_DuniteBase_Rough</li>
+        <li>ZF_PeridotiteBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -152,19 +158,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.05</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_DuniteBase</li>
-        <li>ZF_HewnDunite</li>
+        <li>ZF_PeridotiteBase</li>
+        <li>ZF_HewnPeridotite</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -177,30 +189,30 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_HewnDunite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_HewnDunite</defName>
-      <label>Hewn Dunite</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+    <ThingDef Name="ZF_HewnPeridotite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_HewnPeridotite</defName>
+      <label>Hewn Peridotite</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
-        <color>(153,176,110)</color>
+        <color>(150,176,81)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1700</MaxHitPoints>
+        <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
-        <smoothedThing>ZF_SmoothedHewnDunite</smoothedThing>
+        <smoothedThing>ZF_SmoothedHewnPeridotite</smoothedThing>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -223,7 +235,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_PeridotiteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -245,18 +257,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.05</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_PeridotiteBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -269,41 +287,47 @@
     </ThingDef>
    
     
-    <ThingDef Name="ZF_SmoothedHewnDunite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_SmoothedHewnDunite</defName>
-      <label>Smoothed Dunite</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+    <ThingDef Name="ZF_SmoothedHewnPeridotite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_SmoothedHewnPeridotite</defName>
+      <label>Smoothed Peridotite</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
-  			<texPath>Things/Rock/SmoothedRockWall</texPath>
+  			<texPath>Things/Rock/SmoothedGranite</texPath>
         <color>(120,50,50)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/SmoothedGranite/SmoothedGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>5</Beauty>
+        <Beauty>3</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!-- Other resources it might drop -->
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.05</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Tags which determine how some options behave  -->
@@ -317,30 +341,30 @@
     </ThingDef>
   
     
-    <ThingDef Name="ZF_BoulderDunite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_BoulderDunite</defName>
-      <label>Dunite Boulder</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+    <ThingDef Name="ZF_BoulderPeridotite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_BoulderPeridotite</defName>
+      <label>Peridotite Boulder</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(153,176,110)</color>
+        <color>(150,176,81)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>900</MaxHitPoints>
+        <MaxHitPoints>1000</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>2</Beauty>
       </statBases>
       <pathCost>100</pathCost>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.6</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -364,7 +388,7 @@
   			<li>AB_CrackedMud</li>
   			<li>AB_RichCrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_DuniteBase_Rough</li>
+  			<li>ZF_PeridotiteBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -391,10 +415,10 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_DuniteBase_Rough</li>
-        <li>ZF_WeatheredDunite</li>
-        <li>ZF_SolidDunite</li>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_PeridotiteBase_Rough</li>
+        <li>ZF_WeatheredPeridotite</li>
+        <li>ZF_SolidPeridotite</li>
+        <li>ZF_PeridotiteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>10</neededNearbyTerrainRadius>
@@ -402,9 +426,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_DuniteBase_Rough</li>
-        <li>ZF_WeatheredDunite</li>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_PeridotiteBase_Rough</li>
+        <li>ZF_WeatheredPeridotite</li>
+        <li>ZF_PeridotiteBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -427,18 +451,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.05</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
           <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_ChunkDunite</li>
+        <li>ZF_ChunkPeridotite</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -451,33 +481,33 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_PassableDunite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_PassableDunite</defName>
-      <label>Dunite Rocks</label>
-      <description>An igneous rock composed almost entirely of shimmering green crystals of olivine. This beautiful rock is common deep within the planet but is rarely found on the surface.</description>
+    <ThingDef Name="ZF_PassablePeridotite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_PassablePeridotite</defName>
+      <label>Peridotite Rocks</label>
+      <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
-        <color>(153,176,110)</color>
+        <color>(150,176,81)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
-      <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(140,180,100)</li>
+        <li>(100,110,90)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(240,240,240)</li>
+        <li>(160,190,85)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>600</MaxHitPoints>
+        <MaxHitPoints>700</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>0</Beauty>
       </statBases>
       <pathCost>20</pathCost>
       <building>
-        <mineableThing>ZF_ChunkDunite</mineableThing>
+        <mineableThing>ZF_ChunkPeridotite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -500,7 +530,7 @@
   		<allowedTerrains>
   			<li>AB_CrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_DuniteBase_Rough</li>
+  			<li>ZF_PeridotiteBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -526,11 +556,11 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_BoulderDunite</li>
-  			<li>ZF_DuniteBase_Rough</li>
-        <li>ZF_WeatheredDunite</li>
-        <li>ZF_SolidDunite</li>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_BoulderPeridotite</li>
+  			<li>ZF_PeridotiteBase_Rough</li>
+        <li>ZF_WeatheredPeridotite</li>
+        <li>ZF_SolidPeridotite</li>
+        <li>ZF_PeridotiteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>4</neededNearbyTerrainRadius>
@@ -538,9 +568,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_BoulderDunite</li>
-        <li>ZF_WeatheredDunite</li>
-        <li>ZF_DuniteBase</li>
+        <li>ZF_BoulderPeridotite</li>
+        <li>ZF_WeatheredPeridotite</li>
+        <li>ZF_PeridotiteBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -563,17 +593,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
-          <MinMiningSkill>5</MinMiningSkill>
+          <DropProbability>0.03</DropProbability>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
           <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
       <mineSpeedFactor>1.2</mineSpeedFactor>
     </ThingDef>
+
+
 
 </Defs>

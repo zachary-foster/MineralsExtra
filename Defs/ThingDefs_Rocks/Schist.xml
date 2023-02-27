@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_SchistBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_SchistBase</defName>
       <label>Schist Deposit</label>
-      <description>Schist is a very hard igneous rock.</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <color>(159,191,214)</color>
       </graphicData>
@@ -20,7 +20,7 @@
     <ThingDef Name="ZF_WeatheredSchist" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredSchist</defName>
       <label>Weathered Schist</label>
-      <description>Weathered coarse-grained metamorphic rock</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredGranite</texPath>
         <color>(159,191,214)</color>
@@ -108,17 +108,17 @@
     <ThingDef Name="ZF_SolidSchist" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidSchist</defName>
       <label>Solid Schist</label>
-      <description>Solid coarse-grained metamorphic rock</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
         <color>(159,191,214)</color>
       </graphicData>
       <randomColorsOne>
         <li>(159,191,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(163,191,214)</li>
+        <li>(159,186,214)</li>
+        <li>(159,191,205)</li>
+        <li>(159,196,214)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(200,200,200)</li>
@@ -197,17 +197,17 @@
     <ThingDef Name="ZF_HewnSchist" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnSchist</defName>
       <label>Hewn Schist</label>
-      <description>Hewn coarse-grained metamorphic rock</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
         <color>(159,191,214)</color>
       </graphicData>
       <randomColorsOne>
         <li>(159,191,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(163,191,214)</li>
+        <li>(159,186,214)</li>
+        <li>(159,191,205)</li>
+        <li>(159,196,214)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(200,200,200)</li>
@@ -298,17 +298,17 @@
     <ThingDef Name="ZF_SmoothedHewnSchist" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnSchist</defName>
       <label>Smoothed Schist</label>
-      <description>coarse-grained metamorphic rock that has been polished flat.</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedGranite</texPath>
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
         <li>(159,191,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(163,191,214)</li>
+        <li>(159,186,214)</li>
+        <li>(159,191,205)</li>
+        <li>(159,196,214)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(200,200,200)</li>
@@ -355,17 +355,17 @@
     <ThingDef Name="ZF_BoulderSchist" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderSchist</defName>
       <label>Schist Boulder</label>
-      <description>A coarse-grained metamorphic Boulder.</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
         <color>(159,191,214)</color>
       </graphicData>
       <randomColorsOne>
         <li>(159,191,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(163,191,214)</li>
+        <li>(159,186,214)</li>
+        <li>(159,191,205)</li>
+        <li>(159,196,214)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(200,200,200)</li>
@@ -498,7 +498,7 @@
     <ThingDef Name="ZF_PassableSchist" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableSchist</defName>
       <label>Schist Rocks</label>
-      <description>Coarse-grained metamorphic rocks</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
         <color>(159,191,214)</color>
@@ -508,10 +508,10 @@
       </graphicData>
       <randomColorsOne>
         <li>(159,191,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(163,191,214)</li>
+        <li>(159,186,214)</li>
+        <li>(159,191,205)</li>
+        <li>(159,196,214)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(200,200,200)</li>
@@ -530,7 +530,7 @@
       <pathCost>20</pathCost>
       <building>
         <mineableThing>ZF_ChunkSchist</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableDropChance>0.2</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->

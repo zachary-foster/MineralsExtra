@@ -4,9 +4,9 @@
     <ThingDef Name="ZF_AnorthositeBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_AnorthositeBase</defName>
       <label>Anorthosite Deposit</label>
-      <description>Anorthosite is a very hard igneous rock.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -20,22 +20,22 @@
     <ThingDef Name="ZF_WeatheredAnorthosite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredAnorthosite</defName>
       <label>Weathered Anorthosite</label>
-      <description>Weathered plutonic rock composed largely of calcic plagioclase.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredGranite</texPath>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
@@ -118,22 +118,22 @@
     <ThingDef Name="ZF_SolidAnorthosite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidAnorthosite</defName>
       <label>Solid Anorthosite</label>
-      <description>Solid plutonic rock composed largely of calcic plagioclase.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredBasalt</texPath>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <statBases>
@@ -217,22 +217,22 @@
     <ThingDef Name="ZF_HewnAnorthosite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnAnorthosite</defName>
       <label>Hewn Anorthosite</label>
-      <description>A plutonic Hewn wall of rock composed largely of calcic plagioclase.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <statBases>
@@ -328,22 +328,22 @@
     <ThingDef Name="ZF_SmoothedHewnAnorthosite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnAnorthosite</defName>
       <label>Smoothed Anorthosite</label>
-      <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <statBases>
@@ -395,22 +395,22 @@
     <ThingDef Name="ZF_BoulderAnorthosite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderAnorthosite</defName>
       <label>Anorthosite Boulder</label>
-      <description>A plutonic Boulder composed largely of calcic plagioclase.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
@@ -548,25 +548,25 @@
     <ThingDef Name="ZF_PassableAnorthosite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableAnorthosite</defName>
       <label>Anorthosite Rocks</label>
-      <description>A plutonic rock composed largely of calcic plagioclase rocks.</description>
+      <description>Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar. Anorthosites sometimes contains ores of titanium and aluminum.</description>
       <graphicData>
         <texPath>Things/Rock/PassableLimestone</texPath>
-        <color>(158,139,132)</color>
+        <color>(158,149,142)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
       <randomColorsOne>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(158,139,132)</li>
-        <li>(154,139,132)</li>
-        <li>(158,135,132)</li>
-        <li>(158,139,129)</li>
+        <li>(158,149,142)</li>
+        <li>(154,149,142)</li>
+        <li>(158,145,142)</li>
+        <li>(158,149,139)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/PassableLimestone/PassableLimestoneA</uiIconPath>
       <fillPercent>0.3</fillPercent>

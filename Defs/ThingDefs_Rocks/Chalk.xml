@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_ChalkBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_ChalkBase</defName>
       <label>Chalk Deposit</label>
-      <description>Chalk is a very hard igneous rock.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
         <color>(230,230,230)</color>
       </graphicData>
@@ -20,7 +20,7 @@
     <ThingDef Name="ZF_WeatheredChalk" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredChalk</defName>
       <label>Weathered Chalk</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredSandstone</texPath>
         <color>(230,230,230)</color>
@@ -30,7 +30,7 @@
         <li>(230,230,230)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,180,150)</li>
+        <li>(225,200,180)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>600</MaxHitPoints>
@@ -112,7 +112,7 @@
     <ThingDef Name="ZF_SolidChalk" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidChalk</defName>
       <label>Solid Chalk</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
         <color>(230,230,230)</color>
@@ -205,7 +205,7 @@
     <ThingDef Name="ZF_HewnChalk" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnChalk</defName>
       <label>Hewn Chalk</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
         <color>(230,230,230)</color>
@@ -215,7 +215,7 @@
         <li>(230,230,230)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(230,220,215)</li>
+        <li>(230,210,200)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1000</MaxHitPoints>
@@ -310,7 +310,7 @@
     <ThingDef Name="ZF_SmoothedHewnChalk" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnChalk</defName>
       <label>Smoothed Chalk</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
@@ -320,7 +320,7 @@
         <li>(230,230,230)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(230,220,215)</li>
+        <li>(230,215,210)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>900</MaxHitPoints>
@@ -371,7 +371,7 @@
     <ThingDef Name="ZF_BoulderChalk" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderChalk</defName>
       <label>Chalk Boulder</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
         <texPath>Things/Rock/PassableSandstone</texPath>
         <color>(230,230,230)</color>
@@ -381,7 +381,7 @@
         <li>(230,230,230)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(185,155,110)</li>
+        <li>(225,200,180)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
@@ -518,7 +518,7 @@
     <ThingDef Name="ZF_PassableChalk" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableChalk</defName>
       <label>Chalk Rocks</label>
-      <description>A fine-grained soft rock formed from the calcite shells of long dead plankton.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
       <graphicData>
         <texPath>Things/Rock/PassableSandstone</texPath>
         <color>(230,230,230)</color>
@@ -531,7 +531,7 @@
         <li>(230,230,230)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(185,155,110)</li>
+        <li>(225,200,180)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
@@ -652,7 +652,6 @@
       <!-- How easy it is to mine -->
       <mineSpeedFactor>1.2</mineSpeedFactor>
     </ThingDef>
-
 
 
 

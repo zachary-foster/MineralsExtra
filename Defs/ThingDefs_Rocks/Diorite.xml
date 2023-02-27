@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef Name="ZF_CharnockiteBase" ParentName="ZF_UglyRockBase">
-      <defName>ZF_CharnockiteBase</defName>
-      <label>Charnockite Deposit</label>
-      <description>Charnockite is a very hard igneous rock.</description>
+    <ThingDef Name="ZF_DioriteBase" ParentName="ZF_UglyRockBase">
+      <defName>ZF_DioriteBase</defName>
+      <label>Diorite Deposit</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-        <color>(141,120,79)</color>
+        <color>(177,178,172)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.4</mineableDropChance>
       </building>
     </ThingDef>
 
-    <ThingDef Name="ZF_WeatheredCharnockite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_WeatheredCharnockite</defName>
-      <label>Weathered Charnockite</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_WeatheredDiorite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_WeatheredDiorite</defName>
+      <label>Weathered Diorite</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
-        <color>(141,120,79)</color>
+        <texPath>Things/Rock/SolidGranite</texPath>
+        <color>(177,178,172)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>0</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -68,7 +68,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_CharnockiteBase_Rough</li>
+        <li>ZF_DioriteBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
@@ -78,19 +78,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_DioriteBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -103,34 +108,34 @@
     </ThingDef>
     
     
-    <ThingDef Name="ZF_SolidCharnockite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
-      <defName>ZF_SolidCharnockite</defName>
-      <label>Solid Charnockite</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_SolidDiorite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
+      <defName>ZF_SolidDiorite</defName>
+      <label>Solid Diorite</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredBasalt</texPath>
-        <color>(141,120,79)</color>
+        <texPath>Things/Rock/SolidGranite</texPath>
+        <color>(177,178,172)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
+      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1700</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>1</Beauty>
+        <Beauty>0</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -154,7 +159,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_CharnockiteBase_Rough</li>
+        <li>ZF_DioriteBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -164,20 +169,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_CharnockiteBase</li>
-        <li>ZF_HewnCharnockite</li>
+        <li>ZF_DioriteBase</li>
+        <li>ZF_HewnDiorite</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -190,26 +200,26 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_HewnCharnockite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_HewnCharnockite</defName>
-      <label>Hewn Charnockite</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_HewnDiorite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_HewnDiorite</defName>
+      <label>Hewn Diorite</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-  			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(141,120,79)</color>
+  			<texPath>Things/Rock/HewnGranite</texPath>
+        <color>(177,178,172)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
+      <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1800</MaxHitPoints>
@@ -217,9 +227,9 @@
         <Beauty>0</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
-        <smoothedThing>ZF_SmoothedHewnCharnockite</smoothedThing>
+        <smoothedThing>ZF_SmoothedHewnDiorite</smoothedThing>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -242,7 +252,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_DioriteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -264,19 +274,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_DioriteBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -289,48 +304,53 @@
     </ThingDef>
    
     
-    <ThingDef Name="ZF_SmoothedHewnCharnockite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_SmoothedHewnCharnockite</defName>
-      <label>Smoothed Charnockite</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_SmoothedHewnDiorite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_SmoothedHewnDiorite</defName>
+      <label>Smoothed Diorite</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-  			<texPath>Things/Rock/SmoothedRockWall</texPath>
-        <color>(120,50,50)</color>
+  			<texPath>Things/Rock/SmoothedGranite</texPath>
+        <color>(177,178,172)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
+      <uiIconPath>Things/Rock/SmoothedGranite/SmoothedGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1700</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!-- Other resources it might drop -->
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Tags which determine how some options behave  -->
@@ -344,36 +364,36 @@
     </ThingDef>
   
     
-    <ThingDef Name="ZF_BoulderCharnockite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_BoulderCharnockite</defName>
-      <label>Charnockite Boulder</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_BoulderDiorite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_BoulderDiorite</defName>
+      <label>Diorite Boulder</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(141,120,79)</color>
+        <color>(177,178,172)</color>
       </graphicData>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>900</MaxHitPoints>
+        <MaxHitPoints>1000</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>0</Beauty>
       </statBases>
       <pathCost>100</pathCost>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.6</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -397,7 +417,7 @@
   			<li>AB_CrackedMud</li>
   			<li>AB_RichCrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_CharnockiteBase_Rough</li>
+  			<li>ZF_DioriteBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -424,10 +444,10 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_CharnockiteBase_Rough</li>
-        <li>ZF_WeatheredCharnockite</li>
-        <li>ZF_SolidCharnockite</li>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_DioriteBase_Rough</li>
+        <li>ZF_WeatheredDiorite</li>
+        <li>ZF_SolidDiorite</li>
+        <li>ZF_DioriteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>10</neededNearbyTerrainRadius>
@@ -435,9 +455,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_CharnockiteBase_Rough</li>
-        <li>ZF_WeatheredCharnockite</li>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_DioriteBase_Rough</li>
+        <li>ZF_WeatheredDiorite</li>
+        <li>ZF_DioriteBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -460,19 +480,24 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_ChunkCharnockite</li>
+        <li>ZF_ChunkDiorite</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -485,39 +510,39 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_PassableCharnockite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_PassableCharnockite</defName>
-      <label>Charnockite Rocks</label>
-      <description>A metamorphic rock derived from granite subjected to high temperatures and pressured deep within the planet.</description>
+    <ThingDef Name="ZF_PassableDiorite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_PassableDiorite</defName>
+      <label>Diorite Rocks</label>
+      <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-        <texPath>Things/Rock/PassableLimestone</texPath>
-        <color>(141,120,79)</color>
+        <texPath>Things/Rock/PassableGranite</texPath>
+        <color>(177,178,172)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
-      <uiIconPath>Things/Rock/PassableLimestone/PassableLimestoneA</uiIconPath>
+      <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(177,178,172)</li>
+        <li>(173,178,172)</li>
+        <li>(177,175,172)</li>
+        <li>(177,178,170)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(141,120,79)</li>
-        <li>(144,120,79)</li>
-        <li>(141,123,79)</li>
-        <li>(141,120,81)</li>
+        <li>(200,205,190)</li>
+        <li>(205,205,190)</li>
+        <li>(200,210,190)</li>
+        <li>(200,205,195)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>600</MaxHitPoints>
+        <MaxHitPoints>900</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
       <pathCost>20</pathCost>
       <building>
-        <mineableThing>ZF_ChunkCharnockite</mineableThing>
+        <mineableThing>ZF_ChunkDiorite</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -540,7 +565,7 @@
   		<allowedTerrains>
   			<li>AB_CrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_CharnockiteBase_Rough</li>
+  			<li>ZF_DioriteBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -566,11 +591,11 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_BoulderCharnockite</li>
-  			<li>ZF_CharnockiteBase_Rough</li>
-        <li>ZF_WeatheredCharnockite</li>
-        <li>ZF_SolidCharnockite</li>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_BoulderDiorite</li>
+  			<li>ZF_DioriteBase_Rough</li>
+        <li>ZF_WeatheredDiorite</li>
+        <li>ZF_SolidDiorite</li>
+        <li>ZF_DioriteBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>4</neededNearbyTerrainRadius>
@@ -578,9 +603,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_BoulderCharnockite</li>
-        <li>ZF_WeatheredCharnockite</li>
-        <li>ZF_CharnockiteBase</li>
+        <li>ZF_BoulderDiorite</li>
+        <li>ZF_WeatheredDiorite</li>
+        <li>ZF_DioriteBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -603,14 +628,19 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.04</DropProbability>
+          <DropProbability>0.01</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
+          <DropProbability>1</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <DropProbability>0.005</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->

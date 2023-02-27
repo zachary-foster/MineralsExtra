@@ -4,7 +4,7 @@
 
     <ThingDef Name="ZF_BrownMarbleBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_BrownMarbleBase</defName>
-      <label>BrownMarble Deposit</label>
+      <label>Brown Marble Deposit</label>
       <description>A brown form of marble.</description>
       <graphicData>
         <color>(60,55,35)</color>

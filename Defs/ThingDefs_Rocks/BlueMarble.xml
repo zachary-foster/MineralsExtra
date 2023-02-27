@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef Name="ZF_JaspilliteBase" ParentName="ZF_UglyRockBase">
-      <defName>ZF_JaspilliteBase</defName>
-      <label>Jaspillite Deposit</label>
-      <description>Jaspillite is a very hard igneous rock.</description>
+    <ThingDef Name="ZF_BlueMarbleBase" ParentName="ZF_UglyRockBase">
+      <defName>ZF_BlueMarbleBase</defName>
+      <label>Blue Marble Deposit</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <color>(208,103,84)</color>
+        <color>(174,211,210)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.4</mineableDropChance>
       </building>
     </ThingDef>
 
-
-    <ThingDef Name="ZF_WeatheredJaspillite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_WeatheredJaspillite</defName>
-      <label>Weathered Jaspillite</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_WeatheredBlueMarble" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_WeatheredBlueMarble</defName>
+      <label>Weathered Blue Marble</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(208,103,84)</color>
+        <texPath>Things/Rock/WeatheredMarble</texPath>
+        <color>(174,211,210)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/WeatheredMarble/WeatheredMarbleA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1200</MaxHitPoints>
+        <MaxHitPoints>1300</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -63,7 +62,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_JaspilliteBase_Rough</li>
+        <li>ZF_BlueMarbleBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
@@ -73,31 +72,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.03</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.1</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BlueMarbleBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -110,28 +103,28 @@
     </ThingDef>
     
     
-    <ThingDef Name="ZF_SolidJaspillite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
-      <defName>ZF_SolidJaspillite</defName>
-      <label>Solid Jaspillite</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_SolidBlueMarble" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
+      <defName>ZF_SolidBlueMarble</defName>
+      <label>Solid Blue Marble</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(208,103,84)</color>
+        <texPath>Things/Rock/SolidMarble</texPath>
+        <color>(174,211,210)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/SolidMarble/SolidMarbleA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1300</MaxHitPoints>
+        <MaxHitPoints>1500</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>1</Beauty>
+        <Beauty>2</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -155,7 +148,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_JaspilliteBase_Rough</li>
+        <li>ZF_BlueMarbleBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -165,32 +158,26 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.03</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.1</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_JaspilliteBase</li>
-        <li>ZF_HewnJaspillite</li>
+        <li>ZF_BlueMarbleBase</li>
+        <li>ZF_HewnBlueMarble</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -203,30 +190,30 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_HewnJaspillite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_HewnJaspillite</defName>
-      <label>Hewn Jaspillite</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_HewnBlueMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_HewnBlueMarble</defName>
+      <label>Hewn Blue Marble</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-  			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(208,103,84)</color>
+  			<texPath>Things/Rock/HewnMarble</texPath>
+        <color>(174,211,210)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/HewnMarble/HewnMarbleA</uiIconPath>
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>0</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
-        <smoothedThing>ZF_SmoothedHewnJaspillite</smoothedThing>
+        <smoothedThing>ZF_SmoothedHewnBlueMarble</smoothedThing>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -249,7 +236,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BlueMarbleBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -271,31 +258,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.03</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.1</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BlueMarbleBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -308,53 +289,47 @@
     </ThingDef>
    
     
-    <ThingDef Name="ZF_SmoothedHewnJaspillite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_SmoothedHewnJaspillite</defName>
-      <label>Smoothed Jaspillite</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_SmoothedHewnBlueMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_SmoothedHewnBlueMarble</defName>
+      <label>Smoothed Blue Marble</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-  			<texPath>Things/Rock/SmoothedRockWall</texPath>
+  			<texPath>Things/Rock/SmoothedMarble</texPath>
         <color>(120,50,50)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/SmoothedMarble/SmoothedMarbleA</uiIconPath>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!-- Other resources it might drop -->
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.03</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.1</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
@@ -369,30 +344,30 @@
     </ThingDef>
   
     
-    <ThingDef Name="ZF_BoulderJaspillite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_BoulderJaspillite</defName>
-      <label>Jaspillite Boulder</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_BoulderBlueMarble" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_BoulderBlueMarble</defName>
+      <label>Blue Marble Boulder</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <texPath>Things/Rock/PassableSandstone</texPath>
-        <color>(208,103,84)</color>
+        <texPath>Things/Rock/BoulderMarble</texPath>
+        <color>(174,211,210)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/BoulderMarble/BoulderMarbleA</uiIconPath>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>800</MaxHitPoints>
+        <MaxHitPoints>900</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
       <pathCost>100</pathCost>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.6</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -416,7 +391,7 @@
   			<li>AB_CrackedMud</li>
   			<li>AB_RichCrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_JaspilliteBase_Rough</li>
+  			<li>ZF_BlueMarbleBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -443,10 +418,10 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_JaspilliteBase_Rough</li>
-        <li>ZF_WeatheredJaspillite</li>
-        <li>ZF_SolidJaspillite</li>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BlueMarbleBase_Rough</li>
+        <li>ZF_WeatheredBlueMarble</li>
+        <li>ZF_SolidBlueMarble</li>
+        <li>ZF_BlueMarbleBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>10</neededNearbyTerrainRadius>
@@ -454,9 +429,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_JaspilliteBase_Rough</li>
-        <li>ZF_WeatheredJaspillite</li>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BlueMarbleBase_Rough</li>
+        <li>ZF_WeatheredBlueMarble</li>
+        <li>ZF_BlueMarbleBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -479,31 +454,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.03</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.1</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_ChunkJaspillite</li>
+        <li>ZF_ChunkBlueMarble</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -516,33 +485,33 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_PassableJaspillite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_PassableJaspillite</defName>
-      <label>Jaspillite Rocks</label>
-      <description>A variety of chert that contains significant quantites of iron.</description>
+    <ThingDef Name="ZF_PassableBlueMarble" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_PassableBlueMarble</defName>
+      <label>Blue Marble Rocks</label>
+      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <texPath>Things/Rock/PassableSandstone</texPath>
-        <color>(208,103,84)</color>
+        <texPath>Things/Rock/PassableMarble</texPath>
+        <color>(174,211,210)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
-      <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(208,103,84)</li>
+        <li>(200,218,220)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(120,120,120)</li>
+        <li>(100,150,155)</li>
       </randomColorsTwo>
+      <uiIconPath>Things/Rock/PassableMarble/PassableMarbleA</uiIconPath>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>500</MaxHitPoints>
+        <MaxHitPoints>600</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>0</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <pathCost>20</pathCost>
       <building>
-        <mineableThing>ZF_ChunkJaspillite</mineableThing>
+        <mineableThing>ZF_ChunkBlueMarble</mineableThing>
         <mineableDropChance>0.3</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
@@ -565,7 +534,7 @@
   		<allowedTerrains>
   			<li>AB_CrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_JaspilliteBase_Rough</li>
+  			<li>ZF_BlueMarbleBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -591,11 +560,11 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_BoulderJaspillite</li>
-  			<li>ZF_JaspilliteBase_Rough</li>
-        <li>ZF_WeatheredJaspillite</li>
-        <li>ZF_SolidJaspillite</li>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BoulderBlueMarble</li>
+  			<li>ZF_BlueMarbleBase_Rough</li>
+        <li>ZF_WeatheredBlueMarble</li>
+        <li>ZF_SolidBlueMarble</li>
+        <li>ZF_BlueMarbleBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>4</neededNearbyTerrainRadius>
@@ -603,9 +572,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_BoulderJaspillite</li>
-        <li>ZF_WeatheredJaspillite</li>
-        <li>ZF_JaspilliteBase</li>
+        <li>ZF_BoulderBlueMarble</li>
+        <li>ZF_WeatheredBlueMarble</li>
+        <li>ZF_BlueMarbleBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -638,21 +607,16 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>4</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>Steel</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
-          <CountPerDrop>20</CountPerDrop>
+          <ResourceDefName>Jade</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
+          <CountPerDrop>15</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
       <mineSpeedFactor>1.2</mineSpeedFactor>
     </ThingDef>
+
 
 
 </Defs>

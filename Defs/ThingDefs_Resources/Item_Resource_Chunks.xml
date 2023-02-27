@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkAnorthosite</defName>
     <label>Anorthosite chunk</label>
     <graphicData>
@@ -25,7 +25,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>10</Mass>
+      <Mass>9</Mass>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
@@ -33,9 +33,9 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkCharnockite</defName>
-    <label>Charnockite chunk</label>
+  <ThingDef ParentName="ZF_ChunkRockBase">
+    <defName>ZF_ChunkBlueMarble</defName>
+    <label>Blue marble chunk</label>
     <graphicData>
       <color>(141,120,79)</color>
       <graphicClass>Graphic_Random</graphicClass>
@@ -45,29 +45,13 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksCharnockite>20</ZF_BlocksCharnockite>  
+      <ZF_BlocksBlueMarble>20</ZF_BlocksBlueMarble>  
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkCreoleMarble</defName>
-    <label>Creole marble chunk</label>
-    <graphicData>
-      <color>(141,120,79)</color>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>10</Mass>
-    </statBases>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <butcherProducts Inherit="False">
-      <ZF_BlocksCreoleMarble>20</ZF_BlocksCreoleMarble>  
-    </butcherProducts>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkDacite</defName>
-    <label>Dacite chunk</label>
+  <ThingDef ParentName="ZF_ChunkRockBase">
+    <defName>ZF_ChunkDiorite</defName>
+    <label>Diorite chunk</label>
     <graphicData>
       <color>(177,178,172)</color>
       <graphicClass>Graphic_Random</graphicClass>
@@ -77,11 +61,11 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksDacite>20</ZF_BlocksDacite>  
+      <ZF_BlocksDiorite>20</ZF_BlocksDiorite>  
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkAndesite</defName>
     <label>Andesite chunk</label>
     <graphicData>
@@ -97,23 +81,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkDunite</defName>
-    <label>Dunite chunk</label>
-    <graphicData>
-      <color>(153,176,110)</color>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>12</Mass>
-    </statBases>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <butcherProducts Inherit="False">
-      <ZF_BlocksDunite>15</ZF_BlocksDunite>  
-    </butcherProducts>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkBrownMarble</defName>
     <label>Brown marble chunk</label>
     <graphicData>
@@ -129,9 +97,9 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkEtowahMarble</defName>
-    <label>Etowah marble chunk</label>
+  <ThingDef ParentName="ZF_ChunkRockBase">
+    <defName>ZF_ChunkPinkMarble</defName>
+    <label>Pink marble chunk</label>
     <graphicData>
       <color>(246,200,184)</color>
       <graphicClass>Graphic_Random</graphicClass>
@@ -141,11 +109,11 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksEtowahMarble>20</ZF_BlocksEtowahMarble>  
+      <ZF_BlocksPinkMarble>20</ZF_BlocksPinkMarble>  
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkGabbro</defName>
     <label>Gabbro chunk</label>
     <graphicData>
@@ -161,11 +129,11 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkSchist</defName>
     <label>Schist chunk</label>
     <graphicData>
-      <color>(82,98,71)</color>
+      <color>(159,191,214)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
@@ -177,25 +145,9 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkJaspillite</defName>
-    <label>Jaspillite chunk</label>
-    <graphicData>
-      <color>(208,103,84)</color>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>10</Mass>
-    </statBases>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <butcherProducts Inherit="False">
-      <ZF_BlocksJaspillite>20</ZF_BlocksJaspillite>  
-    </butcherProducts>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkLherzolite</defName>
-    <label>Lherzolite chunk</label>
+  <ThingDef ParentName="ZF_ChunkRockBase">
+    <defName>ZF_ChunkPeridotite</defName>
+    <label>Peridotite chunk</label>
     <graphicData>
       <color>(150,176,81)</color>
       <graphicClass>Graphic_Random</graphicClass>
@@ -205,7 +157,7 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksLherzolite>20</ZF_BlocksLherzolite>  
+      <ZF_BlocksPeridotite>20</ZF_BlocksPeridotite>  
     </butcherProducts>
   </ThingDef>
 
@@ -217,7 +169,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>10</Mass>
+      <Mass>8</Mass>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
@@ -225,9 +177,9 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkMigmatite</defName>
-    <label>Migmatite chunk</label>
+  <ThingDef ParentName="ZF_ChunkRockBase">
+    <defName>ZF_ChunkGneiss</defName>
+    <label>Gneiss chunk</label>
     <graphicData>
       <color>(136,146,155)</color>
       <graphicClass>Graphic_Random</graphicClass>
@@ -237,27 +189,11 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksMigmatite>20</ZF_BlocksMigmatite>  
+      <ZF_BlocksGneiss>20</ZF_BlocksGneiss>  
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkMonzonite</defName>
-    <label>Monzonite chunk</label>
-    <graphicData>
-      <color>(193,184,186)</color>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>10</Mass>
-    </statBases>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <butcherProducts Inherit="False">
-      <ZF_BlocksMonzonite>20</ZF_BlocksMonzonite>  
-    </butcherProducts>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkRhyolite</defName>
     <label>Rhyolite chunk</label>
     <graphicData>
@@ -273,7 +209,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkScoria</defName>
     <label>Scoria chunk</label>
     <graphicData>
@@ -281,7 +217,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>10</Mass>
+      <Mass>9</Mass>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
@@ -289,7 +225,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkSerpentinite</defName>
     <label>Serpentinite chunk</label>
     <graphicData>
@@ -306,36 +242,19 @@
   </ThingDef>
 
   <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkSiltstone</defName>
-    <label>Siltstone chunk</label>
+    <defName>ZF_ChunkTuff</defName>
+    <label>Tuff chunk</label>
     <graphicData>
-      <color>(167,146,117)</color>
+      <color>(150,150,150)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>10</Mass>
+      <Mass>9</Mass>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">
-      <ZF_BlocksSiltstone>20</ZF_BlocksSiltstone>  
+      <ZF_BlocksTuff>20</ZF_BlocksTuff>  
     </butcherProducts>
   </ThingDef>
-
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
-    <defName>ZF_ChunkSovite</defName>
-    <label>Sovite chunk</label>
-    <graphicData>
-      <color>(187,181,135)</color>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>10</Mass>
-    </statBases>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <butcherProducts Inherit="False">
-      <ZF_BlocksSovite>20</ZF_BlocksSovite>  
-    </butcherProducts>
-  </ThingDef>
-
 
 </Defs>

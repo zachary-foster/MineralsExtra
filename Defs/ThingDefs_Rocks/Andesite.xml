@@ -5,7 +5,7 @@
     <ThingDef Name="ZF_AndesiteBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_AndesiteBase</defName>
       <label>Andesite Deposit</label>
-      <description>Andesite is a very hard igneous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
         <color>(112,118,118)</color>
       </graphicData>
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredAndesite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredAndesite</defName>
       <label>Weathered  Andesite</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredGranite</texPath>
         <color>(112,118,118)</color>
@@ -112,7 +112,7 @@
     <ThingDef Name="ZF_SolidAndesite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidAndesite</defName>
       <label> Andesite</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
         <color>(112,118,118)</color>
@@ -204,7 +204,7 @@
     <ThingDef Name="ZF_HewnAndesite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnAndesite</defName>
       <label>Hewn  Andesite</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
         <color>(112,118,118)</color>
@@ -305,7 +305,7 @@
     <ThingDef Name="ZF_SmoothedHewnAndesite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnAndesite</defName>
       <label>smoothed  andesite</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedGranite</texPath>
         <color>(112,118,118)</color>
@@ -362,7 +362,7 @@
     <ThingDef Name="ZF_BoulderAndesite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderAndesite</defName>
       <label> Andesite Boulder</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
         <color>(112,118,118)</color>
@@ -400,8 +400,8 @@
       <minClusterProbability>0.005</minClusterProbability>
       <maxClusterProbability>0.01</maxClusterProbability>
       <!-- How  many squares each cluster will be -->
-      <minClusterSize>1</minClusterSize>
-      <maxClusterSize>6</maxClusterSize>
+      <minClusterSize>3</minClusterSize>
+      <maxClusterSize>10</maxClusterSize>
       <!-- The range of starting sizes of individuals in clusters -->
       <initialSizeMin>.6</initialSizeMin>
       <initialSizeMax>1.0</initialSizeMax>
@@ -508,7 +508,7 @@
     <ThingDef Name="ZF_PassableAndesite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableAndesite</defName>
       <label> Andesite Rocks</label>
-      <description>A fine-grained igenous rock.</description>
+      <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
         <color>(112,118,118)</color>
@@ -549,8 +549,8 @@
       <minClusterProbability>0.02</minClusterProbability>
       <maxClusterProbability>0.05</maxClusterProbability>
       <!-- How  many squares each cluster will be -->
-      <minClusterSize>1</minClusterSize>
-      <maxClusterSize>10</maxClusterSize>
+      <minClusterSize>3</minClusterSize>
+      <maxClusterSize>20</maxClusterSize>
       <!-- The range of starting sizes of individuals in clusters -->
       <initialSizeMin>0.5</initialSizeMin>
       <initialSizeMax>1.0</initialSizeMax>

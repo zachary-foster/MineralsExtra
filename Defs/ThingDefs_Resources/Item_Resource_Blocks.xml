@@ -20,11 +20,11 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>anorthosite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.5</MarketValue>
         <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <WorkToBuild>5</WorkToBuild>
+        <WorkToMake>4</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -48,20 +48,20 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>chalk</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.5</Beauty>  
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>0.8</MaxHitPoints>
+        <WorkToBuild>3</WorkToBuild>
+        <WorkToMake>2.5</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksCharnockite</defName>
-    <label>Charnockite blocks</label>
-    <description>Blocks of Charnockite</description>
+    <defName>ZF_BlocksBlueMarble</defName>
+    <label>Blue Marble blocks</label>
+    <description>Blocks of Blue Marble</description>
     <graphicData>
       <color>(141,120,79)</color>
     </graphicData>
@@ -74,50 +74,22 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>charnockite</stuffAdjective>
+      <stuffAdjective>blue marble</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>2</Beauty>  
+        <MarketValue>2.0</MarketValue>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <WorkToBuild>6.0</WorkToBuild>
+        <WorkToMake>5.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksCreoleMarble</defName>
-    <label>Creole Marble blocks</label>
-    <description>Blocks of Creole Marble</description>
-    <graphicData>
-      <color>(141,120,79)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.8</MarketValue>
-      <Mass>1.2</Mass>
-    </statBases>
-    <stuffProps>
-      <color>(141,120,79)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>creole marble</stuffAdjective>
-      <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksDacite</defName>
-    <label>Dacite blocks</label>
-    <description>Blocks of Dacite</description>
+    <defName>ZF_BlocksDiorite</defName>
+    <label>Diorite blocks</label>
+    <description>Blocks of Diorite</description>
     <graphicData>
       <color>(177,178,172)</color>
     </graphicData>
@@ -130,13 +102,13 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>dacite</stuffAdjective>
+      <stuffAdjective>Diorite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.5</MarketValue>
         <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>4.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -160,37 +132,9 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>andesite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksDunite</defName>
-    <label>Dunite blocks</label>
-    <description>Blocks of Dunite</description>
-    <graphicData>
-      <color>(153,176,110)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.8</MarketValue>
-      <Mass>1.2</Mass>
-    </statBases>
-    <stuffProps>
-      <color>(153,176,110)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>dunite</stuffAdjective>
-      <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
         <WorkToBuild>5.5</WorkToBuild>
         <WorkToMake>4.5</WorkToMake>
         <Mass>1.25</Mass>
@@ -216,20 +160,20 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>brown marble</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>2.0</Beauty>  
+        <MarketValue>2.0</MarketValue>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <WorkToBuild>6.0</WorkToBuild>
+        <WorkToMake>5.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksEtowahMarble</defName>
-    <label>Etowah Marble blocks</label>
-    <description>Blocks of Etowah Marble</description>
+    <defName>ZF_BlocksPinkMarble</defName>
+    <label>Pink Marble blocks</label>
+    <description>Blocks of Pink Marble</description>
     <graphicData>
       <color>(246,200,184)</color>
     </graphicData>
@@ -242,13 +186,13 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>etowah marble</stuffAdjective>
+      <stuffAdjective>pink marble</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>2.5</Beauty>  
+        <MarketValue>2.0</MarketValue>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <WorkToBuild>6.0</WorkToBuild>
+        <WorkToMake>5.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -272,11 +216,11 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>gabbro</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>4.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -287,61 +231,61 @@
     <label>Schist blocks</label>
     <description>Blocks of Schist</description>
     <graphicData>
-      <color>(82,98,71)</color>
+      <color>(159,191,214)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(82,98,71)</color>
+      <color>(159,191,214)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>schist</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.3</Beauty>  
+        <MarketValue>0.7</MarketValue>
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>4.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksJaspillite</defName>
-    <label>Jaspillite blocks</label>
-    <description>Blocks of Jaspillite</description>
+    <defName>ZF_BlocksGneiss</defName>
+    <label>Gneiss blocks</label>
+    <description>Blocks of Gneiss</description>
     <graphicData>
-      <color>(208,103,84)</color>
+      <color>(136,146,155)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(208,103,84)</color>
+      <color>(136,146,155)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>jaspillite</stuffAdjective>
+      <stuffAdjective>gneiss</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.3</Beauty>  
+        <MarketValue>0.7</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>4.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksLherzolite</defName>
-    <label>Lherzolite blocks</label>
-    <description>Blocks of Lherzolite</description>
+    <defName>ZF_BlocksPeridotite</defName>
+    <label>Peridotite blocks</label>
+    <description>Blocks of Peridotite</description>
     <graphicData>
       <color>(150,176,81)</color>
     </graphicData>
@@ -354,13 +298,13 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>lherzolite</stuffAdjective>
+      <stuffAdjective>Peridotite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>2.0</Beauty>  
+        <MarketValue>1.5</MarketValue>
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <WorkToBuild>4.0</WorkToBuild>
+        <WorkToMake>3.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -384,68 +328,12 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>lignite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksMigmatite</defName>
-    <label>Migmatite blocks</label>
-    <description>Blocks of Migmatite</description>
-    <graphicData>
-      <color>(136,146,155)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.8</MarketValue>
-      <Mass>1.2</Mass>
-    </statBases>
-    <stuffProps>
-      <color>(136,146,155)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>migmatite</stuffAdjective>
-      <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
-  <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksMonzonite</defName>
-    <label>Monzonite blocks</label>
-    <description>Blocks of Monzonite</description>
-    <graphicData>
-      <color>(193,184,186)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.8</MarketValue>
-      <Mass>1.2</Mass>
-    </statBases>
-    <stuffProps>
-      <color>(193,184,186)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>monzonite</stuffAdjective>
-      <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
+        <Beauty>0.8</Beauty>  
+        <MarketValue>0.8</MarketValue>
+        <MaxHitPoints>1.0</MaxHitPoints>
+        <WorkToBuild>3.0</WorkToBuild>
+        <WorkToMake>2.5</WorkToMake>
+        <Mass>1.0</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -468,11 +356,11 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>rhyolite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>1.7</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>4.0</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
@@ -496,12 +384,12 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>scoria</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
+        <Beauty>0.8</Beauty>  
+        <MarketValue>0.3</MarketValue>
+        <MaxHitPoints>0.8</MaxHitPoints>
+        <WorkToBuild>4.5</WorkToBuild>
+        <WorkToMake>3.5</WorkToMake>
+        <Mass>1.0</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -524,74 +412,42 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>serpentinite</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
+        <Beauty>1.5</Beauty>  
+        <MarketValue>0.8</MarketValue>
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <WorkToBuild>4.5</WorkToBuild>
+        <WorkToMake>3.5</WorkToMake>
         <Mass>1.25</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksSiltstone</defName>
-    <label>Siltstone blocks</label>
-    <description>Blocks of Siltstone</description>
+    <defName>ZF_BlocksTuff</defName>
+    <label>Tuff blocks</label>
+    <description>Blocks of Tuff</description>
     <graphicData>
-      <color>(167,146,117)</color>
+      <color>(151,150,150)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(167,146,117)</color>
+      <color>(151,150,150)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>siltstone</stuffAdjective>
+      <stuffAdjective>tuff</stuffAdjective>
       <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
+        <Beauty>1.0</Beauty>  
+        <MarketValue>0.3</MarketValue>
+        <MaxHitPoints>0.8</MaxHitPoints>
+        <WorkToBuild>3.0</WorkToBuild>
+        <WorkToMake>2.5</WorkToMake>
+        <Mass>1.0</Mass>
       </statFactors>
     </stuffProps>
   </ThingDef>
-
-  <ThingDef ParentName="ZF_StoneBlocksBase">
-    <defName>ZF_BlocksSovite</defName>
-    <label>Sovite blocks</label>
-    <description>Blocks of Sovite</description>
-    <graphicData>
-      <color>(187,181,135)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.8</MarketValue>
-      <Mass>1.2</Mass>
-    </statBases>
-    <stuffProps>
-      <color>(187,181,135)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>sovite</stuffAdjective>
-      <statFactors>
-        <Beauty>0.9</Beauty>  
-        <MarketValue>0.4</MarketValue>
-        <MaxHitPoints>1.6</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>4.5</WorkToMake>
-        <Mass>1.25</Mass>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
-
-
-
 
 </Defs>

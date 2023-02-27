@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef Name="ZF_MonzoniteBase" ParentName="ZF_UglyRockBase">
-      <defName>ZF_MonzoniteBase</defName>
-      <label>Monzonite Deposit</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_GneissBase" ParentName="ZF_UglyRockBase">
+      <defName>ZF_GneissBase</defName>
+      <label>Gneiss Deposit</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-        <color>(193,184,186)</color>
+        <color>(136,146,155)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
         <mineableDropChance>0.4</mineableDropChance>
       </building>
     </ThingDef>
 
 
-    <ThingDef Name="ZF_WeatheredMonzonite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_WeatheredMonzonite</defName>
-      <label>Weathered Monzonite</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_WeatheredGneiss" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_WeatheredGneiss</defName>
+      <label>Weathered Gneiss</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
-        <color>(193,184,186)</color>
+        <texPath>Things/Rock/WeatheredLimestone</texPath>
+        <color>(136,146,155)</color>
       </graphicData>
+      <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.25</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -63,7 +63,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_MonzoniteBase_Rough</li>
+        <li>ZF_GneissBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>1</neededNearbyTerrainRadius>
@@ -73,24 +73,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_GneissBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -103,29 +104,29 @@
     </ThingDef>
     
     
-    <ThingDef Name="ZF_SolidMonzonite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
-      <defName>ZF_SolidMonzonite</defName>
-      <label>Solid Monzonite</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_SolidGneiss" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
+      <defName>ZF_SolidGneiss</defName>
+      <label>Solid Gneiss</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
-        <color>(193,184,186)</color>
+        <texPath>Things/Rock/SolidSandstone</texPath>
+        <color>(136,146,155)</color>
       </graphicData>
+      <uiIconPath>Things/Rock/SolidSandstone/SolidSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1700</MaxHitPoints>
+        <MaxHitPoints>1900</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>1</Beauty>
+        <Beauty>0</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.25</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -148,7 +149,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_MonzoniteBase_Rough</li>
+        <li>ZF_GneissBase_Rough</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -158,25 +159,26 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_MonzoniteBase</li>
-        <li>ZF_HewnMonzonite</li>
+        <li>ZF_GneissBase</li>
+        <li>ZF_HewnGneiss</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -189,30 +191,30 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_HewnMonzonite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_HewnMonzonite</defName>
-      <label>Hewn Monzonite</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_HewnGneiss" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_HewnGneiss</defName>
+      <label>Hewn Gneiss</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-  			<texPath>Things/Rock/HewnGranite</texPath>
-        <color>(193,184,186)</color>
+  			<texPath>Things/Rock/HewnRockWall</texPath>
+        <color>(136,146,155)</color>
       </graphicData>
+      <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>2000</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
-        <smoothedThing>ZF_SmoothedHewnMonzonite</smoothedThing>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.25</mineableDropChance>
+        <smoothedThing>ZF_SmoothedHewnGneiss</smoothedThing>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -235,7 +237,7 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_GneissBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
@@ -257,24 +259,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_GneissBase</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -287,40 +290,48 @@
     </ThingDef>
    
     
-    <ThingDef Name="ZF_SmoothedHewnMonzonite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_SmoothedHewnMonzonite</defName>
-      <label>Smoothed Monzonite</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_SmoothedHewnGneiss" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_SmoothedHewnGneiss</defName>
+      <label>Smoothed Gneiss</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <statBases>
         <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>2</Beauty>
       </statBases>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.25</mineableDropChance>
       </building>
       <!-- Other resources it might drop -->
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.03</DropProbability>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
           <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
+          <WasteProduct>true</WasteProduct>
+        </li>
+        <li>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
+          <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Tags which determine how some options behave  -->
@@ -334,31 +345,31 @@
     </ThingDef>
   
     
-    <ThingDef Name="ZF_BoulderMonzonite" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_BoulderMonzonite</defName>
-      <label>Monzonite Boulder</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_BoulderGneiss" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_BoulderGneiss</defName>
+      <label>Gneiss Boulder</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(193,184,186)</color>
+        <color>(136,146,155)</color>
       </graphicData>
+      <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>950</MaxHitPoints>
+        <MaxHitPoints>1300</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>0</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <pathCost>100</pathCost>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.6</mineableDropChance>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.5</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -381,7 +392,7 @@
   			<li>AB_CrackedMud</li>
   			<li>AB_RichCrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_MonzoniteBase_Rough</li>
+  			<li>ZF_GneissBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -408,10 +419,10 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_MonzoniteBase_Rough</li>
-        <li>ZF_WeatheredMonzonite</li>
-        <li>ZF_SolidMonzonite</li>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_GneissBase_Rough</li>
+        <li>ZF_WeatheredGneiss</li>
+        <li>ZF_SolidGneiss</li>
+        <li>ZF_GneissBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>10</neededNearbyTerrainRadius>
@@ -419,9 +430,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_MonzoniteBase_Rough</li>
-        <li>ZF_WeatheredMonzonite</li>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_GneissBase_Rough</li>
+        <li>ZF_WeatheredGneiss</li>
+        <li>ZF_GneissBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -444,24 +455,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
       <ThingsToReplace>
-        <li>ZF_ChunkMonzonite</li>
+        <li>ZF_ChunkGneiss</li>
       </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
@@ -474,34 +486,34 @@
     </ThingDef>
     
   
-    <ThingDef Name="ZF_PassableMonzonite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_PassableMonzonite</defName>
-      <label>Monzonite Rocks</label>
-      <description>A coarse-grained igneous rock that formed from slowly cooling magma deep under the planet's surface.</description>
+    <ThingDef Name="ZF_PassableGneiss" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
+      <defName>ZF_PassableGneiss</defName>
+      <label>Gneiss Rocks</label>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-        <texPath>Things/Rock/PassableGranite</texPath>
-        <color>(193,184,186)</color>
+        <texPath>Things/Rock/PassableLimestone</texPath>
+        <color>(136,146,155)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
+      <uiIconPath>Things/Rock/PassableLimestone/PassableLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(193,184,186)</li>
+        <li>(136,146,155)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(90,90,90)</li>
+        <li>(210,210,210)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>650</MaxHitPoints>
+        <MaxHitPoints>1000</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
       <pathCost>20</pathCost>
       <building>
-        <mineableThing>ZF_ChunkMonzonite</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableThing>ZF_ChunkGneiss</mineableThing>
+        <mineableDropChance>0.25</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -523,7 +535,7 @@
   		<allowedTerrains>
   			<li>AB_CrackedMud</li>
   			<li>AB_FineSand</li>
-  			<li>ZF_MonzoniteBase_Rough</li>
+  			<li>ZF_GneissBase_Rough</li>
   			<li>GU_AlienSandFine</li>
   			<li>GU_AlienSand</li>
   			<li>GU_RichAlienSand</li>
@@ -549,11 +561,11 @@
   		</allowedTerrains>
       <!-- The terrains this must be near to, but not necessarily on -->
       <neededNearbyTerrains>
-        <li>ZF_BoulderMonzonite</li>
-  			<li>ZF_MonzoniteBase_Rough</li>
-        <li>ZF_WeatheredMonzonite</li>
-        <li>ZF_SolidMonzonite</li>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_BoulderGneiss</li>
+  			<li>ZF_GneissBase_Rough</li>
+        <li>ZF_WeatheredGneiss</li>
+        <li>ZF_SolidGneiss</li>
+        <li>ZF_GneissBase</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
       <neededNearbyTerrainRadius>4</neededNearbyTerrainRadius>
@@ -561,9 +573,9 @@
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
       <associatedOres>
-        <li>ZF_BoulderMonzonite</li>
-        <li>ZF_WeatheredMonzonite</li>
-        <li>ZF_MonzoniteBase</li>
+        <li>ZF_BoulderGneiss</li>
+        <li>ZF_WeatheredGneiss</li>
+        <li>ZF_GneissBase</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -586,23 +598,25 @@
       <randomlyDropResources>
         <li>
           <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.01</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <MinMiningSkill>6</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>1</DropProbability>
+          <DropProbability>2</DropProbability>
           <CountPerDrop>5</CountPerDrop>
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.01</DropProbability>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>6</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
       <mineSpeedFactor>1.2</mineSpeedFactor>
     </ThingDef>
+
 
 </Defs>

@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_ScoriaBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_ScoriaBase</defName>
       <label>Scoria Deposit</label>
-      <description>Scoria is a very hard igneous rock.</description>
+      <description>A porus volcanic rock. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose agggregations instead of solid chunks.</description>
       <graphicData>
         <color>(87,80,73)</color>
       </graphicData>
