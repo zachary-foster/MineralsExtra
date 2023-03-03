@@ -7,7 +7,7 @@
       <label>Brown Marble Deposit</label>
       <description>A brown form of marble.</description>
       <graphicData>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -24,7 +24,7 @@
       <description>A brown form of marble.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredMarble</texPath>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
       </graphicData>
       <randomColorsOne>
         <li>(85,75,58)</li>
@@ -109,7 +109,7 @@
       <description>A brown form of marble.</description>
       <graphicData>
         <texPath>Things/Rock/SolidMarble</texPath>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
       </graphicData>
       <randomColorsOne>
         <li>(73,65,48)</li>
@@ -195,10 +195,10 @@
       <description>A brown form of marble.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnMarble</texPath>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(60,55,35)</li>
+        <li>(80,75,55)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(195,185,165)</li>
@@ -296,7 +296,7 @@
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(60,55,35)</li>
+        <li>(80,75,55)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(195,185,165)</li>
@@ -347,7 +347,7 @@
       <description>A brown form of marble.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderMarble</texPath>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
       </graphicData>
       <randomColorsOne>
         <li>(85,75,58)</li>
@@ -487,7 +487,7 @@
       <description>A brown form of marble.</description>
       <graphicData>
         <texPath>Things/Rock/PassableMarble</texPath>
-        <color>(60,55,35)</color>
+        <color>(80,75,55)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>

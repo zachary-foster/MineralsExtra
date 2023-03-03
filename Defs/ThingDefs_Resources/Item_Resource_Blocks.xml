@@ -63,14 +63,14 @@
     <label>Blue Marble blocks</label>
     <description>Blocks of Blue Marble</description>
     <graphicData>
-      <color>(141,120,79)</color>
+      <color>(180,210,210)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(141,120,79)</color>
+      <color>(180,210,210)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -147,14 +147,14 @@
     <label>Brown Marble blocks</label>
     <description>Blocks of Brown Marble</description>
     <graphicData>
-      <color>(72,46,38)</color>
+      <color>(80,75,55)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(72,46,38)</color>
+      <color>(80,75,55)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>

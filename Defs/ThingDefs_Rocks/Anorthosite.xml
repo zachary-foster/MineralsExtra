@@ -27,15 +27,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
@@ -125,15 +125,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <statBases>
@@ -224,15 +224,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <statBases>
@@ -335,15 +335,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <statBases>
@@ -402,15 +402,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
@@ -558,15 +558,15 @@
       </graphicData>
       <randomColorsOne>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(158,149,142)</li>
-        <li>(154,149,142)</li>
-        <li>(158,145,142)</li>
-        <li>(158,149,139)</li>
+        <li>(156,149,142)</li>
+        <li>(158,147,142)</li>
+        <li>(158,149,140)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/PassableLimestone/PassableLimestoneA</uiIconPath>
       <fillPercent>0.3</fillPercent>

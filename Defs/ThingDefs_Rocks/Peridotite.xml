@@ -6,7 +6,7 @@
       <label>Peridotite Deposit</label>
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -24,7 +24,7 @@
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
       </graphicData>
       <randomColorsOne>
         <li>(100,110,90)</li>
@@ -83,8 +83,8 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.015</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
@@ -109,7 +109,7 @@
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
       </graphicData>
       <randomColorsOne>
         <li>(100,110,90)</li>
@@ -168,8 +168,8 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.015</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
@@ -195,7 +195,7 @@
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
       </graphicData>
       <randomColorsOne>
         <li>(100,110,90)</li>
@@ -267,8 +267,8 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.015</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
@@ -325,8 +325,8 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.015</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
@@ -347,7 +347,7 @@
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
       </graphicData>
       <randomColorsOne>
         <li>(100,110,90)</li>
@@ -461,8 +461,8 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
-          <DropProbability>0.015</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
       </randomlyDropResources>
@@ -487,7 +487,7 @@
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
-        <color>(150,176,81)</color>
+        <color>(130,145,90)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
@@ -603,7 +603,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>

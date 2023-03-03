@@ -100,7 +100,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -202,7 +202,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -318,7 +318,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -393,7 +393,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -546,7 +546,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -705,7 +705,7 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkPeridotite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>

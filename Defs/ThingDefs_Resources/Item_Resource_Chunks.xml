@@ -37,7 +37,7 @@
     <defName>ZF_ChunkBlueMarble</defName>
     <label>Blue marble chunk</label>
     <graphicData>
-      <color>(141,120,79)</color>
+      <color>(180,210,210)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
@@ -85,7 +85,7 @@
     <defName>ZF_ChunkBrownMarble</defName>
     <label>Brown marble chunk</label>
     <graphicData>
-      <color>(72,46,38)</color>
+      <color>(80,75,55)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>

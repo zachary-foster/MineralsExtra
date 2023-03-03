@@ -32,7 +32,7 @@
         <li>(160,160,160)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>900</MaxHitPoints>
@@ -102,7 +102,7 @@
         <li>weathered</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.3</mineSpeedFactor>
+      <mineSpeedFactor>1.1</mineSpeedFactor>
     </ThingDef>
     
     
@@ -119,7 +119,7 @@
         <li>(160,160,160)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1100</MaxHitPoints>
@@ -190,7 +190,7 @@
         <li>solid</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
     
   
@@ -207,7 +207,7 @@
         <li>(160,160,160)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
@@ -290,7 +290,7 @@
         <li>hewn</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
    
     
@@ -307,7 +307,7 @@
         <li>(160,160,160)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1200</MaxHitPoints>
@@ -346,7 +346,7 @@
         <li>hewn</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
   
     
@@ -360,10 +360,10 @@
       </graphicData>
       <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(160,160,160)</li>
+        <li>(165,165,165)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
@@ -488,7 +488,7 @@
         <li>chunk_replacer</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.3</mineSpeedFactor>
+      <mineSpeedFactor>1.1</mineSpeedFactor>
     </ThingDef>
     
   
@@ -505,10 +505,10 @@
       </graphicData>
       <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(160,160,160)</li>
+        <li>(165,165,165)</li>
       </randomColorsOne>
-      <randomColorsTwo>
-        <li>(144,141,140)</li>
+    <randomColorsTwo>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
@@ -622,7 +622,7 @@
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.4</mineSpeedFactor>
+      <mineSpeedFactor>1.2</mineSpeedFactor>
     </ThingDef>
 
     <ThingDef Name="SmallPassableTuff" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
@@ -644,7 +644,7 @@
         <li>(160,160,160)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(144,141,140)</li>
+        <li>(155,151,150)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SandPile/SandPileA</uiIconPath>
       <fillPercent>0.3</fillPercent>
@@ -727,7 +727,7 @@
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.6</mineSpeedFactor>
+    <mineSpeedFactor>1.4</mineSpeedFactor>
     </ThingDef>
 
 </Defs>

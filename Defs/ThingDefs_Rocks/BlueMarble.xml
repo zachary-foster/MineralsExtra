@@ -6,7 +6,7 @@
       <label>Blue Marble Deposit</label>
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -23,7 +23,7 @@
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredMarble</texPath>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
       </graphicData>
       <randomColorsOne>
         <li>(200,218,220)</li>
@@ -109,7 +109,7 @@
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
         <texPath>Things/Rock/SolidMarble</texPath>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
       </graphicData>
       <randomColorsOne>
         <li>(200,218,220)</li>
@@ -196,7 +196,7 @@
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnMarble</texPath>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
       </graphicData>
       <randomColorsOne>
         <li>(200,218,220)</li>
@@ -350,7 +350,7 @@
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderMarble</texPath>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
       </graphicData>
       <randomColorsOne>
         <li>(200,218,220)</li>
@@ -491,7 +491,7 @@
       <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
       <graphicData>
         <texPath>Things/Rock/PassableMarble</texPath>
-        <color>(174,211,210)</color>
+        <color>(185,210,210)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>

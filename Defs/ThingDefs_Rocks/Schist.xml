@@ -6,7 +6,7 @@
       <label>Schist Deposit</label>
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -23,10 +23,10 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredGranite</texPath>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(165,191,214)</li>
         <li>(159,184,214)</li>
         <li>(159,191,200)</li>
@@ -111,10 +111,10 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/SolidGranite</texPath>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(163,191,214)</li>
         <li>(159,186,214)</li>
         <li>(159,191,205)</li>
@@ -200,10 +200,10 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(163,191,214)</li>
         <li>(159,186,214)</li>
         <li>(159,191,205)</li>
@@ -304,7 +304,7 @@
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(163,191,214)</li>
         <li>(159,186,214)</li>
         <li>(159,191,205)</li>
@@ -358,10 +358,10 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(163,191,214)</li>
         <li>(159,186,214)</li>
         <li>(159,191,205)</li>
@@ -501,13 +501,13 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
-        <color>(159,191,214)</color>
+        <color>(165,192,214)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
       <randomColorsOne>
-        <li>(159,191,214)</li>
+        <li>(165,192,214)</li>
         <li>(163,191,214)</li>
         <li>(159,186,214)</li>
         <li>(159,191,205)</li>

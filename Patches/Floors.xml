@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_SmallBrickTile"]/defNames</xpath>
+	  <value>
+			<li>SBrickAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_MediumBrickTile"]/defNames</xpath>
+	  <value>
+			<li>MBrickAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_MediterraneanBricks"]/defNames</xpath>
+	  <value>
+			<li>MedBrickAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_UnevenBricks"]/defNames</xpath>
+	  <value>
+			<li>UEBrickAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_HerringboneBricks"]/defNames</xpath>
+	  <value>
+			<li>HerrBrickAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_VanillaFloor"]/defNames</xpath>
+	  <value>
+			<li>TileAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_Flagstone"]/defNames</xpath>
+	  <value>
+			<li>FlagstoneAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_RoughStone"]/defNames</xpath>
+	  <value>
+			<li>RoughAndesiteFloor</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneSlabs"]/defNames</xpath>
+	  <value>
+			<li>FloorStoneSlabsAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneHexPaving"]/defNames</xpath>
+	  <value>
+			<li>FloorStoneHexAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneMosaicPaving"]/defNames</xpath>
+	  <value>
+			<li>FloorStoneMosaicAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneRoughPaving"]/defNames</xpath>
+	  <value>
+			<li>FloorStoneRoughAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneRandomPaving"]/defNames</xpath>
+	  <value>
+			<li>FloorStoneRandomAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_CobbleFloor"]/defNames</xpath>
+	  <value>
+			<li>CobbleFloorAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_PolishStoneTile"]/defNames</xpath>
+	  <value>
+			<li>EXF_TileAndesite</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneStaggered"]/defNames</xpath>
+	  <value>
+      <li>FloorStoneStaggeredAndesite</li>
+	  </value>
+	</Operation>
+
+</Patch>

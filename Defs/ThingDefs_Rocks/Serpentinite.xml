@@ -6,7 +6,7 @@
       <label>Serpentinite Deposit</label>
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
-        <color>(68,85,65)</color>
+      <color>(69,75,68)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -24,7 +24,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(68,85,65)</color>
+        <color>(69,75,68)</color>
       </graphicData>
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
@@ -103,10 +103,10 @@
       <label>Solid Serpentinite</label>
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredSandstone</texPath>
-        <color>(68,85,65)</color>
+        <texPath>Things/Rock/WeatheredLimestone</texPath>
+        <color>(69,75,68)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredSandstone/WeatheredSandstoneA</uiIconPath>
+    <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
         <li>(70,70,70)</li>
       </randomColorsOne>
@@ -185,7 +185,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(68,85,65)</color>
+        <color>(69,75,68)</color>
       </graphicData>
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
@@ -327,7 +327,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(68,85,65)</color>
+        <color>(69,75,68)</color>
       </graphicData>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
@@ -462,7 +462,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/PassableLimestone</texPath>
-        <color>(68,85,65)</color>
+        <color>(69,75,68)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
