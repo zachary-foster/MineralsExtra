@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_ScoriaBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_ScoriaBase</defName>
       <label>Scoria Deposit</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose agggregations instead of solid chunks.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
         <color>(87,80,73)</color>
       </graphicData>
@@ -13,7 +13,7 @@
       </statBases>
       <building>
         <mineableThing>ZF_ChunkScoria</mineableThing>
-        <mineableDropChance>0.4</mineableDropChance>
+        <mineableDropChance>0.2</mineableDropChance>
       </building>
     </ThingDef>
 
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredScoria" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredScoria</defName>
       <label>Weathered Scoria</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose agggregations instead of solid chunks.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredBasalt</texPath>
         <color>(87,80,73)</color>
@@ -119,7 +119,7 @@
     <ThingDef Name="ZF_SolidScoria" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidScoria</defName>
       <label>Solid Scoria</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredBasalt</texPath>
         <color>(87,80,73)</color>
@@ -218,7 +218,7 @@
     <ThingDef Name="ZF_HewnScoria" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnScoria</defName>
       <label>Hewn Scoria</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
         <color>(87,80,73)</color>
@@ -329,7 +329,7 @@
     <ThingDef Name="ZF_SmoothedHewnScoria" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnScoria</defName>
       <label>Smoothed Scoria</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
@@ -396,7 +396,7 @@
     <ThingDef Name="ZF_BoulderScoria" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderScoria</defName>
       <label>Scoria Boulder</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
         <texPath>Things/Rock/PassableBasalt</texPath>
         <color>(87,80,73)</color>
@@ -423,7 +423,7 @@
       <pathCost>100</pathCost>
       <building>
         <mineableThing>ZF_ChunkScoria</mineableThing>
-        <mineableDropChance>0.6</mineableDropChance>
+        <mineableDropChance>0.4</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
@@ -549,7 +549,7 @@
     <ThingDef Name="ZF_PassableScoria" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableScoria</defName>
       <label>Scoria Rocks</label>
-      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone.</description>
+      <description>A porus volcanic rock ejected from a nearby volcano long ago. It is filled with small air bubbles that make it weaker and lighter than other stone. It often forms loose aggregations instead of solid chunks. While easily mined, it does not provide many large chunks for cutting into blocks.</description>
       <graphicData>
         <texPath>Things/Rock/PassableBasalt</texPath>
         <color>(87,80,73)</color>
@@ -579,19 +579,19 @@
       <pathCost>20</pathCost>
       <building>
         <mineableThing>ZF_ChunkScoria</mineableThing>
-        <mineableDropChance>0.3</mineableDropChance>
+        <mineableDropChance>0.1</mineableDropChance>
       </building>
       <!--How far away it can spawn from an existing location-->
       <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
-      <spawnRadius>1</spawnRadius>
+      <spawnRadius>2</spawnRadius>
       <!-- The probability that this mineral type will be spawned at all on a given map -->
       <perMapProbability>1</perMapProbability>
       <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-      <minClusterProbability>0.03</minClusterProbability>
-      <maxClusterProbability>0.06</maxClusterProbability>
+      <minClusterProbability>0.04</minClusterProbability>
+      <maxClusterProbability>0.08</maxClusterProbability>
       <!-- How  many squares each cluster will be -->
       <minClusterSize>1</minClusterSize>
-      <maxClusterSize>10</maxClusterSize>
+      <maxClusterSize>8</maxClusterSize>
       <!-- The range of starting sizes of individuals in clusters -->
       <initialSizeMin>0.3</initialSizeMin>
       <initialSizeMax>1.0</initialSizeMax>
@@ -649,14 +649,14 @@
       <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
       <mustBeUnroofed>false</mustBeUnroofed>
       <!-- The maximum number of images that will be printed per square -->
-      <maxMeshCount>5</maxMeshCount>
+      <maxMeshCount>7</maxMeshCount>
       <!-- The size range -->
       <visualSizeRange>
-        <min>0.3</min>
-        <max>0.7</max>
+        <min>0.25</min>
+        <max>0.6</max>
       </visualSizeRange>
       <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      <visualClustering>0.25</visualClustering>
+      <visualClustering>0.2</visualClustering>
       <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
       <visualSpread>1.25</visualSpread>
       <visualSizeVariation>0.3</visualSizeVariation>
@@ -681,116 +681,7 @@
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
-    </ThingDef>
-
-    <ThingDef Name="ZF_LavaFlowScoria" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
-      <defName>ZF_LavaFlowScoria</defName>
-      <label>Ancient scoria lava flow</label>
-      <description>A weathered scoria lava flow. This was once a river of molted rock, but has since cooled and shattered. Very difficult to walk over but provides little cover in a gunfight.</description>
-      <graphicData>
-        <texPath>Things/Rock/PassableBasalt</texPath>
-        <color>(201,159,134)</color>
-        <damageData>
-          <enabled>false</enabled>
-        </damageData>
-      </graphicData>
-      <uiIconPath>Things/Rock/PassableBasalt/PassableBasaltA</uiIconPath>
-      <randomColorsOne>
-        <li>(87,80,73)</li>
-        <li>(82,80,73)</li>
-        <li>(87,75,73)</li>
-        <li>(87,80,70)</li>
-      </randomColorsOne>
-      <randomColorsTwo>
-        <li>(87,80,73)</li>
-        <li>(92,80,73)</li>
-        <li>(87,84,73)</li>
-        <li>(87,80,76)</li>
-      </randomColorsTwo>
-      <fillPercent>0.2</fillPercent>
-      <statBases>
-        <MaxHitPoints>500</MaxHitPoints>
-        <Flammability>0</Flammability>
-        <Beauty>-1</Beauty>
-      </statBases>
-      <pathCost>50</pathCost>
-      <building>
-        <mineableThing>ZF_ChunkScoria</mineableThing>
-        <mineableDropChance>0.2</mineableDropChance>
-      </building>
-      <!--How far away it can spawn from an existing location-->
-      <!-- Even though it is a static crystal, the map initialization uses "reproduction" to make clusters-->
-      <spawnRadius>1</spawnRadius>
-      <!-- The probability that this mineral type will be spawned at all on a given map -->
-      <perMapProbability>0.5</perMapProbability>
-      <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-      <minClusterProbability>0</minClusterProbability>
-      <maxClusterProbability>0.002</maxClusterProbability>
-      <!-- How  many squares each cluster will be -->
-      <minClusterSize>20</minClusterSize>
-      <maxClusterSize>400</maxClusterSize>
-      <!-- The range of starting sizes of individuals in clusters -->
-      <initialSizeMin>0.4</initialSizeMin>
-      <initialSizeMax>0.9</initialSizeMax>
-      <!-- How much initial sizes of individuals randomly vary -->
-      <initialSizeVariation>.1</initialSizeVariation>
-      <!-- The terrains this must be near to, but not necessarily on -->
-      <neededNearbyTerrains>
-  			<li>ZF_ScoriaBase_Rough</li>
-        <li>ZF_WeatheredScoria</li>
-        <li>ZF_SolidScoria</li>
-        <li>ZF_BoulderScoria</li>
-        <li>ZF_PassableScoria</li>
-        <li>ZF_LavaFlowScoria</li>
-      </neededNearbyTerrains>
-      <!-- how far away it can be from needed nearby terrains-->
-      <neededNearbyTerrainRadius>10</neededNearbyTerrainRadius>
-      <!-- If true, growth rate and initial size depends on distance from needed terrains -->
-      <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
-      <!-- Controls how extra clusters are added near assocaited ore-->
-      <associatedOres>
-        <li>ZF_WeatheredScoria</li>
-        <li>ZF_SolidScoria</li>
-      </associatedOres>
-      <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
-      <!-- Roof requirements -->
-      <mustBeUnderRoof>false</mustBeUnderRoof>
-      <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
-      <mustBeUnroofed>false</mustBeUnroofed>
-      <!-- The maximum number of images that will be printed per square -->
-      <maxMeshCount>20</maxMeshCount>
-      <!-- The size range -->
-      <visualSizeRange>
-        <min>0.35</min>
-        <max>0.6</max>
-      </visualSizeRange>
-      <visualClustering>0.5</visualClustering>
-      <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
-      <visualSpread>2.1</visualSpread>
-      <!-- 1 = everything appears within cell and can spawn at edge when visualClustering == 0 -->
-      <visualSizeVariation>0.3</visualSizeVariation>
-      <!-- Other resources it might drop -->
-      <randomlyDropResources>
-        <li>
-          <ResourceDefName>RoughGem</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
-          <MinMiningSkill>6</MinMiningSkill>
-        </li>
-        <li>
-          <ResourceDefName>CrushedStone</ResourceDefName>
-          <DropProbability>2</DropProbability>
-          <CountPerDrop>5</CountPerDrop>
-          <WasteProduct>true</WasteProduct>
-        </li>
-        <li>
-          <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.2</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-        </li>
-      </randomlyDropResources>
-      <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>1.4</mineSpeedFactor>
     </ThingDef>
 
 </Defs>

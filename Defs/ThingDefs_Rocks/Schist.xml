@@ -9,7 +9,7 @@
         <color>(165,192,214)</color>
       </graphicData>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1300</MaxHitPoints>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkSchist</mineableThing>
@@ -41,7 +41,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>1300</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>3</Beauty>
       </statBases>
@@ -101,7 +101,7 @@
         <li>weathered</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
     
     
@@ -129,7 +129,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1900</MaxHitPoints>
+        <MaxHitPoints>1400</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
@@ -190,7 +190,7 @@
         <li>solid</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
     
   
@@ -218,7 +218,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>2000</MaxHitPoints>
+        <MaxHitPoints>1500</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
       </statBases>
@@ -291,7 +291,7 @@
         <li>hewn</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.7</mineSpeedFactor>
+      <mineSpeedFactor>0.9</mineSpeedFactor>
     </ThingDef>
    
     
@@ -319,7 +319,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedGranite/SmoothedGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>1400</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>3</Beauty>
       </statBases>
@@ -348,7 +348,7 @@
         <li>hewn</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.7</mineSpeedFactor>
+      <mineSpeedFactor>0.9</mineSpeedFactor>
     </ThingDef>
   
     
@@ -377,7 +377,7 @@
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>1200</MaxHitPoints>
+        <MaxHitPoints>800</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>3</Beauty>
       </statBases>
@@ -491,7 +491,7 @@
         <li>chunk_replacer</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>1.0</mineSpeedFactor>
     </ThingDef>
     
   
@@ -523,7 +523,7 @@
       <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>800</MaxHitPoints>
+        <MaxHitPoints>600</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
       </statBases>
@@ -626,7 +626,7 @@
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
+      <mineSpeedFactor>1.3</mineSpeedFactor>
     </ThingDef>
 
 

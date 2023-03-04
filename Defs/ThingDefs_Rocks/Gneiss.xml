@@ -34,7 +34,7 @@
         <li>(210,210,210)</li>
       </randomColorsTwo>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
       </statBases>
@@ -120,7 +120,7 @@
         <li>(210,210,210)</li>
       </randomColorsTwo>
       <statBases>
-        <MaxHitPoints>1900</MaxHitPoints>
+        <MaxHitPoints>1700</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
@@ -207,7 +207,7 @@
         <li>(210,210,210)</li>
       </randomColorsTwo>
       <statBases>
-        <MaxHitPoints>2000</MaxHitPoints>
+        <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
@@ -306,7 +306,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
@@ -362,7 +362,7 @@
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
-        <MaxHitPoints>1300</MaxHitPoints>
+        <MaxHitPoints>1000</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
       </statBases>
@@ -506,7 +506,7 @@
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>1000</MaxHitPoints>
+        <MaxHitPoints>700</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>

@@ -2,78 +2,78 @@
 <Defs>
 
 	<TerrainDef ParentName="MediumBrickBase">
-		<defName>MBrickAndesite</defName>
-		<label>Andesite bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MBrickAnorthosite</defName>
+		<label>Anorthosite bricks</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SmallBrickBase">
-		<defName>SBrickAndesite</defName>
-		<label>Andesite small bricks</label>
-		<color>(112,118,118)</color>
+		<defName>SBrickAnorthosite</defName>
+		<label>Anorthosite small bricks</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MedBrickBase">
-		<defName>MedBrickAndesite</defName>
-		<label>Andesite Mediterranean bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MedBrickAnorthosite</defName>
+		<label>Anorthosite Mediterranean bricks</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="CobblestoneBase">
-		<defName>CobbleFloorAndesite</defName>
-		<label>Andesite cobble floor</label>
-		<color>(112,118,118)</color>
+		<defName>CobbleFloorAnorthosite</defName>
+		<label>Anorthosite cobble floor</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>1</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="BrickUnevenBase">
-		<defName>UEBrickAndesite</defName>
-		<label>Andesite uneven bricks</label>
-		<color>(112,118,118)</color>
+		<defName>UEBrickAnorthosite</defName>
+		<label>Anorthosite uneven bricks</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="StoneTileBase">
-		<defName>EXF_TileAndesite</defName>
-		<label>Andesite tiles</label>
-		<color>(112,118,118)</color>
+		<defName>EXF_TileAnorthosite</defName>
+		<label>Anorthosite tiles</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>	
 
 	<TerrainDef ParentName="BrickHerringboneBase">
-		<defName>HerrBrickAndesite</defName>
-		<label>Andesite herringbone bricks</label>
-		<color>(112,118,118)</color>
+		<defName>HerrBrickAnorthosite</defName>
+		<label>Anorthosite herringbone bricks</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>TileAndesite</defName>
-		<label>Andesite Tile</label>
-		<color>(112,118,118)</color>
+		<defName>TileAnorthosite</defName>
+		<label>Anorthosite Tile</label>
+		<color>(158,149,142)</color>
 		<statBases>
 			<WorkToBuild>520</WorkToBuild>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>3</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>3</ZF_BlocksAnorthosite>
 		</costList>
 		<researchPrerequisites>
 			<li>Stone_floor_B2</li>
@@ -81,19 +81,19 @@
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_FlagstoneBase">
-		<defName>FlagstoneAndesite</defName>
-		<label>Andesite flagstone</label>
-		<color>(112,118,118)</color>
+		<defName>FlagstoneAnorthosite</defName>
+		<label>Anorthosite flagstone</label>
+		<color>(158,149,142)</color>
 		<costList>
-			<ZF_BlocksAndesite>2</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>2</ZF_BlocksAnorthosite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="SK_FloorBase">
-		<defName>RoughAndesiteFloor</defName>
-		<label>Rough Andesite</label>
+		<defName>RoughAnorthositeFloor</defName>
+		<label>Rough Anorthosite</label>
 		<renderPrecedence>190</renderPrecedence>
-		<description>Andesite eroded by the elements.
+		<description>Anorthosite eroded by the elements.
 Beauty: 0.</description>
 		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
 		<edgeType>Fade</edgeType>
@@ -107,23 +107,23 @@ Beauty: 0.</description>
 			<Beauty>0</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>1</ZF_BlocksAnorthosite>
 		</costList>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 			<li>SmoothableStone</li>
 		</affordances>
-		<color>(112,118,118)</color>
+		<color>(158,149,142)</color>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneSlabsAndesite</defName>
-		<label>Andesite slabs</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneSlabsAnorthosite</defName>
+		<label>Anorthosite slabs</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite flooring made with square slabs. 
+		<description>Anorthosite flooring made with square slabs. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
 		<researchPrerequisites>
@@ -134,17 +134,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneHexAndesite</defName>
-		<label>Andesite hex paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneHexAnorthosite</defName>
+		<label>Anorthosite hex paving</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>269</renderPrecedence>
-		<description>Andesite paving with hexagonal tiles. 
+		<description>Anorthosite paving with hexagonal tiles. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
 		<researchPrerequisites>
@@ -155,17 +155,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneMosaicAndesite</defName>
-		<label>Andesite mosaic paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneMosaicAnorthosite</defName>
+		<label>Anorthosite mosaic paving</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>268</renderPrecedence>
-		<description>Andesite paving with a light/dark mosaic. 
+		<description>Anorthosite paving with a light/dark mosaic. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
 		<researchPrerequisites>
@@ -176,17 +176,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRoughAndesite</defName>
-		<label>rough Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRoughAnorthosite</defName>
+		<label>rough Anorthosite paving</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>267</renderPrecedence>
-		<description>Andesite stone paving. 
+		<description>Anorthosite stone paving. 
 Beauty: 2.</description>
 		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
 		<researchPrerequisites>
@@ -197,15 +197,15 @@ Beauty: 2.</description>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRandomAndesite</defName>
-		<label>random Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRandomAnorthosite</defName>
+		<label>random Anorthosite paving</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>266</renderPrecedence>
 		<description>Stone paving with random square and rectangular slabs.
 Beauty: 4.</description>
@@ -218,17 +218,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneStaggeredAndesite</defName>
-		<label>Andesite staggered tiles</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneStaggeredAnorthosite</defName>
+		<label>Anorthosite staggered tiles</label>
+		<color>(158,149,142)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite tiles with rounded corners laid in a staggered pattern.
+		<description>Anorthosite tiles with rounded corners laid in a staggered pattern.
 Beauty: 5.</description>
 		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
 		<researchPrerequisites>
@@ -239,7 +239,7 @@ Beauty: 5.</description>
 			<Beauty>5</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>

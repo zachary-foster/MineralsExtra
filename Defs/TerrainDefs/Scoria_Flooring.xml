@@ -2,78 +2,78 @@
 <Defs>
 
 	<TerrainDef ParentName="MediumBrickBase">
-		<defName>MBrickAndesite</defName>
-		<label>Andesite bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MBrickScoria</defName>
+		<label>Scoria bricks</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SmallBrickBase">
-		<defName>SBrickAndesite</defName>
-		<label>Andesite small bricks</label>
-		<color>(112,118,118)</color>
+		<defName>SBrickScoria</defName>
+		<label>Scoria small bricks</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MedBrickBase">
-		<defName>MedBrickAndesite</defName>
-		<label>Andesite Mediterranean bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MedBrickScoria</defName>
+		<label>Scoria Mediterranean bricks</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="CobblestoneBase">
-		<defName>CobbleFloorAndesite</defName>
-		<label>Andesite cobble floor</label>
-		<color>(112,118,118)</color>
+		<defName>CobbleFloorScoria</defName>
+		<label>Scoria cobble floor</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>1</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="BrickUnevenBase">
-		<defName>UEBrickAndesite</defName>
-		<label>Andesite uneven bricks</label>
-		<color>(112,118,118)</color>
+		<defName>UEBrickScoria</defName>
+		<label>Scoria uneven bricks</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="StoneTileBase">
-		<defName>EXF_TileAndesite</defName>
-		<label>Andesite tiles</label>
-		<color>(112,118,118)</color>
+		<defName>EXF_TileScoria</defName>
+		<label>Scoria tiles</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>	
 
 	<TerrainDef ParentName="BrickHerringboneBase">
-		<defName>HerrBrickAndesite</defName>
-		<label>Andesite herringbone bricks</label>
-		<color>(112,118,118)</color>
+		<defName>HerrBrickScoria</defName>
+		<label>Scoria herringbone bricks</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>TileAndesite</defName>
-		<label>Andesite Tile</label>
-		<color>(112,118,118)</color>
+		<defName>TileScoria</defName>
+		<label>Scoria Tile</label>
+		<color>(87,80,73)</color>
 		<statBases>
 			<WorkToBuild>520</WorkToBuild>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>3</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>3</ZF_BlocksScoria>
 		</costList>
 		<researchPrerequisites>
 			<li>Stone_floor_B2</li>
@@ -81,19 +81,19 @@
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_FlagstoneBase">
-		<defName>FlagstoneAndesite</defName>
-		<label>Andesite flagstone</label>
-		<color>(112,118,118)</color>
+		<defName>FlagstoneScoria</defName>
+		<label>Scoria flagstone</label>
+		<color>(87,80,73)</color>
 		<costList>
-			<ZF_BlocksAndesite>2</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>2</ZF_BlocksScoria>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="SK_FloorBase">
-		<defName>RoughAndesiteFloor</defName>
-		<label>Rough Andesite</label>
+		<defName>RoughScoriaFloor</defName>
+		<label>Rough Scoria</label>
 		<renderPrecedence>190</renderPrecedence>
-		<description>Andesite eroded by the elements.
+		<description>Scoria eroded by the elements.
 Beauty: 0.</description>
 		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
 		<edgeType>Fade</edgeType>
@@ -107,23 +107,23 @@ Beauty: 0.</description>
 			<Beauty>0</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>1</ZF_BlocksScoria>
 		</costList>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 			<li>SmoothableStone</li>
 		</affordances>
-		<color>(112,118,118)</color>
+		<color>(87,80,73)</color>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneSlabsAndesite</defName>
-		<label>Andesite slabs</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneSlabsScoria</defName>
+		<label>Scoria slabs</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite flooring made with square slabs. 
+		<description>Scoria flooring made with square slabs. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
 		<researchPrerequisites>
@@ -134,17 +134,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneHexAndesite</defName>
-		<label>Andesite hex paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneHexScoria</defName>
+		<label>Scoria hex paving</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>269</renderPrecedence>
-		<description>Andesite paving with hexagonal tiles. 
+		<description>Scoria paving with hexagonal tiles. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
 		<researchPrerequisites>
@@ -155,17 +155,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneMosaicAndesite</defName>
-		<label>Andesite mosaic paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneMosaicScoria</defName>
+		<label>Scoria mosaic paving</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>268</renderPrecedence>
-		<description>Andesite paving with a light/dark mosaic. 
+		<description>Scoria paving with a light/dark mosaic. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
 		<researchPrerequisites>
@@ -176,17 +176,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRoughAndesite</defName>
-		<label>rough Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRoughScoria</defName>
+		<label>rough Scoria paving</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>267</renderPrecedence>
-		<description>Andesite stone paving. 
+		<description>Scoria stone paving. 
 Beauty: 2.</description>
 		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
 		<researchPrerequisites>
@@ -197,15 +197,15 @@ Beauty: 2.</description>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRandomAndesite</defName>
-		<label>random Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRandomScoria</defName>
+		<label>random Scoria paving</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>266</renderPrecedence>
 		<description>Stone paving with random square and rectangular slabs.
 Beauty: 4.</description>
@@ -218,17 +218,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneStaggeredAndesite</defName>
-		<label>Andesite staggered tiles</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneStaggeredScoria</defName>
+		<label>Scoria staggered tiles</label>
+		<color>(87,80,73)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite tiles with rounded corners laid in a staggered pattern.
+		<description>Scoria tiles with rounded corners laid in a staggered pattern.
 Beauty: 5.</description>
 		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
 		<researchPrerequisites>
@@ -239,7 +239,7 @@ Beauty: 5.</description>
 			<Beauty>5</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksScoria>4</ZF_BlocksScoria>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>

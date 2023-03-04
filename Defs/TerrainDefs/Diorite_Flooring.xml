@@ -2,78 +2,78 @@
 <Defs>
 
 	<TerrainDef ParentName="MediumBrickBase">
-		<defName>MBrickAndesite</defName>
-		<label>Andesite bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MBrickDiorite</defName>
+		<label>Diorite bricks</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SmallBrickBase">
-		<defName>SBrickAndesite</defName>
-		<label>Andesite small bricks</label>
-		<color>(112,118,118)</color>
+		<defName>SBrickDiorite</defName>
+		<label>Diorite small bricks</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MedBrickBase">
-		<defName>MedBrickAndesite</defName>
-		<label>Andesite Mediterranean bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MedBrickDiorite</defName>
+		<label>Diorite Mediterranean bricks</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="CobblestoneBase">
-		<defName>CobbleFloorAndesite</defName>
-		<label>Andesite cobble floor</label>
-		<color>(112,118,118)</color>
+		<defName>CobbleFloorDiorite</defName>
+		<label>Diorite cobble floor</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>1</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="BrickUnevenBase">
-		<defName>UEBrickAndesite</defName>
-		<label>Andesite uneven bricks</label>
-		<color>(112,118,118)</color>
+		<defName>UEBrickDiorite</defName>
+		<label>Diorite uneven bricks</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="StoneTileBase">
-		<defName>EXF_TileAndesite</defName>
-		<label>Andesite tiles</label>
-		<color>(112,118,118)</color>
+		<defName>EXF_TileDiorite</defName>
+		<label>Diorite tiles</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>	
 
 	<TerrainDef ParentName="BrickHerringboneBase">
-		<defName>HerrBrickAndesite</defName>
-		<label>Andesite herringbone bricks</label>
-		<color>(112,118,118)</color>
+		<defName>HerrBrickDiorite</defName>
+		<label>Diorite herringbone bricks</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>TileAndesite</defName>
-		<label>Andesite Tile</label>
-		<color>(112,118,118)</color>
+		<defName>TileDiorite</defName>
+		<label>Diorite Tile</label>
+		<color>(177,178,172)</color>
 		<statBases>
 			<WorkToBuild>520</WorkToBuild>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>3</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>3</ZF_BlocksDiorite>
 		</costList>
 		<researchPrerequisites>
 			<li>Stone_floor_B2</li>
@@ -81,19 +81,19 @@
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_FlagstoneBase">
-		<defName>FlagstoneAndesite</defName>
-		<label>Andesite flagstone</label>
-		<color>(112,118,118)</color>
+		<defName>FlagstoneDiorite</defName>
+		<label>Diorite flagstone</label>
+		<color>(177,178,172)</color>
 		<costList>
-			<ZF_BlocksAndesite>2</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>2</ZF_BlocksDiorite>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="SK_FloorBase">
-		<defName>RoughAndesiteFloor</defName>
-		<label>Rough Andesite</label>
+		<defName>RoughDioriteFloor</defName>
+		<label>Rough Diorite</label>
 		<renderPrecedence>190</renderPrecedence>
-		<description>Andesite eroded by the elements.
+		<description>Diorite eroded by the elements.
 Beauty: 0.</description>
 		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
 		<edgeType>Fade</edgeType>
@@ -107,23 +107,23 @@ Beauty: 0.</description>
 			<Beauty>0</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>1</ZF_BlocksDiorite>
 		</costList>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 			<li>SmoothableStone</li>
 		</affordances>
-		<color>(112,118,118)</color>
+		<color>(177,178,172)</color>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneSlabsAndesite</defName>
-		<label>Andesite slabs</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneSlabsDiorite</defName>
+		<label>Diorite slabs</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite flooring made with square slabs. 
+		<description>Diorite flooring made with square slabs. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
 		<researchPrerequisites>
@@ -134,17 +134,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneHexAndesite</defName>
-		<label>Andesite hex paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneHexDiorite</defName>
+		<label>Diorite hex paving</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>269</renderPrecedence>
-		<description>Andesite paving with hexagonal tiles. 
+		<description>Diorite paving with hexagonal tiles. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
 		<researchPrerequisites>
@@ -155,17 +155,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneMosaicAndesite</defName>
-		<label>Andesite mosaic paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneMosaicDiorite</defName>
+		<label>Diorite mosaic paving</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>268</renderPrecedence>
-		<description>Andesite paving with a light/dark mosaic. 
+		<description>Diorite paving with a light/dark mosaic. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
 		<researchPrerequisites>
@@ -176,17 +176,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRoughAndesite</defName>
-		<label>rough Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRoughDiorite</defName>
+		<label>rough Diorite paving</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>267</renderPrecedence>
-		<description>Andesite stone paving. 
+		<description>Diorite stone paving. 
 Beauty: 2.</description>
 		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
 		<researchPrerequisites>
@@ -197,15 +197,15 @@ Beauty: 2.</description>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRandomAndesite</defName>
-		<label>random Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRandomDiorite</defName>
+		<label>random Diorite paving</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>266</renderPrecedence>
 		<description>Stone paving with random square and rectangular slabs.
 Beauty: 4.</description>
@@ -218,17 +218,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneStaggeredAndesite</defName>
-		<label>Andesite staggered tiles</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneStaggeredDiorite</defName>
+		<label>Diorite staggered tiles</label>
+		<color>(177,178,172)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite tiles with rounded corners laid in a staggered pattern.
+		<description>Diorite tiles with rounded corners laid in a staggered pattern.
 Beauty: 5.</description>
 		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
 		<researchPrerequisites>
@@ -239,7 +239,7 @@ Beauty: 5.</description>
 			<Beauty>5</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksDiorite>4</ZF_BlocksDiorite>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>

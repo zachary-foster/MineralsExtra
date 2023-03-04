@@ -9,7 +9,7 @@
       <color>(69,75,68)</color>
       </graphicData>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1400</MaxHitPoints>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkSerpentinite</mineableThing>

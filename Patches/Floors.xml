@@ -6,6 +6,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_SmallBrickTile"]/defNames</xpath>
 	  <value>
 			<li>SBrickAndesite</li>
+			<li>SBrickAnorthosite</li>
+			<li>SBrickBlueMarble</li>
+			<li>SBrickBrownMarble</li>
+			<li>SBrickDiorite</li>
+			<li>SBrickGabbro</li>
+			<li>SBrickGneiss</li>
+			<li>SBrickPeridotite</li>
+			<li>SBrickPinkMarble</li>
+			<li>SBrickRhyolite</li>
+			<li>SBrickSchist</li>
+			<li>SBrickScoria</li>
+			<li>SBrickSerpentinite</li>
+			<li>SBrickTuff</li>
 	  </value>
 	</Operation>
 
@@ -13,6 +26,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_MediumBrickTile"]/defNames</xpath>
 	  <value>
 			<li>MBrickAndesite</li>
+			<li>MBrickAnorthosite</li>
+			<li>MBrickBlueMarble</li>
+			<li>MBrickBrownMarble</li>
+			<li>MBrickDiorite</li>
+			<li>MBrickGabbro</li>
+			<li>MBrickGneiss</li>
+			<li>MBrickPeridotite</li>
+			<li>MBrickPinkMarble</li>
+			<li>MBrickRhyolite</li>
+			<li>MBrickSchist</li>
+			<li>MBrickScoria</li>
+			<li>MBrickSerpentinite</li>
+			<li>MBrickTuff</li>
 	  </value>
 	</Operation>
 
@@ -20,6 +46,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_MediterraneanBricks"]/defNames</xpath>
 	  <value>
 			<li>MedBrickAndesite</li>
+			<li>MedBrickAnorthosite</li>
+			<li>MedBrickBlueMarble</li>
+			<li>MedBrickBrownMarble</li>
+			<li>MedBrickDiorite</li>
+			<li>MedBrickGabbro</li>
+			<li>MedBrickGneiss</li>
+			<li>MedBrickPeridotite</li>
+			<li>MedBrickPinkMarble</li>
+			<li>MedBrickRhyolite</li>
+			<li>MedBrickSchist</li>
+			<li>MedBrickScoria</li>
+			<li>MedBrickSerpentinite</li>
+			<li>MedBrickTuff</li>
 	  </value>
 	</Operation>
 
@@ -27,6 +66,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_UnevenBricks"]/defNames</xpath>
 	  <value>
 			<li>UEBrickAndesite</li>
+			<li>UEBrickAnorthosite</li>
+			<li>UEBrickBlueMarble</li>
+			<li>UEBrickBrownMarble</li>
+			<li>UEBrickDiorite</li>
+			<li>UEBrickGabbro</li>
+			<li>UEBrickGneiss</li>
+			<li>UEBrickPeridotite</li>
+			<li>UEBrickPinkMarble</li>
+			<li>UEBrickRhyolite</li>
+			<li>UEBrickSchist</li>
+			<li>UEBrickScoria</li>
+			<li>UEBrickSerpentinite</li>
+			<li>UEBrickTuff</li>
 	  </value>
 	</Operation>
 
@@ -34,6 +86,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_HerringboneBricks"]/defNames</xpath>
 	  <value>
 			<li>HerrBrickAndesite</li>
+			<li>HerrBrickAnorthosite</li>
+			<li>HerrBrickBlueMarble</li>
+			<li>HerrBrickBrownMarble</li>
+			<li>HerrBrickDiorite</li>
+			<li>HerrBrickGabbro</li>
+			<li>HerrBrickGneiss</li>
+			<li>HerrBrickPeridotite</li>
+			<li>HerrBrickPinkMarble</li>
+			<li>HerrBrickRhyolite</li>
+			<li>HerrBrickSchist</li>
+			<li>HerrBrickScoria</li>
+			<li>HerrBrickSerpentinite</li>
+			<li>HerrBrickTuff</li>
 	  </value>
 	</Operation>
 
@@ -41,6 +106,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_VanillaFloor"]/defNames</xpath>
 	  <value>
 			<li>TileAndesite</li>
+			<li>TileAnorthosite</li>
+			<li>TileBlueMarble</li>
+			<li>TileBrownMarble</li>
+			<li>TileDiorite</li>
+			<li>TileGabbro</li>
+			<li>TileGneiss</li>
+			<li>TilePeridotite</li>
+			<li>TilePinkMarble</li>
+			<li>TileRhyolite</li>
+			<li>TileSchist</li>
+			<li>TileScoria</li>
+			<li>TileSerpentinite</li>
+			<li>TileTuff</li>
 	  </value>
 	</Operation>
 
@@ -48,6 +126,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_Flagstone"]/defNames</xpath>
 	  <value>
 			<li>FlagstoneAndesite</li>
+			<li>FlagstoneAnorthosite</li>
+			<li>FlagstoneBlueMarble</li>
+			<li>FlagstoneBrownMarble</li>
+			<li>FlagstoneDiorite</li>
+			<li>FlagstoneGabbro</li>
+			<li>FlagstoneGneiss</li>
+			<li>FlagstonePeridotite</li>
+			<li>FlagstonePinkMarble</li>
+			<li>FlagstoneRhyolite</li>
+			<li>FlagstoneSchist</li>
+			<li>FlagstoneScoria</li>
+			<li>FlagstoneSerpentinite</li>
+			<li>FlagstoneTuff</li>
 	  </value>
 	</Operation>
 
@@ -55,6 +146,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_RoughStone"]/defNames</xpath>
 	  <value>
 			<li>RoughAndesiteFloor</li>
+			<li>RoughAnorthositeFloor</li>
+			<li>RoughBlueMarbleFloor</li>
+			<li>RoughBrownMarbleFloor</li>
+			<li>RoughDioriteFloor</li>
+			<li>RoughGabbroFloor</li>
+			<li>RoughGneissFloor</li>
+			<li>RoughPeridotiteFloor</li>
+			<li>RoughPinkMarbleFloor</li>
+			<li>RoughRhyoliteFloor</li>
+			<li>RoughSchistFloor</li>
+			<li>RoughScoriaFloor</li>
+			<li>RoughSerpentiniteFloor</li>
+			<li>RoughTuffFloor</li>
 	  </value>
 	</Operation>
 
@@ -62,6 +166,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneSlabs"]/defNames</xpath>
 	  <value>
 			<li>FloorStoneSlabsAndesite</li>
+			<li>FloorStoneSlabsAnorthosite</li>
+			<li>FloorStoneSlabsBlueMarble</li>
+			<li>FloorStoneSlabsBrownMarble</li>
+			<li>FloorStoneSlabsDiorite</li>
+			<li>FloorStoneSlabsGabbro</li>
+			<li>FloorStoneSlabsGneiss</li>
+			<li>FloorStoneSlabsPeridotite</li>
+			<li>FloorStoneSlabsPinkMarble</li>
+			<li>FloorStoneSlabsRhyolite</li>
+			<li>FloorStoneSlabsSchist</li>
+			<li>FloorStoneSlabsScoria</li>
+			<li>FloorStoneSlabsSerpentinite</li>
+			<li>FloorStoneSlabsTuff</li>
 	  </value>
 	</Operation>
 
@@ -69,6 +186,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneHexPaving"]/defNames</xpath>
 	  <value>
 			<li>FloorStoneHexAndesite</li>
+			<li>FloorStoneHexAnorthosite</li>
+			<li>FloorStoneHexBlueMarble</li>
+			<li>FloorStoneHexBrownMarble</li>
+			<li>FloorStoneHexDiorite</li>
+			<li>FloorStoneHexGabbro</li>
+			<li>FloorStoneHexGneiss</li>
+			<li>FloorStoneHexPeridotite</li>
+			<li>FloorStoneHexPinkMarble</li>
+			<li>FloorStoneHexRhyolite</li>
+			<li>FloorStoneHexSchist</li>
+			<li>FloorStoneHexScoria</li>
+			<li>FloorStoneHexSerpentinite</li>
+			<li>FloorStoneHexTuff</li>
 	  </value>
 	</Operation>
 
@@ -76,6 +206,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneMosaicPaving"]/defNames</xpath>
 	  <value>
 			<li>FloorStoneMosaicAndesite</li>
+			<li>FloorStoneMosaicAnorthosite</li>
+			<li>FloorStoneMosaicBlueMarble</li>
+			<li>FloorStoneMosaicBrownMarble</li>
+			<li>FloorStoneMosaicDiorite</li>
+			<li>FloorStoneMosaicGabbro</li>
+			<li>FloorStoneMosaicGneiss</li>
+			<li>FloorStoneMosaicPeridotite</li>
+			<li>FloorStoneMosaicPinkMarble</li>
+			<li>FloorStoneMosaicRhyolite</li>
+			<li>FloorStoneMosaicSchist</li>
+			<li>FloorStoneMosaicScoria</li>
+			<li>FloorStoneMosaicSerpentinite</li>
+			<li>FloorStoneMosaicTuff</li>
 	  </value>
 	</Operation>
 
@@ -83,6 +226,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneRoughPaving"]/defNames</xpath>
 	  <value>
 			<li>FloorStoneRoughAndesite</li>
+			<li>FloorStoneRoughAnorthosite</li>
+			<li>FloorStoneRoughBlueMarble</li>
+			<li>FloorStoneRoughBrownMarble</li>
+			<li>FloorStoneRoughDiorite</li>
+			<li>FloorStoneRoughGabbro</li>
+			<li>FloorStoneRoughGneiss</li>
+			<li>FloorStoneRoughPeridotite</li>
+			<li>FloorStoneRoughPinkMarble</li>
+			<li>FloorStoneRoughRhyolite</li>
+			<li>FloorStoneRoughSchist</li>
+			<li>FloorStoneRoughScoria</li>
+			<li>FloorStoneRoughSerpentinite</li>
+			<li>FloorStoneRoughTuff</li>
 	  </value>
 	</Operation>
 
@@ -90,6 +246,19 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneRandomPaving"]/defNames</xpath>
 	  <value>
 			<li>FloorStoneRandomAndesite</li>
+			<li>FloorStoneRandomAnorthosite</li>
+			<li>FloorStoneRandomBlueMarble</li>
+			<li>FloorStoneRandomBrownMarble</li>
+			<li>FloorStoneRandomDiorite</li>
+			<li>FloorStoneRandomGabbro</li>
+			<li>FloorStoneRandomGneiss</li>
+			<li>FloorStoneRandomPeridotite</li>
+			<li>FloorStoneRandomPinkMarble</li>
+			<li>FloorStoneRandomRhyolite</li>
+			<li>FloorStoneRandomSchist</li>
+			<li>FloorStoneRandomScoria</li>
+			<li>FloorStoneRandomSerpentinite</li>
+			<li>FloorStoneRandomTuff</li>
 	  </value>
 	</Operation>
 
@@ -97,13 +266,39 @@
 	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_CobbleFloor"]/defNames</xpath>
 	  <value>
 			<li>CobbleFloorAndesite</li>
+			<li>CobbleFloorAnorthosite</li>
+			<li>CobbleFloorBlueMarble</li>
+			<li>CobbleFloorBrownMarble</li>
+			<li>CobbleFloorDiorite</li>
+			<li>CobbleFloorGabbro</li>
+			<li>CobbleFloorGneiss</li>
+			<li>CobbleFloorPeridotite</li>
+			<li>CobbleFloorPinkMarble</li>
+			<li>CobbleFloorRhyolite</li>
+			<li>CobbleFloorSchist</li>
+			<li>CobbleFloorScoria</li>
+			<li>CobbleFloorSerpentinite</li>
+			<li>CobbleFloorTuff</li>
 	  </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-	  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_PolishStoneTile"]/defNames</xpath>
+  <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_PolishStoneTile"]/defNames</xpath>
 	  <value>
 			<li>EXF_TileAndesite</li>
+			<li>EXF_TileAnorthosite</li>
+			<li>EXF_TileBlueMarble</li>
+			<li>EXF_TileBrownMarble</li>
+			<li>EXF_TileDiorite</li>
+			<li>EXF_TileGabbro</li>
+			<li>EXF_TileGneiss</li>
+			<li>EXF_TilePeridotite</li>
+			<li>EXF_TilePinkMarble</li>
+			<li>EXF_TileRhyolite</li>
+			<li>EXF_TileSchist</li>
+			<li>EXF_TileScoria</li>
+			<li>EXF_TileSerpentinite</li>
+			<li>EXF_TileTuff</li>
 	  </value>
 	</Operation>
 
@@ -111,6 +306,19 @@
     <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_StoneStaggered"]/defNames</xpath>
 	  <value>
       <li>FloorStoneStaggeredAndesite</li>
+      <li>FloorStoneStaggeredAnorthosite</li>
+      <li>FloorStoneStaggeredBlueMarble</li>
+      <li>FloorStoneStaggeredBrownMarble</li>
+      <li>FloorStoneStaggeredDiorite</li>
+      <li>FloorStoneStaggeredGabbro</li>
+      <li>FloorStoneStaggeredGneiss</li>
+      <li>FloorStoneStaggeredPeridotite</li>
+      <li>FloorStoneStaggeredPinkMarble</li>
+      <li>FloorStoneStaggeredRhyolite</li>
+      <li>FloorStoneStaggeredSchist</li>
+      <li>FloorStoneStaggeredScoria</li>
+      <li>FloorStoneStaggeredSerpentinite</li>
+      <li>FloorStoneStaggeredTuff</li>
 	  </value>
 	</Operation>
 

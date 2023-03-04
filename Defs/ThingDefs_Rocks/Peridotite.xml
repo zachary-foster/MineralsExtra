@@ -9,7 +9,7 @@
         <color>(130,145,90)</color>
       </graphicData>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1800</MaxHitPoints>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkPeridotite</mineableThing>
@@ -34,7 +34,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1500</MaxHitPoints>
+        <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
@@ -86,6 +86,7 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
@@ -99,7 +100,7 @@
         <li>weathered</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>0.7</mineSpeedFactor>
     </ThingDef>
     
     
@@ -119,7 +120,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1900</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statBases>
@@ -171,6 +172,7 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
@@ -185,7 +187,7 @@
         <li>solid</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>0.7</mineSpeedFactor>
     </ThingDef>
     
   
@@ -205,7 +207,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1800</MaxHitPoints>
+        <MaxHitPoints>2100</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
       </statBases>
@@ -270,6 +272,7 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
@@ -303,7 +306,7 @@
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedGranite/SmoothedGraniteA</uiIconPath>
       <statBases>
-        <MaxHitPoints>1600</MaxHitPoints>
+        <MaxHitPoints>1900</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>3</Beauty>
       </statBases>
@@ -328,6 +331,7 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Tags which determine how some options behave  -->
@@ -464,6 +468,7 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- Things this mineral replaces when a map is initialized -->
@@ -477,7 +482,7 @@
         <li>chunk_replacer</li>
       </tags>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>0.8</mineSpeedFactor>
+      <mineSpeedFactor>0.7</mineSpeedFactor>
     </ThingDef>
     
   
@@ -501,7 +506,7 @@
       <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <fillPercent>0.3</fillPercent>
       <statBases>
-        <MaxHitPoints>700</MaxHitPoints>
+        <MaxHitPoints>800</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>0</Beauty>
       </statBases>
@@ -606,10 +611,11 @@
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
+          <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
       <!-- How easy it is to mine -->
-      <mineSpeedFactor>1.2</mineSpeedFactor>
+      <mineSpeedFactor>1.1</mineSpeedFactor>
     </ThingDef>
 
 

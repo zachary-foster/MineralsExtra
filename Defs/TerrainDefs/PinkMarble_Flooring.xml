@@ -2,78 +2,78 @@
 <Defs>
 
 	<TerrainDef ParentName="MediumBrickBase">
-		<defName>MBrickAndesite</defName>
-		<label>Andesite bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MBrickPinkMarble</defName>
+		<label>PinkMarble bricks</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SmallBrickBase">
-		<defName>SBrickAndesite</defName>
-		<label>Andesite small bricks</label>
-		<color>(112,118,118)</color>
+		<defName>SBrickPinkMarble</defName>
+		<label>PinkMarble small bricks</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MedBrickBase">
-		<defName>MedBrickAndesite</defName>
-		<label>Andesite Mediterranean bricks</label>
-		<color>(112,118,118)</color>
+		<defName>MedBrickPinkMarble</defName>
+		<label>PinkMarble Mediterranean bricks</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="CobblestoneBase">
-		<defName>CobbleFloorAndesite</defName>
-		<label>Andesite cobble floor</label>
-		<color>(112,118,118)</color>
+		<defName>CobbleFloorPinkMarble</defName>
+		<label>PinkMarble cobble floor</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>1</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="BrickUnevenBase">
-		<defName>UEBrickAndesite</defName>
-		<label>Andesite uneven bricks</label>
-		<color>(112,118,118)</color>
+		<defName>UEBrickPinkMarble</defName>
+		<label>PinkMarble uneven bricks</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="StoneTileBase">
-		<defName>EXF_TileAndesite</defName>
-		<label>Andesite tiles</label>
-		<color>(112,118,118)</color>
+		<defName>EXF_TilePinkMarble</defName>
+		<label>PinkMarble tiles</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>	
 
 	<TerrainDef ParentName="BrickHerringboneBase">
-		<defName>HerrBrickAndesite</defName>
-		<label>Andesite herringbone bricks</label>
-		<color>(112,118,118)</color>
+		<defName>HerrBrickPinkMarble</defName>
+		<label>PinkMarble herringbone bricks</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>TileAndesite</defName>
-		<label>Andesite Tile</label>
-		<color>(112,118,118)</color>
+		<defName>TilePinkMarble</defName>
+		<label>PinkMarble Tile</label>
+		<color>(246,200,184)</color>
 		<statBases>
 			<WorkToBuild>520</WorkToBuild>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>3</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>3</ZF_BlocksPinkMarble>
 		</costList>
 		<researchPrerequisites>
 			<li>Stone_floor_B2</li>
@@ -81,19 +81,19 @@
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_FlagstoneBase">
-		<defName>FlagstoneAndesite</defName>
-		<label>Andesite flagstone</label>
-		<color>(112,118,118)</color>
+		<defName>FlagstonePinkMarble</defName>
+		<label>PinkMarble flagstone</label>
+		<color>(246,200,184)</color>
 		<costList>
-			<ZF_BlocksAndesite>2</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>2</ZF_BlocksPinkMarble>
 		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="SK_FloorBase">
-		<defName>RoughAndesiteFloor</defName>
-		<label>Rough Andesite</label>
+		<defName>RoughPinkMarbleFloor</defName>
+		<label>Rough PinkMarble</label>
 		<renderPrecedence>190</renderPrecedence>
-		<description>Andesite eroded by the elements.
+		<description>PinkMarble eroded by the elements.
 Beauty: 0.</description>
 		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
 		<edgeType>Fade</edgeType>
@@ -107,23 +107,23 @@ Beauty: 0.</description>
 			<Beauty>0</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>1</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>1</ZF_BlocksPinkMarble>
 		</costList>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 			<li>SmoothableStone</li>
 		</affordances>
-		<color>(112,118,118)</color>
+		<color>(246,200,184)</color>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneSlabsAndesite</defName>
-		<label>Andesite slabs</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneSlabsPinkMarble</defName>
+		<label>PinkMarble slabs</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite flooring made with square slabs. 
+		<description>PinkMarble flooring made with square slabs. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
 		<researchPrerequisites>
@@ -134,17 +134,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneHexAndesite</defName>
-		<label>Andesite hex paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneHexPinkMarble</defName>
+		<label>PinkMarble hex paving</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>269</renderPrecedence>
-		<description>Andesite paving with hexagonal tiles. 
+		<description>PinkMarble paving with hexagonal tiles. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
 		<researchPrerequisites>
@@ -155,17 +155,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneMosaicAndesite</defName>
-		<label>Andesite mosaic paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneMosaicPinkMarble</defName>
+		<label>PinkMarble mosaic paving</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>268</renderPrecedence>
-		<description>Andesite paving with a light/dark mosaic. 
+		<description>PinkMarble paving with a light/dark mosaic. 
 Beauty: 4.</description>
 		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
 		<researchPrerequisites>
@@ -176,17 +176,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRoughAndesite</defName>
-		<label>rough Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRoughPinkMarble</defName>
+		<label>rough PinkMarble paving</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>267</renderPrecedence>
-		<description>Andesite stone paving. 
+		<description>PinkMarble stone paving. 
 Beauty: 2.</description>
 		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
 		<researchPrerequisites>
@@ -197,15 +197,15 @@ Beauty: 2.</description>
 			<Beauty>2</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneRandomAndesite</defName>
-		<label>random Andesite paving</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneRandomPinkMarble</defName>
+		<label>random PinkMarble paving</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>266</renderPrecedence>
 		<description>Stone paving with random square and rectangular slabs.
 Beauty: 4.</description>
@@ -218,17 +218,17 @@ Beauty: 4.</description>
 			<Beauty>4</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
-		<defName>FloorStoneStaggeredAndesite</defName>
-		<label>Andesite staggered tiles</label>
-		<color>(112,118,118)</color>
+		<defName>FloorStoneStaggeredPinkMarble</defName>
+		<label>PinkMarble staggered tiles</label>
+		<color>(246,200,184)</color>
 		<renderPrecedence>270</renderPrecedence>
-		<description>Andesite tiles with rounded corners laid in a staggered pattern.
+		<description>PinkMarble tiles with rounded corners laid in a staggered pattern.
 Beauty: 5.</description>
 		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
 		<researchPrerequisites>
@@ -239,7 +239,7 @@ Beauty: 5.</description>
 			<Beauty>5</Beauty>
 		</statBases>
 		<costList>
-			<ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+			<ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
 		</costList>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
