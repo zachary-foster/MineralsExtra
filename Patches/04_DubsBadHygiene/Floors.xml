@@ -43,7 +43,7 @@
         </TerrainDef>
 
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksBrownMarble</defName>
+          <defName>ZF_DBHMosaicBrownMarble</defName>
           <label>Brown marble flagstone</label>
           <color>(80,75,55)</color>
           <costList>
@@ -55,7 +55,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksDiorite</defName>
+          <defName>ZF_DBHMosaicDiorite</defName>
           <label>Diorite flagstone</label>
           <color>(177,178,172)</color>
           <costList>
@@ -67,7 +67,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksGabbro</defName>
+          <defName>ZF_DBHMosaicGabbro</defName>
           <label>Gabbro flagstone</label>
           <color>(82,85,66)</color>
           <costList>
@@ -79,7 +79,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksGneiss</defName>
+          <defName>ZF_DBHMosaicGneiss</defName>
           <label>Gneiss flagstone</label>
           <color>(136,146,155)</color>
           <costList>
@@ -91,7 +91,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksPeridotite</defName>
+          <defName>ZF_DBHMosaicPeridotite</defName>
           <label>Peridotite flagstone</label>
           <color>(130,145,90)</color>
           <costList>
@@ -103,7 +103,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksPinkMarble</defName>
+          <defName>ZF_DBHMosaicPinkMarble</defName>
           <label>PinkMarble flagstone</label>
           <color>(246,200,184)</color>
           <costList>
@@ -115,7 +115,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksRhyolite</defName>
+          <defName>ZF_DBHMosaicRhyolite</defName>
           <label>Rhyolite flagstone</label>
           <color>(201,159,134)</color>
           <costList>
@@ -127,7 +127,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksSchist</defName>
+          <defName>ZF_DBHMosaicSchist</defName>
           <label>Schist flagstone</label>
           <color>(165,192,214)</color>
           <costList>
@@ -139,7 +139,7 @@
         </TerrainDef>
         
         <TerrainDef ParentName="DBHMosaicBase">
-          <defName>ZF_BlocksSerpentinite</defName>
+          <defName>ZF_DBHMosaicSerpentinite</defName>
           <label>Serpentinite flagstone</label>
           <color>(69,75,68)</color>
           <costList>
@@ -165,15 +165,15 @@
   	    <li>ZF_DBHMosaicAndesite</li>
   	    <li>ZF_DBHMosaicAnorthosite</li>
   	    <li>ZF_DBHMosaicBlueMarble</li>
-  	    <li>ZF_BlocksBrownMarble</li>
-  	    <li>ZF_BlocksDiorite</li>
-  	    <li>ZF_BlocksGabbro</li>
-  	    <li>ZF_BlocksGneiss</li>
-  	    <li>ZF_BlocksPeridotite</li>
-  	    <li>ZF_BlocksPinkMarble</li>
-  	    <li>ZF_BlocksRhyolite</li>
-  	    <li>ZF_BlocksSchist</li>
-  	    <li>ZF_BlocksSerpentinite</li>
+  	    <li>ZF_DBHMosaicBrownMarble</li>
+  	    <li>ZF_DBHMosaicDiorite</li>
+  	    <li>ZF_DBHMosaicGabbro</li>
+  	    <li>ZF_DBHMosaicGneiss</li>
+  	    <li>ZF_DBHMosaicPeridotite</li>
+  	    <li>ZF_DBHMosaicPinkMarble</li>
+  	    <li>ZF_DBHMosaicRhyolite</li>
+  	    <li>ZF_DBHMosaicSchist</li>
+  	    <li>ZF_DBHMosaicSerpentinite</li>
       </value>
     </match>
   </Operation>

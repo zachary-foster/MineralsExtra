@@ -7,7 +7,7 @@
       <label>Brown Marble Deposit</label>
       <description>A brown form of marble.</description>
       <graphicData>
-        <color>(80,75,55)</color>
+        <color>(88,82,64)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>

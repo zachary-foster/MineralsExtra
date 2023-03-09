@@ -23,7 +23,7 @@
       <label>Weathered Peridotite</label>
       <description>A dense igneous rock sparkling with green crystals of olivine. It makes up much of the rock deep within the planet, but is rarely found at the surface.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
+        <texPath>Things/Rock/WeatheredGranite</texPath>
         <color>(130,145,90)</color>
       </graphicData>
       <randomColorsOne>
@@ -32,7 +32,7 @@
       <randomColorsTwo>
         <li>(160,190,85)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
         <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>

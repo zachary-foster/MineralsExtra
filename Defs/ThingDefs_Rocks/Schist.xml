@@ -22,7 +22,7 @@
       <label>Weathered Schist</label>
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
+        <texPath>Things/Rock/WeatheredLimestone</texPath>
         <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
@@ -39,7 +39,7 @@
         <li>(190,190,190)</li>
         <li>(195,195,195)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
         <Flammability>0</Flammability>
@@ -110,7 +110,7 @@
       <label>Solid Schist</label>
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
+        <texPath>Things/Rock/WeatheredLimestone</texPath>
         <color>(165,192,214)</color>
       </graphicData>
       <randomColorsOne>
@@ -127,7 +127,7 @@
         <li>(190,190,190)</li>
         <li>(195,195,195)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>
         <Flammability>0</Flammability>

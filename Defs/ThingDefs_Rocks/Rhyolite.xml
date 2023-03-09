@@ -23,10 +23,10 @@
       <label>Weathered Rhyolite</label>
       <description>An extrusive igneous rock with the same chemical composition as granite. The high silica content leads to explosive volcanic eruptions rather than lava flows.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
+        <texPath>Things/Rock/WeatheredBasalt</texPath>
         <color>(201,159,134)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(191,156,134)</li>
         <li>(192,156,134)</li>

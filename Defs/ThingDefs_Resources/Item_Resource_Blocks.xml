@@ -298,7 +298,7 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>Peridotite</stuffAdjective>
+      <stuffAdjective>peridotite</stuffAdjective>
       <statFactors>
         <Beauty>3.0</Beauty>  
         <MarketValue>2.0</MarketValue>

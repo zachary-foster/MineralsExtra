@@ -22,10 +22,10 @@
       <label>Weathered Diorite</label>
       <description>Diorite is an intrusive igneous rock with a silica content between that of silica-rich granite and silica-poor gabbro. Diorite has the same chemical composition as andesite, but a much larger grain size due to cooling slowy deep underground.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
+        <texPath>Things/Rock/WeatheredGranite</texPath>
         <color>(177,178,172)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <randomColorsOne>
         <li>(177,178,172)</li>
         <li>(173,178,172)</li>

@@ -23,10 +23,10 @@
       <label>Weathered  Andesite</label>
       <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
-        <texPath>Things/Rock/WeatheredGranite</texPath>
+        <texPath>Things/Rock/WeatheredBasalt</texPath>
         <color>(112,118,118)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
         <li>(117,118,118)</li>
@@ -114,10 +114,10 @@
       <label> Andesite</label>
       <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
+        <texPath>Things/Rock/WeatheredBasalt</texPath>
         <color>(112,118,118)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
         <li>(117,118,118)</li>
@@ -364,10 +364,10 @@
       <label> Andesite Boulder</label>
       <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
-        <texPath>Things/Rock/BoulderGranite</texPath>
+        <texPath>Things/Rock/PassableBasalt</texPath>
         <color>(112,118,118)</color>
       </graphicData>
-      <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/PassableBasalt/PassableBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
         <li>(117,118,118)</li>
@@ -510,13 +510,13 @@
       <label> Andesite Rocks</label>
       <description>Andesite is an extrusive igneous rock with a chemical composition somewhere between silica-rich rhyolite and silica-poor basalt.</description>
       <graphicData>
-        <texPath>Things/Rock/PassableGranite</texPath>
+        <texPath>Things/Rock/PassableBasalt</texPath>
         <color>(112,118,118)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
-      <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/PassableBasalt/PassableBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
         <li>(117,118,118)</li>

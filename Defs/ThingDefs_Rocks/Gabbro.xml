@@ -23,7 +23,7 @@
       <label>Weathered Gabbro</label>
       <description>Gabbro is an intrusive igneous rock with a low silica content, the coarse-grained equivalent of extrusive basalt.</description>
       <graphicData>
-        <texPath>Things/Rock/SolidGranite</texPath>
+        <texPath>Things/Rock/WeatheredGranite</texPath>
         <color>(82,85,66)</color>
       </graphicData>
       <randomColorsOne>
@@ -38,7 +38,7 @@
         <li>(50,58,50)</li>
         <li>(50,55,55)</li>
       </randomColorsTwo>
-      <uiIconPath>Things/Rock/SolidGranite/SolidGraniteA</uiIconPath>
+      <uiIconPath>Things/Rock/WeatheredGranite/WeatheredGraniteA</uiIconPath>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>

@@ -531,10 +531,6 @@
           <MinMiningSkill>8</MinMiningSkill>
         </li>
       </randomlyDropResources>
-      <!-- Things this mineral replaces when a map is initialized -->
-      <ThingsToReplace>
-        <li>ZF_ChunkScoria</li>
-      </ThingsToReplace>
       <!-- Tags which determine how some options behave  -->
       <tags>
         <li>rock</li>
@@ -587,8 +583,8 @@
       <!-- The probability that this mineral type will be spawned at all on a given map -->
       <perMapProbability>1</perMapProbability>
       <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
-      <minClusterProbability>0.04</minClusterProbability>
-      <maxClusterProbability>0.08</maxClusterProbability>
+      <minClusterProbability>0.06</minClusterProbability>
+      <maxClusterProbability>0.1</maxClusterProbability>
       <!-- How  many squares each cluster will be -->
       <minClusterSize>1</minClusterSize>
       <maxClusterSize>8</maxClusterSize>
@@ -632,9 +628,10 @@
         <li>ZF_WeatheredScoria</li>
         <li>ZF_SolidScoria</li>
         <li>ZF_ScoriaBase</li>
+        <li>ZF_PassableScoria</li>
       </neededNearbyTerrains>
       <!-- how far away it can be from needed nearby terrains-->
-      <neededNearbyTerrainRadius>4</neededNearbyTerrainRadius>
+      <neededNearbyTerrainRadius>3</neededNearbyTerrainRadius>
       <!-- If true, growth rate and initial size depends on distance from needed terrains -->
       <neededNearbyTerrainSizeEffect>true</neededNearbyTerrainSizeEffect>
       <!-- Controls how extra clusters are added near assocaited ore-->
@@ -642,6 +639,7 @@
         <li>ZF_BoulderScoria</li>
         <li>ZF_WeatheredScoria</li>
         <li>ZF_ScoriaBase</li>
+        <li>ZF_ScoriaBase_Rough</li>
       </associatedOres>
       <nearAssociatedOreBonus>3</nearAssociatedOreBonus>
       <!-- Roof requirements -->
@@ -649,11 +647,11 @@
       <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
       <mustBeUnroofed>false</mustBeUnroofed>
       <!-- The maximum number of images that will be printed per square -->
-      <maxMeshCount>7</maxMeshCount>
+      <maxMeshCount>10</maxMeshCount>
       <!-- The size range -->
       <visualSizeRange>
-        <min>0.25</min>
-        <max>0.6</max>
+        <min>0.2</min>
+        <max>0.5</max>
       </visualSizeRange>
       <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->
       <visualClustering>0.2</visualClustering>
@@ -680,6 +678,10 @@
           <MinMiningSkill>4</MinMiningSkill>
         </li>
       </randomlyDropResources>
+      <!-- Things this mineral replaces when a map is initialized -->
+      <ThingsToReplace>
+        <li>ZF_ChunkScoria</li>
+      </ThingsToReplace>
       <!-- How easy it is to mine -->
       <mineSpeedFactor>1.4</mineSpeedFactor>
     </ThingDef>
