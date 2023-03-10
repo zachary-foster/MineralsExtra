@@ -308,7 +308,7 @@
       <statBases>
         <MaxHitPoints>1900</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkPeridotite</mineableThing>

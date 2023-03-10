@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_LigniteBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_LigniteBase</defName>
       <label>Lignite Deposit</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
         <color>(82,72,70)</color>
       </graphicData>
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredLignite" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredLignite</defName>
       <label>Weathered Lignite</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredSlate</texPath>
         <color>(82,72,70)</color>
@@ -113,7 +113,7 @@
     <ThingDef Name="ZF_SolidLignite" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidLignite</defName>
       <label>Solid Lignite</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredSlate</texPath>
         <color>(82,72,70)</color>
@@ -206,7 +206,7 @@
     <ThingDef Name="ZF_HewnLignite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnLignite</defName>
       <label>Hewn Lignite</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
         <color>(82,72,70)</color>
@@ -226,7 +226,7 @@
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1200</MaxHitPoints>
-        <Flammability>0</Flammability>
+        <Flammability>0.1</Flammability>
         <Beauty>-2</Beauty>
       </statBases>
       <building>
@@ -311,7 +311,7 @@
     <ThingDef Name="ZF_SmoothedHewnLignite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnLignite</defName>
       <label>Smoothed Lignite</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
@@ -331,7 +331,7 @@
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1000</MaxHitPoints>
-        <Flammability>0</Flammability>
+        <Flammability>0.05</Flammability>
         <Beauty>0</Beauty>
       </statBases>
       <building>
@@ -373,7 +373,7 @@
     <ThingDef Name="ZF_PassableLignite" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableLignite</defName>
       <label>Lignite Rocks</label>
-      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content.</description>
+      <description>The compressed decomposed remains of an ancient swamp. Lignite is a low-grade form of coal with a high moisture content. Note that deposites buried deep will be slightly flamable.</description>
       <graphicData>
         <texPath>Things/Rock/PassableLimestone</texPath>
         <color>(82,72,70)</color>

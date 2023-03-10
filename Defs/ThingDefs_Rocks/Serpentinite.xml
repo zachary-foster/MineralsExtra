@@ -275,7 +275,7 @@
     <ThingDef Name="ZF_SmoothedHewnSerpentinite" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnSerpentinite</defName>
       <label>Smoothed Serpentinite</label>
-      <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
+      <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin. This rock has been smoothed to a flat wall, revealing the beautiful wavy layers of of color and texture.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>

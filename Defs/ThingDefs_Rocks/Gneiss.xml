@@ -194,7 +194,7 @@
     <ThingDef Name="ZF_HewnGneiss" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnGneiss</defName>
       <label>Hewn Gneiss</label>
-      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
+      <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist. This rock has been smoothed to a flat wall, revealing the beautiful wavy layers of of color and texture.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
         <color>(136,146,155)</color>
@@ -209,7 +209,7 @@
       <statBases>
         <MaxHitPoints>1800</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>0</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkGneiss</mineableThing>
@@ -308,7 +308,7 @@
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkGneiss</mineableThing>

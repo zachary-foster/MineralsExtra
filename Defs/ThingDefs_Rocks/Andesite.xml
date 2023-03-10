@@ -222,7 +222,7 @@
       <statBases>
         <MaxHitPoints>1700</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>0</Beauty>
+        <Beauty>-1</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkAndesite</mineableThing>
@@ -323,7 +323,7 @@
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>2</Beauty>
+        <Beauty>1</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkAndesite</mineableThing>

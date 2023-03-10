@@ -310,7 +310,7 @@
     <ThingDef Name="ZF_SmoothedHewnChalk" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnChalk</defName>
       <label>Smoothed Chalk</label>
-      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
+      <description>Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life. This rock has been smoothed to a flat wall, revealing the beautiful wavy layers of of color and texture.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedRockWall</texPath>
         <color>(120,50,50)</color>
@@ -325,7 +325,7 @@
       <statBases>
         <MaxHitPoints>900</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkChalk</mineableThing>

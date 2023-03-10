@@ -89,7 +89,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -180,7 +180,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -282,7 +282,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -343,7 +343,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -485,7 +485,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>
@@ -633,7 +633,7 @@
           <WasteProduct>true</WasteProduct>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <ResourceDefName>ZF_ChunkPegmatite</ResourceDefName>
           <DropProbability>0.005</DropProbability>
           <CountPerDrop>1</CountPerDrop>
         </li>

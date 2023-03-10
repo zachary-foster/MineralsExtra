@@ -298,7 +298,7 @@
     <ThingDef Name="ZF_SmoothedHewnSchist" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnSchist</defName>
       <label>Smoothed Schist</label>
-      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
+      <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss. This rock has been smoothed to a flat wall, revealing the beautiful wavy layers of of color and texture.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedGranite</texPath>
         <color>(120,50,50)</color>
@@ -321,7 +321,7 @@
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty>3</Beauty>
+        <Beauty>4</Beauty>
       </statBases>
       <building>
         <mineableThing>ZF_ChunkSchist</mineableThing>

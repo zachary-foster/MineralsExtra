@@ -90,13 +90,13 @@
         </li>
         <li>
           <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
+          <DropProbability>0.08</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -193,8 +193,8 @@
           <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.015</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -300,12 +300,12 @@
         </li>
         <li>
           <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.02</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
@@ -371,12 +371,12 @@
         </li>
         <li>
           <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
           <DropProbability>0.02</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
@@ -520,13 +520,13 @@
         </li>
         <li>
           <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
+          <DropProbability>0.03</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>4</MinMiningSkill>
         </li>
         <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.02</DropProbability>
+          <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
+          <DropProbability>0.01</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>

@@ -169,7 +169,8 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Mass>8</Mass>
+      <Mass>7</Mass>
+      <Flammability>0.1</Flammability>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts Inherit="False">

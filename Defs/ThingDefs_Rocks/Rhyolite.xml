@@ -95,7 +95,7 @@
         </li>
         <li>
           <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.1</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -197,7 +197,7 @@
         </li>
         <li>
           <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.06</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -313,7 +313,7 @@
         </li>
         <li>
           <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -388,7 +388,7 @@
         </li>
         <li>
           <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.04</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -541,7 +541,7 @@
         </li>
         <li>
           <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.08</DropProbability>
+          <DropProbability>0.1</DropProbability>
           <CountPerDrop>1</CountPerDrop>
           <MinMiningSkill>8</MinMiningSkill>
         </li>
@@ -697,12 +697,6 @@
           <ResourceDefName>ZF_SharpStoneShard</ResourceDefName>
           <DropProbability>0.1</DropProbability>
           <CountPerDrop>1</CountPerDrop>
-        </li>
-        <li>
-          <ResourceDefName>ZF_ChunkObsidian</ResourceDefName>
-          <DropProbability>0.05</DropProbability>
-          <CountPerDrop>1</CountPerDrop>
-          <MinMiningSkill>8</MinMiningSkill>
         </li>
         <li>
           <ResourceDefName>ZF_ChunkDunite</ResourceDefName>
