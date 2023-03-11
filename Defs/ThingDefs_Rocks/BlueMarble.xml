@@ -4,7 +4,7 @@
     <ThingDef Name="ZF_BlueMarbleBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_BlueMarbleBase</defName>
       <label>Blue Marble Deposit</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
         <color>(185,210,210)</color>
       </graphicData>
@@ -20,7 +20,7 @@
     <ThingDef Name="ZF_WeatheredBlueMarble" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredBlueMarble</defName>
       <label>Weathered Blue Marble</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredMarble</texPath>
         <color>(185,210,210)</color>
@@ -106,7 +106,7 @@
     <ThingDef Name="ZF_SolidBlueMarble" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidBlueMarble</defName>
       <label>Solid Blue Marble</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
         <texPath>Things/Rock/SolidMarble</texPath>
         <color>(185,210,210)</color>
@@ -193,7 +193,7 @@
     <ThingDef Name="ZF_HewnBlueMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnBlueMarble</defName>
       <label>Hewn Blue Marble</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnMarble</texPath>
         <color>(185,210,210)</color>
@@ -292,7 +292,7 @@
     <ThingDef Name="ZF_SmoothedHewnBlueMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnBlueMarble</defName>
       <label>Smoothed Blue Marble</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedMarble</texPath>
         <color>(120,50,50)</color>
@@ -347,7 +347,7 @@
     <ThingDef Name="ZF_BoulderBlueMarble" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderBlueMarble</defName>
       <label>Blue Marble Boulder</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderMarble</texPath>
         <color>(185,210,210)</color>
@@ -488,7 +488,7 @@
     <ThingDef Name="ZF_PassableBlueMarble" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableBlueMarble</defName>
       <label>Blue Marble Rocks</label>
-      <description>A variety of marble with blue and grey streaks. Very beautiful.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble has blue and grey streaks.</description>
       <graphicData>
         <texPath>Things/Rock/PassableMarble</texPath>
         <color>(185,210,210)</color>

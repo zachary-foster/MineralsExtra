@@ -5,7 +5,7 @@
   <ThingDef ParentName="ZF_StoneBlocksBase">
     <defName>ZF_BlocksAnorthosite</defName>
     <label>Anorthosite blocks</label>
-    <description>Blocks of Anorthosite</description>
+    <description>Blocks of Anorthosite. Anorthosite is an intrusive igneous rock composed mostly of plagioclase feldspar.</description>
     <graphicData>
       <color>(158,139,132)</color>
     </graphicData>
@@ -33,7 +33,7 @@
   <ThingDef ParentName="ZF_StoneBlocksBase">
     <defName>ZF_BlocksChalk</defName>
     <label>Chalk blocks</label>
-    <description>Blocks of Chalk</description>
+    <description>Blocks of Chalk. Chalk is a fine-graned, soft, and porous type of limestone, formed from the compressed shells of microscopic sea life.</description>
     <graphicData>
       <color>(230,230,230)</color>
     </graphicData>

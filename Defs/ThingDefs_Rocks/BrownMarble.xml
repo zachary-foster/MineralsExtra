@@ -5,7 +5,7 @@
     <ThingDef Name="ZF_BrownMarbleBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_BrownMarbleBase</defName>
       <label>Brown Marble Deposit</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
         <color>(88,82,64)</color>
       </graphicData>
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredBrownMarble" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredBrownMarble</defName>
       <label>Weathered Brown Marble</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredMarble</texPath>
         <color>(80,75,55)</color>
@@ -106,7 +106,7 @@
     <ThingDef Name="ZF_SolidBrownMarble" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidBrownMarble</defName>
       <label>Solid Brown Marble</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/SolidMarble</texPath>
         <color>(80,75,55)</color>
@@ -192,7 +192,7 @@
     <ThingDef Name="ZF_HewnBrownMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnBrownMarble</defName>
       <label>Hewn Brown Marble</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnMarble</texPath>
         <color>(80,75,55)</color>
@@ -290,7 +290,7 @@
     <ThingDef Name="ZF_SmoothedHewnBrownMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnBrownMarble</defName>
       <label>Smoothed Brown Marble</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedMarble</texPath>
         <color>(120,50,50)</color>
@@ -344,7 +344,7 @@
     <ThingDef Name="ZF_BoulderBrownMarble" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderBrownMarble</defName>
       <label>Brown Marble Boulder</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderMarble</texPath>
         <color>(80,75,55)</color>
@@ -484,7 +484,7 @@
     <ThingDef Name="ZF_PassableBrownMarble" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassableBrownMarble</defName>
       <label>Brown Marble Rocks</label>
-      <description>A brown form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is deep brown with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/PassableMarble</texPath>
         <color>(80,75,55)</color>

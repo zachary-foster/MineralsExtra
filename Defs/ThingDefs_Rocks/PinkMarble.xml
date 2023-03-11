@@ -5,7 +5,7 @@
     <ThingDef Name="ZF_PinkMarbleBase" ParentName="ZF_UglyRockBase">
       <defName>ZF_PinkMarbleBase</defName>
       <label>Pink Marble Deposit</label>
-      <description>A pink form of marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
         <color>(246,200,184)</color>
       </graphicData>
@@ -21,7 +21,7 @@
     <ThingDef Name="ZF_WeatheredPinkMarble" ParentName="WeatheredRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_WeatheredPinkMarble</defName>
       <label>Weathered Pink Marble</label>
-      <description>Weathered pink marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredMarble</texPath>
         <color>(246,200,184)</color>
@@ -106,7 +106,7 @@
     <ThingDef Name="ZF_SolidPinkMarble" ParentName="SolidRockBase" Class="Minerals.ThingDef_SolidRock">
       <defName>ZF_SolidPinkMarble</defName>
       <label>Solid PinkMarble</label>
-      <description>Solid pink marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/SolidMarble</texPath>
         <color>(246,200,184)</color>
@@ -192,7 +192,7 @@
     <ThingDef Name="ZF_HewnPinkMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_HewnPinkMarble</defName>
       <label>Hewn PinkMarble</label>
-      <description>Hewn pink marble.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnMarble</texPath>
         <color>(246,200,184)</color>
@@ -290,7 +290,7 @@
     <ThingDef Name="ZF_SmoothedHewnPinkMarble" ParentName="HewnRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_SmoothedHewnPinkMarble</defName>
       <label>Smoothed PinkMarble</label>
-      <description>Pink marble that has been polished flat.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
   			<texPath>Things/Rock/SmoothedMarble</texPath>
         <color>(120,50,50)</color>
@@ -344,7 +344,7 @@
     <ThingDef Name="ZF_BoulderPinkMarble" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_BoulderPinkMarble</defName>
       <label>PinkMarble Boulder</label>
-      <description>A pink marble Boulder.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderMarble</texPath>
         <color>(246,200,184)</color>
@@ -484,7 +484,7 @@
     <ThingDef Name="ZF_PassablePinkMarble" ParentName="SmallRockBase" Class="Minerals.ThingDef_StaticMineral">
       <defName>ZF_PassablePinkMarble</defName>
       <label>PinkMarble Rocks</label>
-      <description>Pink marble rocks.</description>
+      <description>Marble is a metamorphic rock derived from limestone that has been heated and compressed deep within the planet. This variety of marble is pink with lighter streaks.</description>
       <graphicData>
         <texPath>Things/Rock/PassableMarble</texPath>
         <color>(246,200,184)</color>

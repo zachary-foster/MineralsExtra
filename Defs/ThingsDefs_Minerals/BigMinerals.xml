@@ -18,11 +18,11 @@
       <li>(250,250,250)</li>
     </randomColorsOne>
     <randomColorsTwo>
-      <li>(250, 190, 30)</li>
-      <li>(255, 200, 30)</li>
-      <li>(250, 190, 10)</li>
-      <li>(255, 200, 60)</li>
-      <li>(230, 160, 20)</li>
+      <li>(250,190,30)</li>
+      <li>(255,200,30)</li>
+      <li>(250,190,10)</li>
+      <li>(255,200,60)</li>
+      <li>(230,160,20)</li>
     </randomColorsTwo>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
@@ -96,12 +96,12 @@
       <li>(250,250,250)</li>
     </randomColorsOne>
     <randomColorsTwo>
-      <li>(40, 200, 30)</li>
-      <li>(30, 200, 40)</li>
-      <li>(30, 180, 30)</li>
-      <li>(40, 220, 30)</li>
-      <li>(30, 220, 40)</li>
-      <li>(30, 200, 30)</li>
+      <li>(40,200,30)</li>
+      <li>(30,200,40)</li>
+      <li>(30,180,30)</li>
+      <li>(40,220,30)</li>
+      <li>(30,220,40)</li>
+      <li>(30,200,30)</li>
     </randomColorsTwo>
     <!-- Other resources it might drop -->
     <randomlyDropResources>

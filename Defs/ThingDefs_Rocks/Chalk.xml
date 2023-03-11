@@ -28,9 +28,15 @@
       <uiIconPath>Things/Rock/WeatheredSandstone/WeatheredSandstoneA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>600</MaxHitPoints>
@@ -120,9 +126,15 @@
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>800</MaxHitPoints>
@@ -213,9 +225,15 @@
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(230,210,200)</li>
+        <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1000</MaxHitPoints>
@@ -318,9 +336,15 @@
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(230,215,210)</li>
+        <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>900</MaxHitPoints>
@@ -379,9 +403,15 @@
       <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
@@ -529,9 +559,15 @@
       <uiIconPath>Things/Rock/PassableSandstone/PassableSandstoneA</uiIconPath>
       <randomColorsOne>
         <li>(230,230,230)</li>
+        <li>(232,230,230)</li>
+        <li>(230,232,230)</li>
+        <li>(230,230,232)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(225,200,180)</li>
+        <li>(227,200,180)</li>
+        <li>(225,202,180)</li>
+        <li>(225,200,182)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
