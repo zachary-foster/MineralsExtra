@@ -6,7 +6,7 @@
       <label>Schist Deposit</label>
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
@@ -23,21 +23,13 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(165,191,214)</li>
-        <li>(159,184,214)</li>
-        <li>(159,191,200)</li>
-        <li>(159,200,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <statBases>
@@ -111,21 +103,13 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(163,191,214)</li>
-        <li>(159,186,214)</li>
-        <li>(159,191,205)</li>
-        <li>(159,196,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <statBases>
@@ -200,21 +184,13 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnGranite</texPath>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(163,191,214)</li>
-        <li>(159,186,214)</li>
-        <li>(159,191,205)</li>
-        <li>(159,196,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/HewnGranite/HewnGraniteA</uiIconPath>
       <statBases>
@@ -304,18 +280,10 @@
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(163,191,214)</li>
-        <li>(159,186,214)</li>
-        <li>(159,191,205)</li>
-        <li>(159,196,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedGranite/SmoothedGraniteA</uiIconPath>
       <statBases>
@@ -358,21 +326,13 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(163,191,214)</li>
-        <li>(159,186,214)</li>
-        <li>(159,191,205)</li>
-        <li>(159,196,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
@@ -501,24 +461,16 @@
       <description>Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
       <graphicData>
         <texPath>Things/Rock/PassableGranite</texPath>
-        <color>(165,192,214)</color>
+        <color>(206,217,184)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
       <randomColorsOne>
-        <li>(165,192,214)</li>
-        <li>(163,191,214)</li>
-        <li>(159,186,214)</li>
-        <li>(159,191,205)</li>
-        <li>(159,196,214)</li>
+        <li>(206,217,184)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(200,200,200)</li>
-        <li>(210,210,210)</li>
-        <li>(215,215,215)</li>
-        <li>(190,190,190)</li>
-        <li>(195,195,195)</li>
+        <li>(240,240,240)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/PassableGranite/PassableGraniteA</uiIconPath>
       <fillPercent>0.3</fillPercent>

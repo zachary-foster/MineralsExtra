@@ -6,7 +6,7 @@
       <label>Gneiss Deposit</label>
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -24,14 +24,14 @@
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
       </graphicData>
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -110,14 +110,14 @@
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
         <texPath>Things/Rock/SolidSandstone</texPath>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
       </graphicData>
       <uiIconPath>Things/Rock/SolidSandstone/SolidSandstoneA</uiIconPath>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1700</MaxHitPoints>
@@ -197,14 +197,14 @@
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist. This rock has been smoothed to a flat wall, revealing the beautiful wavy layers of of color and texture.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
       </graphicData>
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1800</MaxHitPoints>
@@ -299,10 +299,10 @@
         <color>(120,50,50)</color>
       </graphicData>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <uiIconPath>Things/Rock/SmoothedRockWall/SmoothedRockWallA</uiIconPath>
       <statBases>
@@ -351,14 +351,14 @@
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
       </graphicData>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
@@ -492,17 +492,17 @@
       <description>Gneiss is a layered metamorphic rock produced by eons of rock folding deep in the earth. It is a hard rock without a distinct cleavage pattern, as opposed to the less processed schist.</description>
       <graphicData>
         <texPath>Things/Rock/PassableLimestone</texPath>
-        <color>(136,146,155)</color>
+        <color>(159,170,174)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
       </graphicData>
       <uiIconPath>Things/Rock/PassableLimestone/PassableLimestoneA</uiIconPath>
       <randomColorsOne>
-        <li>(136,146,155)</li>
+        <li>(159,170,174)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(210,210,210)</li>
+        <li>(250,250,250)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>

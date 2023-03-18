@@ -230,7 +230,7 @@
     <defName>ZF_ChunkSerpentinite</defName>
     <label>Serpentinite chunk</label>
     <graphicData>
-      <color>(60,96,58)</color>
+      <color>(80,95,74)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
