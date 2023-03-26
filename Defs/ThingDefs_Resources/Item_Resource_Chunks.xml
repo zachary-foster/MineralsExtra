@@ -133,7 +133,7 @@
     <defName>ZF_ChunkSchist</defName>
     <label>Schist chunk</label>
     <graphicData>
-      <color>(159,191,214)</color>
+      <color>(206,217,184)</color>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
