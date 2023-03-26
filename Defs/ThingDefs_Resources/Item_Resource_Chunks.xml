@@ -17,7 +17,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkChalk</defName>
     <label>Chalk chunk</label>
     <graphicData>
@@ -145,7 +145,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_ChunkRockBase">
+  <ThingDef ParentName="ZF_HardStoneChunksBase">
     <defName>ZF_ChunkPeridotite</defName>
     <label>Peridotite chunk</label>
     <graphicData>
@@ -242,7 +242,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase">
     <defName>ZF_ChunkTuff</defName>
     <label>Tuff chunk</label>
     <graphicData>

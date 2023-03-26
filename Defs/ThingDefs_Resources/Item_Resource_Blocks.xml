@@ -231,14 +231,14 @@
     <label>Schist blocks</label>
     <description>Blocks of Schist. A quite average building material, but nice to look at. Schist is a layered metamorphic rock with a tendency to chip in thin flakes. It is the result of rocks such as mudstone undergoing folding with high pressures and temperatures deep within the planet. It is less processed than Gneiss.</description>
     <graphicData>
-      <color>(159,191,214)</color>
+      <color>(206,217,184)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.0</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(159,191,214)</color>
+      <color>(206,217,184)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -400,14 +400,14 @@
     <label>Serpentinite blocks</label>
     <description>Blocks of Serpentinite. Makes somewhat attractive structures of average strength. Serpentinite is a metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
     <graphicData>
-      <color>(80,95,74)</color>
+      <color>(80,90,74)</color>
     </graphicData>
     <statBases>
       <MarketValue>1.5</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <stuffProps>
-      <color>(80,95,74)</color>
+      <color>(80,90,74)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>

@@ -6,7 +6,7 @@
       <label>Serpentinite Deposit</label>
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
-      <color>(80,95,74)</color>
+      <color>(80,90,74)</color>
       </graphicData>
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>
@@ -24,14 +24,14 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(80,95,74)</color>
+        <color>(80,90,74)</color>
       </graphicData>
       <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
@@ -104,14 +104,14 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/WeatheredLimestone</texPath>
-        <color>(80,95,74)</color>
+        <color>(80,90,74)</color>
       </graphicData>
     <uiIconPath>Things/Rock/WeatheredLimestone/WeatheredLimestoneA</uiIconPath>
       <randomColorsOne>
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1400</MaxHitPoints>
@@ -185,14 +185,14 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
   			<texPath>Things/Rock/HewnRockWall</texPath>
-        <color>(80,95,74)</color>
+        <color>(80,90,74)</color>
       </graphicData>
       <uiIconPath>Things/Rock/HewnRockWall/HewnRockWallA</uiIconPath>
       <randomColorsOne>
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
@@ -285,7 +285,7 @@
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1300</MaxHitPoints>
@@ -327,7 +327,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/BoulderGranite</texPath>
-        <color>(80,95,74)</color>
+        <color>(80,90,74)</color>
       </graphicData>
       <uiIconPath>Things/Rock/BoulderGranite/BoulderGraniteA</uiIconPath>
       <fillPercent>0.6</fillPercent>
@@ -335,7 +335,7 @@
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>600</MaxHitPoints>
@@ -462,7 +462,7 @@
       <description>A metamorphic rock that formed where tectonic plates collided under the ocean. Hydrated magnesium minerals give the rock a greasy green luster similar to reptile skin.</description>
       <graphicData>
         <texPath>Things/Rock/PassableLimestone</texPath>
-        <color>(80,95,74)</color>
+        <color>(80,90,74)</color>
         <damageData>
           <enabled>false</enabled>
         </damageData>
@@ -472,7 +472,7 @@
         <li>(85,90,80)</li>
       </randomColorsOne>
       <randomColorsTwo>
-        <li>(65,110,60)</li>
+        <li>(65,100,60)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>

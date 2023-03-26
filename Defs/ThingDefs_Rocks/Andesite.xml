@@ -29,15 +29,15 @@
       <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
-        <li>(117,118,118)</li>
-        <li>(112,124,118)</li>
-        <li>(112,118,124)</li>
+        <li>(114,118,118)</li>
+        <li>(112,121,118)</li>
+        <li>(112,118,121)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
@@ -120,15 +120,15 @@
       <uiIconPath>Things/Rock/WeatheredBasalt/WeatheredBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
-        <li>(117,118,118)</li>
-        <li>(112,124,118)</li>
-        <li>(112,118,124)</li>
+        <li>(114,118,118)</li>
+        <li>(112,121,118)</li>
+        <li>(112,118,121)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1600</MaxHitPoints>
@@ -215,9 +215,9 @@
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1700</MaxHitPoints>
@@ -316,9 +316,9 @@
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <statBases>
         <MaxHitPoints>1500</MaxHitPoints>
@@ -370,15 +370,15 @@
       <uiIconPath>Things/Rock/PassableBasalt/PassableBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
-        <li>(117,118,118)</li>
-        <li>(112,124,118)</li>
-        <li>(112,118,124)</li>
+        <li>(114,118,118)</li>
+        <li>(112,121,118)</li>
+        <li>(112,118,121)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <fillPercent>0.6</fillPercent>
       <statBases>
@@ -519,15 +519,15 @@
       <uiIconPath>Things/Rock/PassableBasalt/PassableBasaltA</uiIconPath>
       <randomColorsOne>
         <li>(112,118,118)</li>
-        <li>(117,118,118)</li>
-        <li>(112,124,118)</li>
-        <li>(112,118,124)</li>
+        <li>(114,118,118)</li>
+        <li>(112,121,118)</li>
+        <li>(112,118,121)</li>
       </randomColorsOne>
       <randomColorsTwo>
         <li>(112,118,118)</li>
-        <li>(108,118,118)</li>
-        <li>(112,115,118)</li>
-        <li>(112,118,115)</li>
+        <li>(110,118,118)</li>
+        <li>(112,116,118)</li>
+        <li>(112,118,116)</li>
       </randomColorsTwo>
       <fillPercent>0.3</fillPercent>
       <statBases>
