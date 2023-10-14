@@ -161,7 +161,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <ThingDef ParentName="ZF_SoftStoneChunksBase">
+  <ThingDef ParentName="ZF_ChunkRockBase"> <!-- was ZF_SoftStoneChunksBase -->
     <defName>ZF_ChunkLignite</defName>
     <label>Lignite chunk</label>
     <graphicData>
