@@ -3,8 +3,12 @@
 
   <CitrineCrystal.label>Цитриновый кристалл</CitrineCrystal.label>
   <CitrineCrystal.description>Кристалл диоксида кремения. Примеси железа делают цвет этих кристаллов желтыми. Редко встречается. Позволяет получать стекольную шихту при его добыче. Часто при добыче можно получить самоцветы.</CitrineCrystal.description>
+  
+  <DraviteCrystal.label>Дравитовый кристалл</DraviteCrystal.label>
+  <DraviteCrystal.description>Разновидность турмалина, минерала силиката бора, имеющего множество химических вариаций. Из этой желто-коричневой разновидности иногда получаются камни ювелирного качества.</DraviteCrystal.description>
 
   <PrasioliteCrystal.label>Празиолитовый кристалл</PrasioliteCrystal.label>
   <PrasioliteCrystal.description>Очень редкая, зеленая разновидность кварца, диоксида кремния. Позволяет получать стекольную шихту при его добыче. Часто при добыче можно получить самоцветы.</PrasioliteCrystal.description>
+
 
 </LanguageData>
