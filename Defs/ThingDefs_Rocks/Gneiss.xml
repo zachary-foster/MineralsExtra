@@ -313,6 +313,7 @@
       <building>
         <mineableThing>ZF_ChunkGneiss</mineableThing>
         <mineableDropChance>0.25</mineableDropChance>
+		<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
       </building>
       <!-- Other resources it might drop -->
       <randomlyDropResources>
