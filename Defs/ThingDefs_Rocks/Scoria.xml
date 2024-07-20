@@ -14,6 +14,9 @@
       <building>
         <mineableThing>ZF_ChunkScoria</mineableThing>
         <mineableDropChance>0.2</mineableDropChance>
+	    <buildingTags>
+		    <li>BaseRock</li>
+	    </buildingTags>
       </building>
     </ThingDef>
 
