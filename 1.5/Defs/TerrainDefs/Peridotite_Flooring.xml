@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="MediumBrickBase">
+		<defName>MBrickPeridotite</defName>
+		<label>Peridotite bricks</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SmallBrickBase">
+		<defName>SBrickPeridotite</defName>
+		<label>Peridotite small bricks</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MedBrickBase">
+		<defName>MedBrickPeridotite</defName>
+		<label>Peridotite Mediterranean bricks</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="CobblestoneBase">
+		<defName>CobbleFloorPeridotite</defName>
+		<label>Peridotite cobble floor</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>1</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="BrickUnevenBase">
+		<defName>UEBrickPeridotite</defName>
+		<label>Peridotite uneven bricks</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="StoneTileBase">
+		<defName>EXF_TilePeridotite</defName>
+		<label>Peridotite tiles</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>	
+
+	<TerrainDef ParentName="BrickHerringboneBase">
+		<defName>HerrBrickPeridotite</defName>
+		<label>Peridotite herringbone bricks</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>TilePeridotite</defName>
+		<label>Peridotite Tile</label>
+		<color>(130,145,90)</color>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>3</ZF_BlocksPeridotite>
+		</costList>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_FlagstoneBase">
+		<defName>FlagstonePeridotite</defName>
+		<label>Peridotite flagstone</label>
+		<color>(130,145,90)</color>
+		<costList>
+			<ZF_BlocksPeridotite>2</ZF_BlocksPeridotite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="SK_FloorBase">
+		<defName>RoughPeridotiteFloor</defName>
+		<label>Rough Peridotite</label>
+		<renderPrecedence>190</renderPrecedence>
+		<description>Peridotite eroded by the elements.
+Beauty: 0.</description>
+		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
+		<edgeType>Fade</edgeType>
+		<pathCost>0</pathCost>
+		<scatterType>Rocky</scatterType>
+		<takeFootprints>True</takeFootprints>
+		<constructEffect>ConstructDirt</constructEffect>
+		<fertility>0</fertility>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>0</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>1</ZF_BlocksPeridotite>
+		</costList>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>SmoothableStone</li>
+		</affordances>
+		<color>(130,145,90)</color>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsPeridotite</defName>
+		<label>Peridotite slabs</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Peridotite flooring made with square slabs. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneHexPeridotite</defName>
+		<label>Peridotite hex paving</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>269</renderPrecedence>
+		<description>Peridotite paving with hexagonal tiles. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicPeridotite</defName>
+		<label>Peridotite mosaic paving</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Peridotite paving with a light/dark mosaic. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRoughPeridotite</defName>
+		<label>rough Peridotite paving</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>267</renderPrecedence>
+		<description>Peridotite stone paving. 
+Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRandomPeridotite</defName>
+		<label>random Peridotite paving</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>266</renderPrecedence>
+		<description>Stone paving with random square and rectangular slabs.
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneRandom</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredPeridotite</defName>
+		<label>Peridotite staggered tiles</label>
+		<color>(130,145,90)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Peridotite tiles with rounded corners laid in a staggered pattern.
+Beauty: 5.</description>
+		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+</Defs>	

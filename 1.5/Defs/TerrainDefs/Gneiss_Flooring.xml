@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="MediumBrickBase">
+		<defName>MBrickGneiss</defName>
+		<label>Gneiss bricks</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SmallBrickBase">
+		<defName>SBrickGneiss</defName>
+		<label>Gneiss small bricks</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MedBrickBase">
+		<defName>MedBrickGneiss</defName>
+		<label>Gneiss Mediterranean bricks</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="CobblestoneBase">
+		<defName>CobbleFloorGneiss</defName>
+		<label>Gneiss cobble floor</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>1</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="BrickUnevenBase">
+		<defName>UEBrickGneiss</defName>
+		<label>Gneiss uneven bricks</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="StoneTileBase">
+		<defName>EXF_TileGneiss</defName>
+		<label>Gneiss tiles</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>	
+
+	<TerrainDef ParentName="BrickHerringboneBase">
+		<defName>HerrBrickGneiss</defName>
+		<label>Gneiss herringbone bricks</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>TileGneiss</defName>
+		<label>Gneiss Tile</label>
+		<color>(136,146,155)</color>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>3</ZF_BlocksGneiss>
+		</costList>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_FlagstoneBase">
+		<defName>FlagstoneGneiss</defName>
+		<label>Gneiss flagstone</label>
+		<color>(136,146,155)</color>
+		<costList>
+			<ZF_BlocksGneiss>2</ZF_BlocksGneiss>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="SK_FloorBase">
+		<defName>RoughGneissFloor</defName>
+		<label>Rough Gneiss</label>
+		<renderPrecedence>190</renderPrecedence>
+		<description>Gneiss eroded by the elements.
+Beauty: 0.</description>
+		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
+		<edgeType>Fade</edgeType>
+		<pathCost>0</pathCost>
+		<scatterType>Rocky</scatterType>
+		<takeFootprints>True</takeFootprints>
+		<constructEffect>ConstructDirt</constructEffect>
+		<fertility>0</fertility>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>0</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>1</ZF_BlocksGneiss>
+		</costList>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>SmoothableStone</li>
+		</affordances>
+		<color>(136,146,155)</color>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsGneiss</defName>
+		<label>Gneiss slabs</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Gneiss flooring made with square slabs. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneHexGneiss</defName>
+		<label>Gneiss hex paving</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>269</renderPrecedence>
+		<description>Gneiss paving with hexagonal tiles. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicGneiss</defName>
+		<label>Gneiss mosaic paving</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Gneiss paving with a light/dark mosaic. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRoughGneiss</defName>
+		<label>rough Gneiss paving</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>267</renderPrecedence>
+		<description>Gneiss stone paving. 
+Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRandomGneiss</defName>
+		<label>random Gneiss paving</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>266</renderPrecedence>
+		<description>Stone paving with random square and rectangular slabs.
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneRandom</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredGneiss</defName>
+		<label>Gneiss staggered tiles</label>
+		<color>(136,146,155)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Gneiss tiles with rounded corners laid in a staggered pattern.
+Beauty: 5.</description>
+		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+</Defs>	

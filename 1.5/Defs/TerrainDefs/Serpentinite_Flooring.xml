@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="MediumBrickBase">
+		<defName>MBrickSerpentinite</defName>
+		<label>Serpentinite bricks</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SmallBrickBase">
+		<defName>SBrickSerpentinite</defName>
+		<label>Serpentinite small bricks</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MedBrickBase">
+		<defName>MedBrickSerpentinite</defName>
+		<label>Serpentinite Mediterranean bricks</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="CobblestoneBase">
+		<defName>CobbleFloorSerpentinite</defName>
+		<label>Serpentinite cobble floor</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>1</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="BrickUnevenBase">
+		<defName>UEBrickSerpentinite</defName>
+		<label>Serpentinite uneven bricks</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="StoneTileBase">
+		<defName>EXF_TileSerpentinite</defName>
+		<label>Serpentinite tiles</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>	
+
+	<TerrainDef ParentName="BrickHerringboneBase">
+		<defName>HerrBrickSerpentinite</defName>
+		<label>Serpentinite herringbone bricks</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>TileSerpentinite</defName>
+		<label>Serpentinite Tile</label>
+		<color>(69,75,68)</color>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>3</ZF_BlocksSerpentinite>
+		</costList>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_FlagstoneBase">
+		<defName>FlagstoneSerpentinite</defName>
+		<label>Serpentinite flagstone</label>
+		<color>(69,75,68)</color>
+		<costList>
+			<ZF_BlocksSerpentinite>2</ZF_BlocksSerpentinite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="SK_FloorBase">
+		<defName>RoughSerpentiniteFloor</defName>
+		<label>Rough Serpentinite</label>
+		<renderPrecedence>190</renderPrecedence>
+		<description>Serpentinite eroded by the elements.
+Beauty: 0.</description>
+		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
+		<edgeType>Fade</edgeType>
+		<pathCost>0</pathCost>
+		<scatterType>Rocky</scatterType>
+		<takeFootprints>True</takeFootprints>
+		<constructEffect>ConstructDirt</constructEffect>
+		<fertility>0</fertility>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>0</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>1</ZF_BlocksSerpentinite>
+		</costList>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>SmoothableStone</li>
+		</affordances>
+		<color>(69,75,68)</color>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsSerpentinite</defName>
+		<label>Serpentinite slabs</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Serpentinite flooring made with square slabs. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneHexSerpentinite</defName>
+		<label>Serpentinite hex paving</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>269</renderPrecedence>
+		<description>Serpentinite paving with hexagonal tiles. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicSerpentinite</defName>
+		<label>Serpentinite mosaic paving</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Serpentinite paving with a light/dark mosaic. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRoughSerpentinite</defName>
+		<label>Rough serpentinite paving</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>267</renderPrecedence>
+		<description>Serpentinite stone paving. 
+Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRandomSerpentinite</defName>
+		<label>Random serpentinite paving</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>266</renderPrecedence>
+		<description>Stone paving with random square and rectangular slabs.
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneRandom</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredSerpentinite</defName>
+		<label>Serpentinite staggered tiles</label>
+		<color>(69,75,68)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Serpentinite tiles with rounded corners laid in a staggered pattern.
+Beauty: 5.</description>
+		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+</Defs>	

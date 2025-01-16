@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="MediumBrickBase">
+		<defName>MBrickTuff</defName>
+		<label>Tuff bricks</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SmallBrickBase">
+		<defName>SBrickTuff</defName>
+		<label>Tuff small bricks</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MedBrickBase">
+		<defName>MedBrickTuff</defName>
+		<label>Tuff Mediterranean bricks</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="CobblestoneBase">
+		<defName>CobbleFloorTuff</defName>
+		<label>Tuff cobble floor</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>1</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="BrickUnevenBase">
+		<defName>UEBrickTuff</defName>
+		<label>Tuff uneven bricks</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="StoneTileBase">
+		<defName>EXF_TileTuff</defName>
+		<label>Tuff tiles</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>	
+
+	<TerrainDef ParentName="BrickHerringboneBase">
+		<defName>HerrBrickTuff</defName>
+		<label>Tuff herringbone bricks</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>TileTuff</defName>
+		<label>Tuff Tile</label>
+		<color>(112,118,118)</color>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>3</ZF_BlocksTuff>
+		</costList>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_FlagstoneBase">
+		<defName>FlagstoneTuff</defName>
+		<label>Tuff flagstone</label>
+		<color>(112,118,118)</color>
+		<costList>
+			<ZF_BlocksTuff>2</ZF_BlocksTuff>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="SK_FloorBase">
+		<defName>RoughTuffFloor</defName>
+		<label>Rough Tuff</label>
+		<renderPrecedence>190</renderPrecedence>
+		<description>Tuff eroded by the elements.
+Beauty: 0.</description>
+		<texturePath>Terrain/Surfaces/RoughStone</texturePath>
+		<edgeType>Fade</edgeType>
+		<pathCost>0</pathCost>
+		<scatterType>Rocky</scatterType>
+		<takeFootprints>True</takeFootprints>
+		<constructEffect>ConstructDirt</constructEffect>
+		<fertility>0</fertility>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>0</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>1</ZF_BlocksTuff>
+		</costList>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>SmoothableStone</li>
+		</affordances>
+		<color>(112,118,118)</color>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsTuff</defName>
+		<label>Tuff slabs</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Tuff flooring made with square slabs. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneHexTuff</defName>
+		<label>Tuff hex paving</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>269</renderPrecedence>
+		<description>Tuff paving with hexagonal tiles. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneHex</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicTuff</defName>
+		<label>Tuff mosaic paving</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Tuff paving with a light/dark mosaic. 
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRoughTuff</defName>
+		<label>Rough tuff paving</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>267</renderPrecedence>
+		<description>Tuff stone paving. 
+Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/StoneRough</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>520</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneRandomTuff</defName>
+		<label>Random tuff paving</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>266</renderPrecedence>
+		<description>Stone paving with random square and rectangular slabs.
+Beauty: 4.</description>
+		<texturePath>Terrain/Surfaces/StoneRandom</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTuff</defName>
+		<label>Tuff staggered tiles</label>
+		<color>(112,118,118)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Tuff tiles with rounded corners laid in a staggered pattern.
+Beauty: 5.</description>
+		<texturePath>Terrain/Surfaces/StoneStaggered</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<ZF_BlocksTuff>4</ZF_BlocksTuff>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+</Defs>	
