@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileAnorthosite</defName>
+          <label>fine anorthosite tile</label>
+          <color>(158,139,132)</color>
+          <costList>
+            <ZF_BlocksAnorthosite>20</ZF_BlocksAnorthosite>
+          </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileBlueMarble</defName>
+          <label>fine blue marble tile</label>
+          <color>(180,210,210)</color>
+          <costList>
+            <ZF_BlocksBlueMarble>20</ZF_BlocksBlueMarble>
+          </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileDiorite</defName>
+          <label>fine diorite tile</label>
+          <color>(177,178,172)</color>
+          <costList>
+            <ZF_BlocksDiorite>20</ZF_BlocksDiorite>
+          </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileAndesite</defName>
+          <label>fine andesite tile</label>
+          <color>(177,178,172)</color>
+          <costList>
+            <ZF_BlocksAndesite>20</ZF_BlocksAndesite>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileBrownMarble</defName>
+          <label>fine brown marble tile</label>
+          <color>(80,75,55)</color>
+          <costList>
+            <ZF_BlocksBrownMarble>20</ZF_BlocksBrownMarble>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTilePinkMarble</defName>
+          <label>fine pink marble tile</label>
+          <color>(246,200,184)</color>
+          <costList>
+            <ZF_BlocksPinkMarble>20</ZF_BlocksPinkMarble>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileGabbro</defName>
+          <label>fine gabbro tile</label>
+          <color>(177,178,172)</color>
+          <costList>
+            <ZF_BlocksGabbro>20</ZF_BlocksGabbro>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileSchist</defName>
+          <label>fine schist tile</label>
+          <color>(206,217,184)</color>
+          <costList>
+            <ZF_BlocksSchist>20</ZF_BlocksSchist>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileGneiss</defName>
+          <label>fine gneiss tile</label>
+          <color>(136,146,155)</color>
+          <costList>
+            <ZF_BlocksGneiss>20</ZF_BlocksGneiss>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTilePeridotite</defName>
+          <label>fine peridotite tile</label>
+          <color>(150,176,81)</color>
+          <costList>
+            <ZF_BlocksPeridotite>20</ZF_BlocksPeridotite>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileRhyolite</defName>
+          <label>fine rhyolite tile</label>
+          <color>(201,159,134)</color>
+          <costList>
+            <ZF_BlocksRhyolite>20</ZF_BlocksRhyolite>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="FineTileStoneBase">
+          <defName>ZF_FineTileSerpentinite</defName>
+          <label>fine serpentinite tile</label>
+          <color>(80,90,74)</color>
+          <costList>
+            <ZF_BlocksSerpentinite>20</ZF_BlocksSerpentinite>
+          </costList>
+        </TerrainDef>
+        
+      </value>
+    </match>
+  </Operation>
+  
+  
+</Patch>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicAndesite</defName>
+          <label>Andesite flagstone</label>
+          <color>(112,118,118)</color>
+          <costList>
+            <ZF_BlocksAndesite>4</ZF_BlocksAndesite>
+          </costList>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicAnorthosite</defName>
+          <label>Anorthosite flagstone</label>
+          <color>(158,149,142)</color>
+          <costList>
+            <ZF_BlocksAnorthosite>4</ZF_BlocksAnorthosite>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicBlueMarble</defName>
+          <label>Blue marble flagstone</label>
+          <color>(158,149,142)</color>
+          <costList>
+            <ZF_BlocksBlueMarble>4</ZF_BlocksBlueMarble>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicBrownMarble</defName>
+          <label>Brown marble flagstone</label>
+          <color>(80,75,55)</color>
+          <costList>
+          <ZF_BlocksBrownMarble>4</ZF_BlocksBrownMarble>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicDiorite</defName>
+          <label>Diorite flagstone</label>
+          <color>(177,178,172)</color>
+          <costList>
+          <ZF_BlocksDiorite>4</ZF_BlocksDiorite>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicGabbro</defName>
+          <label>Gabbro flagstone</label>
+          <color>(82,85,66)</color>
+          <costList>
+          <ZF_BlocksGabbro>4</ZF_BlocksGabbro>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicGneiss</defName>
+          <label>Gneiss flagstone</label>
+          <color>(136,146,155)</color>
+          <costList>
+          <ZF_BlocksGneiss>4</ZF_BlocksGneiss>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicPeridotite</defName>
+          <label>Peridotite flagstone</label>
+          <color>(130,145,90)</color>
+          <costList>
+          <ZF_BlocksPeridotite>4</ZF_BlocksPeridotite>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicPinkMarble</defName>
+          <label>PinkMarble flagstone</label>
+          <color>(246,200,184)</color>
+          <costList>
+          <ZF_BlocksPinkMarble>4</ZF_BlocksPinkMarble>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicRhyolite</defName>
+          <label>Rhyolite flagstone</label>
+          <color>(201,159,134)</color>
+          <costList>
+          <ZF_BlocksRhyolite>4</ZF_BlocksRhyolite>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicSchist</defName>
+          <label>Schist flagstone</label>
+          <color>(165,192,214)</color>
+          <costList>
+          <ZF_BlocksSchist>4</ZF_BlocksSchist>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+        <TerrainDef ParentName="DBHMosaicBase">
+          <defName>ZF_DBHMosaicSerpentinite</defName>
+          <label>Serpentinite flagstone</label>
+          <color>(69,75,68)</color>
+          <costList>
+          <ZF_BlocksSerpentinite>4</ZF_BlocksSerpentinite>
+          </costList>
+          <statBases>
+            <Beauty>4</Beauty>
+          </statBases>
+        </TerrainDef>
+        
+      </value>
+    </match>
+  </Operation>
+
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_DBHfloors"]/defNames</xpath>
+      <value>
+  	    <li>ZF_DBHMosaicAndesite</li>
+  	    <li>ZF_DBHMosaicAnorthosite</li>
+  	    <li>ZF_DBHMosaicBlueMarble</li>
+  	    <li>ZF_DBHMosaicBrownMarble</li>
+  	    <li>ZF_DBHMosaicDiorite</li>
+  	    <li>ZF_DBHMosaicGabbro</li>
+  	    <li>ZF_DBHMosaicGneiss</li>
+  	    <li>ZF_DBHMosaicPeridotite</li>
+  	    <li>ZF_DBHMosaicPinkMarble</li>
+  	    <li>ZF_DBHMosaicRhyolite</li>
+  	    <li>ZF_DBHMosaicSchist</li>
+  	    <li>ZF_DBHMosaicSerpentinite</li>
+      </value>
+    </match>
+  </Operation>
+
+  
+</Patch>

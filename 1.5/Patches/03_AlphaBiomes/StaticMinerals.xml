@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Normal</success>
+      <operations>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="WatermelonTourmalineCrystal"]/allowedBiomes</xpath>
+          <value>
+            <li>AB_FeraliskInfestedJungle</li>
+            <li>AB_OcularForest</li>
+            <li>AB_PropaneLakes</li>
+            <li>AB_PyroclasticConflagration</li>
+            <li>AB_RockyCrags</li>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="PadparadschaCrystal"]/allowedBiomes</xpath>
+          <value>
+            <li>AB_FeraliskInfestedJungle</li>
+            <li>AB_OcularForest</li>
+            <li>AB_PropaneLakes</li>
+            <li>AB_PyroclasticConflagration</li>
+            <li>AB_RockyCrags</li>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="HeliodorCrystal"]/allowedBiomes</xpath>
+          <value>
+            <li>AB_FeraliskInfestedJungle</li>
+            <li>AB_OcularForest</li>
+            <li>AB_PropaneLakes</li>
+            <li>AB_PyroclasticConflagration</li>
+            <li>AB_RockyCrags</li>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MorganiteCrystal"]/allowedBiomes</xpath>
+          <value>
+            <li>AB_FeraliskInfestedJungle</li>
+            <li>AB_OcularForest</li>
+            <li>AB_PropaneLakes</li>
+            <li>AB_PyroclasticConflagration</li>
+            <li>AB_RockyCrags</li>
+          </value>
+        </li>
+        
+      </operations>
+    </match>
+        
+  </Operation>
+  
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Core SK</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Normal</success>
+        <operations>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="BigSulfurCrystal"]/allowedTerrains</xpath>
+          <value>
+            <li>AB_Mudstone_Rough</li>
+            <li>ZF_Mudstone_Rough</li>
+            <li>GU_RoseQuartz_Rough</li>
+            <li>ZF_RoseQuartz_Rough</li>
+            <li>AB_Obsidianstone_Rough</li>
+            <li>ZF_Obsidianstone_Rough</li>
+          </value>
+        </li>
+        
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  
+  
+  
+  
+</Patch>
