@@ -8,26 +8,64 @@
     <match Class="PatchOperationSequence">
       <operations>
 
-		<li Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="Stone-RockyDirt"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-			<value>
-				<li>ZF_AndesiteBase_Rough</li>
-				<li>ZF_AnorthositeBase_Rough</li>
-				<li>ZF_BlueMarbleBase_Rough</li>
-				<li>ZF_BrownMarbleBase_Rough</li>
-				<li>ZF_ChalkBase_Rough</li>
-				<li>ZF_DioriteBase_Roug</li>
-				<li>ZF_GabbroBase_Rough</li>
-				<li>ZF_GneissBase_Rough</li>
-				<li>ZF_LigniteBase_Rough</li>
-				<li>ZF_PeridotiteBase_Rough</li>
-				<li>ZF_PinkMarbleBase_Rough</li>
-				<li>ZF_RhyoliteBase_Rough</li>
-				<li>ZF_SchistBase_Rough</li>
-				<li>ZF_ScoriaBase_Rough</li>
-				<li>ZF_SerpentiniteBase_Rough</li>
-				<li>ZF_TuffBase_Rough</li>
-			</value>
+		<li Class="PatchOperationFindMod">
+			<mods>
+			  <li>Vile's Biomes: From The Ground Up</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+			  <operations>
+			  
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_FillStone"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>ZF_AndesiteBase_Rough</li>
+						<li>ZF_AnorthositeBase_Rough</li>
+						<li>ZF_BlueMarbleBase_Rough</li>
+						<li>ZF_BrownMarbleBase_Rough</li>
+						<li>ZF_ChalkBase_Rough</li>
+						<li>ZF_DioriteBase_Roug</li>
+						<li>ZF_GabbroBase_Rough</li>
+						<li>ZF_GneissBase_Rough</li>
+						<li>ZF_LigniteBase_Rough</li>
+						<li>ZF_PeridotiteBase_Rough</li>
+						<li>ZF_PinkMarbleBase_Rough</li>
+						<li>ZF_RhyoliteBase_Rough</li>
+						<li>ZF_SchistBase_Rough</li>
+						<li>ZF_ScoriaBase_Rough</li>
+						<li>ZF_SerpentiniteBase_Rough</li>
+						<li>ZF_TuffBase_Rough</li>
+					</value>
+				</li>
+			  
+			  </operations>
+			</match>
+			<nomatch Class="PatchOperationSequence">
+			  <operations>
+			  
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Stone-RockyDirt"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>ZF_AndesiteBase_Rough</li>
+						<li>ZF_AnorthositeBase_Rough</li>
+						<li>ZF_BlueMarbleBase_Rough</li>
+						<li>ZF_BrownMarbleBase_Rough</li>
+						<li>ZF_ChalkBase_Rough</li>
+						<li>ZF_DioriteBase_Roug</li>
+						<li>ZF_GabbroBase_Rough</li>
+						<li>ZF_GneissBase_Rough</li>
+						<li>ZF_LigniteBase_Rough</li>
+						<li>ZF_PeridotiteBase_Rough</li>
+						<li>ZF_PinkMarbleBase_Rough</li>
+						<li>ZF_RhyoliteBase_Rough</li>
+						<li>ZF_SchistBase_Rough</li>
+						<li>ZF_ScoriaBase_Rough</li>
+						<li>ZF_SerpentiniteBase_Rough</li>
+						<li>ZF_TuffBase_Rough</li>
+					</value>
+				</li>
+			  
+			  </operations>
+			</nomatch>
 		</li>
 		
 		
