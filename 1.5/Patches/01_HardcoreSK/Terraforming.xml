@@ -73,5 +73,32 @@
     </match>
   </Operation>
 
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Stone-Topsoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+			<value>
+				<li>ZF_AndesiteBase_Rough</li>
+				<li>ZF_AnorthositeBase_Rough</li>
+				<li>ZF_BlueMarbleBase_Rough</li>
+				<li>ZF_BrownMarbleBase_Rough</li>
+				<li>ZF_ChalkBase_Rough</li>
+				<li>ZF_DioriteBase_Rough</li>
+				<li>ZF_GabbroBase_Rough</li>
+				<li>ZF_GneissBase_Rough</li>
+				<li>ZF_LigniteBase_Rough</li>
+				<li>ZF_PeridotiteBase_Rough</li>
+				<li>ZF_PinkMarbleBase_Rough</li>
+				<li>ZF_RhyoliteBase_Rough</li>
+				<li>ZF_SchistBase_Rough</li>
+				<li>ZF_ScoriaBase_Rough</li>
+				<li>ZF_SerpentiniteBase_Rough</li>
+				<li>ZF_TuffBase_Rough</li>
+			</value>
+		</li>
+	  
+	  </operations>
+	</Operation>
 
 </Patch>
